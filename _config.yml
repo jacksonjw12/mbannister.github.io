@@ -1,6 +1,6 @@
 # Site settings
-baseurl: "/~mbannist" # the subpath of your site, e.g. /blog/
-url: "http://www.ics.uci.edu" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://mbannister.github.io" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
