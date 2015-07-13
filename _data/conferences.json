@@ -1,0 +1,103 @@
+
+
+{
+    "GD 2014":
+    {
+        "name": "22nd International Symposium on Graph Drawing",
+        "location": "Würzburg, Germany",
+        "publisher": "Springer",
+        "year": "2014",
+        "series": "Lecture Notes in Computer Science",
+        "volume": "8871",
+        "booktitle": "Proceedings of the 22nd International Symposium on Graph Drawing",
+        "link": "http://gd2014.informatik.uni-wuerzburg.de/"
+    },
+
+    "GD 2013":
+    {
+        "name": "21st International Symposium on Graph Drawing",
+        "location": "Bordeaux, France",
+        "publisher": "Springer",
+        "year": "2013",
+        "series": "Lecture Notes in Computer Science",
+        "volume": "8242",
+        "booktitle": "Proceedings of the 21st International Symposium on Graph Drawing",
+        "link": "http://gd2013.labri.fr/"
+    },
+
+    "GD 2012":
+    {
+        "name": "20th International Symposium on Graph Drawing",
+        "location": "Redmond, Washington, USA",
+        "publisher": "Springer",
+        "year": "2012",
+        "series": "Lecture Notes in Computer Science",
+        "volume": "7704",
+        "booktitle": "Proceedings of the 20th International Symposium on Graph Drawing",
+        "link": "http://www.gd2012.org/"
+    },
+
+    "GD 2011":
+    {
+        "name": "19th International Symposium on Graph Drawing",
+        "location": "Eindhoven, The Netherlands",
+        "publisher": "Springer",
+        "year": "2011",
+        "series": "Lecture Notes in Computer Science",
+        "volume": "7034",
+        "booktitle": "Proceedings of the 19th International Symposium on Graph Drawing",
+        "link": "http://www.win.tue.nl/GD2011/"
+    },
+
+    "ANALCO 2014":
+    {
+        "name": "Eleventh Workshop on Analytic Algorithmics and Combinatorics",
+        "location": "Kyoto, Japan",
+        "publisher": "Society for Industrial and Applied Mathematics",
+        "year": "2014",
+        "booktitle": "Proceedings of the Eleventh Workshop on Analytic Algorithmics and Combinatorics",
+        "link": "http://www.siam.org/meetings/analco14/"
+    },
+
+    "ANALCO 2012":
+    {
+        "name": "Ninth Workshop on Analytic Algorithmics and Combinatorics",
+        "location": "Portland, Oregon, USA",
+        "publisher": "Society for Industrial and Applied Mathematics",
+        "year": "2012",
+        "booktitle": "Proceedings of the Ninth Workshop on Analytic Algorithmics and Combinatorics",
+        "link": "http://www.siam.org/meetings/analco12/"
+    },
+
+    "SODA 2013":
+    {
+        "name": "Twenty-Fourth Annual ACM-SIAM Symposium on Discrete Algorithms",
+        "location": "New Orleans, Louisiana, USA",
+        "publisher": "Society for Industrial and Applied Mathematics",
+        "year": "2013",
+        "booktitle": "Proceedings of the Twenty-Fourth Annual ACM-SIAM Symposium on Discrete Algorithms",
+        "link": "http://www.siam.org/meetings/da13/"
+    },
+
+    "WADS 2013":
+    {
+        "name": "13th International Symposium on Algorithms and Data Structures",
+        "location": "London, Ontario, Canada",
+        "publisher": "Springer",
+        "year": "2013",
+        "series": "Lecture Notes in Computer Science",
+        "volume": "8037",
+        "booktitle": "Proceedings of the 19th International Symposium on Graph Drawing",
+        "link": "http://www.wads.org"
+    },
+
+    "CCCG 2014":
+    {
+        "name": "26th Canadian Conference on Computational Geometry",
+        "location": "Halifax, Nova Scotia, Canada",
+        "publisher": "Carleton University, Ottawa, Canada",
+        "year": "2014",
+        "booktitle": "Proceedings of the 26th Canadian Conference on Computational Geometry",
+        "link": "https://projects.cs.dal.ca/cccg2014/"
+    }
+}

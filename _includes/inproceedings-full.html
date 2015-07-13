@@ -1,0 +1,21 @@
+<article>
+
+<div class="title">
+  <h4>{{ include.page.id }}. {{ include.page.title | markdownify | remove: '<p>' | remove: '</p>' | remove: site.newline }} (<a href="{{ site.baseurl }}{{ include.page.url }}">abstract</a>)</h4>
+</div>
+
+<div class="authors">
+  {% include author-list.html author=page.author %}
+</div>
+
+<div class="information">
+  <ul>
+    <li><a href="http://arxiv.org/abs/{{ include.page.eprint }}">arXiv:{{ include.page.eprint }}</a></li>
+    {% assign conference = site.data.conferences[include.page.conference] %}
+    <li>{{ conference.booktitle }} ({{ include.page.conference }})</li>
+    {% if conference.series %}{{ conference.series }} {{ conference.volume }}, {% endif %}{{ conference.publisher }}, {{ conference.year }}, pp. {{ include.page.pages | markdownify | remove: '<p>' | remove: '</p>' | remove: site.newline }}
+  </ul>
+</div>
+
+
+</article>

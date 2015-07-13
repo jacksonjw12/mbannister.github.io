@@ -1,0 +1,51 @@
+@media screen and (min-width: 730px)
+  header
+    position: relative
+    height: 350px
+  
+  #portrait
+    position: absolute
+    display: block
+    top: 50%
+    transform: translate(0, -50%)
+    img
+      display: block
+      width: 25vw
+      max-width: 250px
+  
+  #letterhead
+    display: inline-block
+    position: absolute
+    top: 50%
+    transform: translate(0, -50%)
+    left: 35%
+  
+  #contacts
+    margin-top: 1em
+    display: inline-block
+  
+  #profiles
+    margin-top: 1em
+    margin-left: 4em
+    display: inline-block
+    vertical-align: top
+
+@media screen and (max-width: 729px)
+  body
+    padding: 1em
+  header
+    text-align: center
+  #contacts
+    margin-top: 1em
+
+@media screen and (max-width: 479px)
+  #portrait
+    display: inline-block
+    width: 50vw
+
+@media screen and (max-width: 450px)
+  #letterhead
+    h1
+      font-size: 9vw
+    h3
+      font-size: 5vw

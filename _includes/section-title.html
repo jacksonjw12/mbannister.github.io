@@ -1,0 +1,9 @@
+{% assign title-clean = include.title | remove:" " %}
+<input type="checkbox" id="{{ title-clean }}-checkbox" class=section-checkbox>
+<div class="section-title">
+<h2>
+<label for="{{ title-clean }}-checkbox">
+<svg viewbox="-10 -10 40 40" class="arrow"><path class="down" d="m 3 5 l 8 8 l 8 -8"/><path class="up" d="m 3 12 l 8 -8 l 8 8"/></svg>{{ include.title }}
+</label>
+</h2>
+</div>

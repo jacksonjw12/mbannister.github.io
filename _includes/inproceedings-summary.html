@@ -1,0 +1,15 @@
+<article>
+
+<h4>{{ include.page.title | markdownify | remove: '<p>' | remove: '</p>' | remove: site.newline }}</h4>
+
+<div class="authors">
+  {% include author-list.html author=page.author %}
+</div>
+
+<div class="information">
+    Presented at <a href="{{ site.data.conferences[include.page.conference].link }}">{{ include.page.conference }}</a>.
+    {% if include.page.fullversion %}{% assign fullversion = (site.research | where: 'id', include.page.fullversion | first) %}Full version in the {{ fullversion.journal }} {% if fullversion.volume %}{{fullversion.volume}}({{fullversion.number}}){% else %}(to appear){% endif %}.{% endif %}
+    Preprint on <a href="http://arxiv.org/abs/{{ include.page.eprint }}">arXiv</a>.
+</div>
+
+</article>

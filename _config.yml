@@ -1,0 +1,53 @@
+# Site settings
+baseurl: "/~mbannist" # the subpath of your site, e.g. /blog/
+url: "http://www.ics.uci.edu" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+encoding: UTF-8
+
+kramdown:
+    enable_coderay: false
+
+# Collections
+collections:
+  research:
+    output: true
+  teaching:
+    output: true
+
+# Trick to use newlines in Liquid Templates
+newline: "\n"
+
+sass:
+  style: compressed
+
+# About me!
+name: Michael J. Bannister
+title: Visiting Assistant Professor
+department: Department of Computer Science
+school: Pomona College
+img: assets/img/me_rec_web_50.jpg
+
+contacts:
+    - name: Edmunds Hall 203
+      link: http://www.pomona.edu/map/?id=523&mrkIid=54434
+    - name: (909) 607-0969
+      link:
+    - name: michael.bannister@pomona.edu
+      link: mailto:michael.bannister@pomona.edu
+    - name: PGP public key
+      link: assets/asc/public_key.asc
+profiles:
+    - name: Google Scholar
+      link: http://scholar.google.com/citations?user=vwc4KwwAAAAJ
+    - name: Curriculum vitae
+      link: assets/pdf/cv.pdf
+
+description: >
+    I am a Visiting Assistant Professor in the <a href="http://www.pomona.edu/
+    academics/departments/computer-science/">Department of Computer Science</a>
+    at <a href="http://www.pomona.edu/">Pomona College</a>. My research
+    interests are in the design and analysis of geometric and graph algorithms,
+    particularly algorithms for graph drawing and network visualization.
+

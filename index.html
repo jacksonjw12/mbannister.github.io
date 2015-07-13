@@ -1,0 +1,72 @@
+---
+layout: default
+title: Michael J. Bannister
+css: homepage
+mathjax: false
+---
+
+
+<header>
+  <div id="portrait">
+    <img alt="{{ site.name }}" src="{{ site.img }}"/>
+  </div>
+  <div id="letterhead">
+    <h1>{{ site.name }}</h1>
+    <h3>{{ site.title }}</h3>
+    <h3>{{ site.department }}</h3>
+    <h3>{{ site.school }}</h3>
+    <ul id="contacts">
+      {% for contact in site.contacts %}
+      <li>{% if contact.link %}<a href="{{ contact.link }}">{{ contact.name }}</a>{% else %}{{ contact.name }}{% endif %}</li>
+      {% endfor %}
+    </ul>
+    <ul id="profiles">
+      {% for profile in site.profiles %}
+      <li>{% if profile.link %}<a href="{{ profile.link }}">{{ profile.name }}</a>{% else %}{{ profile.name }}{% endif %}</li>
+      {% endfor %}
+    </ul>
+  </div>
+</header>
+
+
+<section id="about">
+  {% include section-title.html title="About" %}
+  <div class="section_body">
+    <p>{{ site.description }}</p>
+  </div>
+</section>
+
+
+<section id="teaching">
+  {% include section-title.html title="Teaching" %}
+  <div class="section_body">
+    <h3>Summer 2014</h3>
+    <ul>
+      {% assign courses = (site.teaching | where: 'syllabus', true %}{% for page in courses %}
+      <li><a href="{{site.baseurl}}{{page.url}}">{{ page.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+
+
+<section id="research">
+  {% include section-title.html title="Publications" %}
+  <div class="section_body">
+  {% assign pubs = (site.research | where: 'type', 'inproceedings' | sort: 'weight') %}
+  {% for page in pubs reversed %}
+  {% include inproceedings-summary.html page=page %}
+  {% endfor %}
+  </div>
+</section>
+
+
+<section id="misc">
+  {% include section-title.html title="Miscellaneous" %}
+  <div class="section_body">
+    <h3>LaTeX Homework Template</h3>
+    <p>A simple LaTeX <a href="assets/asc/hw_template.tex">template</a> for homework submissions.</p>
+  </div>
+</section>
+
+

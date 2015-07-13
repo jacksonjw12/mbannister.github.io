@@ -1,0 +1,17 @@
+---
+---
+@import bourbon/bourbon
+@import defaults
+
+ul
+  @extend %default-ul
+
+ol
+  @extend %default-ol
+
+body
+  max-width: 1024px
+  +margin(null auto)
+  h1, h2, h3, p, img, ul, ol
+    +margin(null 0.5rem)
+

@@ -1,0 +1,19 @@
+<article>
+
+<div class="title">
+  <h4>{{ include.page.id }}. {{ include.page.title | markdownify | remove: '<p>' | remove: '</p>' | remove: site.newline }}</h4>
+</div>
+
+<div class="authors">
+  {% include author-list.html author=page.author %}
+</div>
+
+<div class="information">
+  <ul>
+    <li><a href="http://arxiv.org/abs/{{ include.page.eprint }}">arXiv:{{ include.page.eprint }}</a></li>
+    {% assign journal = site.data.journals[page.journal] %}
+    <li>{{ journal.name }} {% if page.volume %}{{ page.volume }}({{ page.number }}): {{ page.pages | markdownify | remove: '<p>' | remove: '</p>' | remove: site.newline }}{% else %}(to appear){% endif %}, {{ page.date | date: '%Y' }}</li>
+  </ul>
+</div>
+
+</article>

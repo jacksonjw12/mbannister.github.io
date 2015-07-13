@@ -1,0 +1,15 @@
+<article>
+
+<div class="title">
+  <h4>{{ include.page.title | markdownify | remove: '<p>' | remove: '</p>' | remove: site.newline }}</h4>
+</div>
+
+<div class="authors">
+  {% include author-list.html author=page.author %}
+</div>
+
+<div class="information">
+Published in the {{ page.journal }} {% if page.volume != "0" %}{{ page.volume }}({{ page.number }}){% else %}(to appear){% endif %}, {{ page.date | date: '%Y' }}. Preprint on <a href="http://arxiv.org/abs/{{ include.page.eprint }}">arXiv</a>.
+</div>
+
+</article>

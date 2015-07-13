@@ -1,0 +1,29 @@
+---
+layout: default
+title: Michael J. Bannister
+css: homepage
+mathjax: false
+---
+
+<section id="inproceedings">
+  <h2>Conference proceedings</h2>
+  {% assign pubs = (site.research | where: 'type', 'inproceedings' | sort: 'weight') %}
+  {% for page in pubs reversed %}
+  {% include inproceedings-full.html page=page %}
+  {% endfor %}
+</section>
+
+<section id="articles">
+  <h2>Refereed Journal Articles</h2>
+  {% assign pubs = (site.research | where: 'type', 'article' | sort: 'weight') %}{% for page in pubs reversed %}
+  {% include article-full.html page=page %}
+  {% endfor %}
+</section>
+
+<section id="miscs">
+  <h2>Miscellaneous publications</h2>
+  {% assign pubs = (site.research | where: 'type', 'misc' | sort: 'weight') %}{% for page in pubs reversed %}
+  {% include misc-summary.html page=page %}
+  {% endfor %}
+</section>
+

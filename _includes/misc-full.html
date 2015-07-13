@@ -1,0 +1,17 @@
+<article>
+
+<div class="title">
+  <h4>{{ include.page.id }}. {{ include.page.title | markdownify | remove: '<p>' | remove: '</p>' | remove: site.newline }}</h4>
+</div>
+
+<div class="authors">
+  {% include author-list.html author=page.author %}
+</div>
+
+<div class="information">
+  <ul>
+    <li>{{ page.howpublished }}, {{ page.date | date: '%Y' }}</li>
+  </ul>
+</div>
+
+</article>

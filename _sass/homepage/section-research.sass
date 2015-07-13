@@ -1,0 +1,15 @@
+// Special formatting for research section.
+.authors ul li
+  display: inline
+  white-space: nowrap
+  &:after
+    content: ", "
+  &:nth-last-of-type(2):after
+    content: " and "
+  &:last-of-type:after
+    content: "."
+.longname
+  display: none
+.shortname
+  display: inline
+
