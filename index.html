@@ -40,12 +40,14 @@ mathjax: false
 <section id="teaching">
   {% include section-title.html title="Teaching" %}
   <div class="section_body">
-    <h3>Summer 2014</h3>
+    <article>
+    <h4>Summer 2014</h4>
     <ul>
       {% assign courses = (site.teaching | where: 'syllabus', true %}{% for page in courses %}
       <li><a href="{{site.baseurl}}{{page.url}}">{{ page.title }}</a></li>
       {% endfor %}
     </ul>
+    </article>
   </div>
 </section>
 
@@ -64,8 +66,10 @@ mathjax: false
 <section id="misc">
   {% include section-title.html title="Miscellaneous" %}
   <div class="section_body">
-    <h3>LaTeX Homework Template</h3>
+    <article>
+    <h4>LaTeX Homework Template</h4>
     <p>A simple LaTeX <a href="assets/asc/hw_template.tex">template</a> for homework submissions.</p>
+    </article>
   </div>
 </section>
 
