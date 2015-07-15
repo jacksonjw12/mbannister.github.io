@@ -8,7 +8,7 @@
 
 <div class="information">
     Presented at <a href="{{ site.data.conferences[include.page.conference].link }}">{{ include.page.conference }}</a>.
-    {% if include.page.fullversion %}{% assign fullversion = (site.research | where: 'id', include.page.fullversion | first) %}Full version in the {{ fullversion.journal }} {% if fullversion.volume %}{{fullversion.volume}}({{fullversion.number}}){% else %}(to appear){% endif %}.{% endif %}
+    {% if include.page.fullversion %}{% assign fullversion = (site.research | where: 'id', include.page.fullversion | first) %}Full version in the <a href="http://doi.org/{{ fullversion.doi }}">{{ fullversion.journal }} {% if fullversion.volume %}{{ fullversion.volume }}({{ fullversion.number }}){% else %}(to appear){% endif %}</a>.{% endif %}
     Preprint on <a href="http://arxiv.org/abs/{{ include.page.eprint }}">arXiv</a>.
 </div>
 
