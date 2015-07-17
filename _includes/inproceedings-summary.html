@@ -1,23 +1,26 @@
 <article class="inproceedings">
 
-<h4>{{ include.page.title | markdownify | remove: '<p>' | remove: '</p>' | remove: site.newline }}</h4>
+<h4>{{ include.page.title }}</h4>
 
 <div class="authors">{% include author-list.html author=page.author %}</div>
 
+{% assign conference = site.data.conferences[include.page.conference] %}
+
 <div class="information">
-<div class="conference"><a href="{{ site.data.conferences[include.page.conference].link }}">{{ include.page.conference }}</a></div>
+  <div class="conference"><span>Presented at </span><a href="{{ conference.link }}">{{ include.page.conference }}</a><span>.</span></div>
 
-{% if include.page.fullversion %}
-{% assign fullversion = (site.research | where: 'id', include.page.fullversion | first) %}
-{% if fullversion.volume %}
-  {% assign volnum = (fullversion.volume | append: '(' | append: fullversion.number | append: ')') %}
-{% else %}
-  {% assign volnum = '(to appear)' %}
-{% endif %}
-<div class="journal"><a href="http://doi.org/{{ fullversion.doi }}">{{ fullversion.journal }} {{ volnum }}</a></div>
-{% endif %}
+  {% if include.page.fullversion %}
+  {% assign fullversion = (site.research | where: 'id', include.page.fullversion | first) %}
+  {% if fullversion.volume %}
+    {% assign volnum = (fullversion.volume | append: '(' | append: fullversion.number | append: ')') %}
+  {% else %}
+    {% assign volnum = '(to appear)' %}
+  {% endif %}
 
-<div class="preprint"><a href="http://arxiv.org/abs/{{ include.page.eprint }}">arXiv</a></div>
+  <div class="journal"><span>Full version in </span><a href="http://doi.org/{{ fullversion.doi }}">{{ fullversion.journal }} {{ volnum }}</a><span>.</span></div>
+  {% endif %}
+
+  <div class="preprint"><span>Preprint on </span><a href="http://arxiv.org/abs/{{ include.page.eprint }}">arXiv</a><span>.</span></div>
 </div>
 
 </article>

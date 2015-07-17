@@ -1,1 +1,14 @@
-<ul>{% for author in include.author %}<li>{% include author-link.html name=author %}</li>{% endfor %}</ul>
+<ul>
+{% for author in include.author %}
+<li>
+  {% include author-link.html name=author %}
+  {% if forloop.rindex0 == 0 %}
+  --><span>.</span>
+  {% elsif forloop.rindex0 == 1 %}
+  --><span> and </span>
+  {% else %}
+  --><span>,</span>
+  {% endif %}
+</li>
+{% endfor %}
+</ul>

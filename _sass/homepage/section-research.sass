@@ -6,45 +6,27 @@
     display: none
   .shortname
     display: inline
+  span
+    display: none
 
 .information
   display: inline-block
   vertical-align: top
   margin-left: 2em
+  span
+    display: none
 
 @media screen and (min-width: 480px)
   .authors, .information
     display: block
+    span
+      display: inline
   .information
     margin-left: 0
   .authors ul li
     display: inline
     white-space: nowrap
-    &:after
-      content: ", "
-    &:nth-last-of-type(2):after
-      content: " and "
-    &:last-of-type:after
-      content: ""
-  
-  .conference
-    &:before
-      content: "Presented at "
-    &:after
-      content: "."
-  
-  .journal
-    &:before
-      content: "Full version in "
-    &:after
-      content: "."
-  
-  .preprint
-    &:before
-      content: "Preprint on "
-    &:after
-      content: "."
-  
+
   .conference, .journal, .preprint
     display: inline
 
