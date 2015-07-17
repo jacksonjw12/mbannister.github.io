@@ -1,15 +1,50 @@
 // Special formatting for research section.
-.authors ul li
-  display: inline
-  white-space: nowrap
-  &:after
-    content: ", "
-  &:nth-last-of-type(2):after
-    content: " and "
-  &:last-of-type:after
-    content: "."
-.longname
-  display: none
-.shortname
-  display: inline
+
+.authors
+  display: inline-block
+  .longname
+    display: none
+  .shortname
+    display: inline
+
+.information
+  display: inline-block
+  vertical-align: top
+  margin-left: 2em
+
+@media screen and (min-width: 480px)
+  .authors, .information
+    display: block
+  .information
+    margin-left: 0
+  .authors ul li
+    display: inline
+    white-space: nowrap
+    &:after
+      content: ", "
+    &:nth-last-of-type(2):after
+      content: " and "
+    &:last-of-type:after
+      content: ""
+  
+  .conference
+    &:before
+      content: "Presented at "
+    &:after
+      content: "."
+  
+  .journal
+    &:before
+      content: "Full version in "
+    &:after
+      content: "."
+  
+  .preprint
+    &:before
+      content: "Preprint on "
+    &:after
+      content: "."
+  
+  .conference, .journal, .preprint
+    display: inline
 
