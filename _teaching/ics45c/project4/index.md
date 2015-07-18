@@ -7,10 +7,10 @@ Project 4: Snake game
 
 Overview
 --------
-In this project you will implement a simple [snake game](https://en.wikipedia.org/wiki/Snake_\(video_game\)). In our version of the game, the snake has a starting length of five and lives in a forty-by-forty grid, eating red and yellow apples. When the snake eats (its head intersects) a red apple its length is increased by five and when the snake eats a yellow apple its length is decreased by five (the minimum length is five). If the snakes tries to eat itself or a boundary cell (left/right column or top/bottom row), the snake dies and the game is over. 
+In this project you will implement a simple [snake game](https://en.wikipedia.org/wiki/Snake_(video_game)). In our version of the game, the snake has a starting length of five and lives in a forty-by-forty grid, eating red and yellow apples. When the snake eats (its head intersects) a red apple its length is increased by five and when the snake eats a yellow apple its length is decreased by five (the minimum length is five). If the snakes tries to eat itself or a boundary cell (left/right column or top/bottom row), the snake dies and the game is over. 
 
 ### Warning
-This project uses the same GUI library as [Project 1](project1.html). So if you had performance problems with [Project 1](project1.html), you will have them with this project as well. Make sure you make time to come by lab or to use the lab computers on the third floor of the ICS building.
+This project uses the same GUI library as [Project 1](../project1.html). So if you had performance problems with Project 1, you will have them with this project as well. Make sure you make time to come by lab or to use the lab computers on the third floor of the ICS building.
 
 The GameView object
 -------------------
@@ -52,7 +52,7 @@ If the snake eats a red apple, then a new red apple should spawn at a random emp
 For this project you may fully utilize the objects in the STL.
 
 ### Starter code
-The __makefile__ for this project has the same functionality as [project 3](project3.html). When you are satisfied with your project you will use __make gather__ to produce a __tar.gz__ file to submit to dropbox on eee. There are now two dropboxes on eee; make sure you submit your project to the correct dropbox!
+The __makefile__ for this project has the same functionality as [project 3](../project3.html). When you are satisfied with your project you will use __make gather__ to produce a __tar.gz__ file to submit to dropbox on eee. There are now two dropboxes on eee; make sure you submit your project to the correct dropbox!
 
 Project 4 starter code: [project4.tar.gz](project4.tar.gz)  
 

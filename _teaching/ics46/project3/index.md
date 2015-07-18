@@ -1,8 +1,8 @@
 ---
 layout: default
-title: "{ICS,CSE} 46: Project 2"
+title: "{ICS,CSE} 46: Project 3"
 ---
-Project 2: A map based on a skip list (Due Sep 1 at 11:50pm)
+Project 3: A map based on a skip list (Due Sep 1 at 11:50pm)
 ===============================================================
 ---------------------------------------------------------------
 
@@ -23,7 +23,7 @@ Your course notes should be sufficient for the implementation of this project, b
 
 Random coin flips
 -----------------
-Your implementation of the skip list will use of random coin flips. For these coin flips you should use the C++11 random number library. You can find an example of using this library on the webpage for [ICS 45C](../ics45c), Example 15.
+Your implementation of the skip list will use of random coin flips. For these coin flips you should use the C++11 random number library. You can find an example of using this library on the webpage for [ICS 45C](../../ics45c), Example 15.
 
 Your task
 ---------

@@ -2,7 +2,9 @@
 
 <h4>{{ include.page.title }}</h4>
 
-<div class="authors">{% include author-list.html author=page.author %}</div>
+<div class="authors">
+  {% include author-list.html author=page.author %}
+</div>
 
 {% assign conference = site.data.conferences[include.page.conference] %}
 

@@ -171,11 +171,11 @@ Your projects will be evaluated based on their _correctness_ and _quality_.  Spe
 - Correctness (20 points): Does the program compiles, run without error, and meet specifications?
 - Quality (10 points): Is the code readable, well-organized, and easily modifiable?
 
-If your submit code that does not compile, you score will be severely reduced and you may receive a zero on the project. In this course, our target platform will be the Xubuntu 14.04 virtual machine distributed to the class. If your project does not compile on this platform with the build scripts supplied with the project, then it does not compile as far as we are concerned (see [Project 0](project0.html) for more information on our virtual machine).
+If your submit code that does not compile, you score will be severely reduced and you may receive a zero on the project. In this course, our target platform will be the Xubuntu 14.04 virtual machine distributed to the class. If your project does not compile on this platform with the build scripts supplied with the project, then it does not compile as far as we are concerned (see [Project 0](project0/) for more information on our virtual machine).
 
 Projects are due at 11:50pm on their due date (found on the project's webpage), with a ten minute grace period.  You will be allowed one 48 hour extension during the course. You are not required to notify us that you are going to use your extension. The first project you submit late will fall under the 48 hour extension. Other than this policy, late work will not be accepted.
 
-All projects will be submitted as a single file created by the gather script to the eee dropbox for the course (see [Project 0](project0.html) for details). If a project is submitted in a different format, your score will be reduced and you may receive a zero. Under _no circumstances_ will a project be graded if it is submitted via email. You are responsible for submitting the version of the project you want graded. Accidentally submitting the wrong version is _not_ considered grounds for a regrade.
+All projects will be submitted as a single file created by the gather script to the eee dropbox for the course (see [Project 0](project0/) for details). If a project is submitted in a different format, your score will be reduced and you may receive a zero. Under _no circumstances_ will a project be graded if it is submitted via email. You are responsible for submitting the version of the project you want graded. Accidentally submitting the wrong version is _not_ considered grounds for a regrade.
 
 - Project 0: [Adapting to your environment](project0/)
 - Project 1: [Game of life](project1/)

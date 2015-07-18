@@ -39,7 +39,7 @@ __Warning:__ This algorithm will be fairly slow, possibly taking a few minutes f
 
 File formats
 ------------
-As was the case in [Project 2](project2.html), the input and output files for this project will have a rigid format. When parsing the input files you may assume it will be exactly as specified below, including whitespace. We will assume the same about your output.
+As was the case in [Project 2](../project2), the input and output files for this project will have a rigid format. When parsing the input files you may assume it will be exactly as specified below, including whitespace. We will assume the same about your output.
 
 #### Input format
 Each line of the input file will start with one of sixe commands: __COLOR__, __CANVAS__, __DEPTH__, __RECTANGLE__, __SQUARE__ and __CIRCLE__, followed by parameter described below.
@@ -95,11 +95,11 @@ This file produces the following image:
 ![](project3.png)
 
 #### Output format
-The output format is the image format know as [Plain PPM](http://netpbm.sourceforge.net/doc/ppm.html). This is a convenient format for us, as it is simply a text file and you already know how to write to text files from [Project 2](project2.html). The first line of a Plain PPM file consists of the two characters "P3". This is known as a __magic number__ and lets the image viewer know what format you are using. The next line consists of two __int__s, the first is the __width__ of the image and the second is the __height__. The third line will always be 255 for you, and represents the maximum value of a color channel. Now, there are __height__ many more lines, each consisting of __width__ many triples of __int__s representing the color of the pixel at this position. For an example see [http://en.wikipedia.org/wiki/Netpbm_format#PPM_example](http://en.wikipedia.org/wiki/Netpbm_format#PPM_example) and the examples included in the __tar.gz__ for this project.
+The output format is the image format know as [Plain PPM](http://netpbm.sourceforge.net/doc/ppm.html). This is a convenient format for us, as it is simply a text file and you already know how to write to text files from [Project 2](../project2). The first line of a Plain PPM file consists of the two characters "P3". This is known as a __magic number__ and lets the image viewer know what format you are using. The next line consists of two __int__s, the first is the __width__ of the image and the second is the __height__. The third line will always be 255 for you, and represents the maximum value of a color channel. Now, there are __height__ many more lines, each consisting of __width__ many triples of __int__s representing the color of the pixel at this position. For an example see [http://en.wikipedia.org/wiki/Netpbm_format#PPM_example](http://en.wikipedia.org/wiki/Netpbm_format#PPM_example) and the examples included in the __tar.gz__ for this project.
 
 Your task
 ---------
-Your task is essentially the same as [Project 2](project2.html).
+Your task is essentially the same as [Project 2](../project2).
 
 1. Parse the input file so that it may be used in the painter's algorithm
 2. Implement the painter's algorithm

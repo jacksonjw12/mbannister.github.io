@@ -50,7 +50,7 @@ Throughout the course you may need to install additional software and libraries 
 
 You can download our virtual machine from the download link below. This is a large download, a little over two gigabytes. For this reason downloading the file is restricted to computer connected to the campus network. The download is pretty fast if you are connected to the wired network in one of the ICS Labs. So that is my recommendation.
 
-[Download link](../vm/Xubuntu-ICS-2014-Summer.ova) ( MD5 Checksum:6ed6e914e61b64f97547c8e324573e42)
+[Download link]() ( MD5 Checksum:6ed6e914e61b64f97547c8e324573e42)
 
 
 Importing our virtual machine into VirtualBox
