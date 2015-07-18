@@ -1,6 +1,6 @@
 {% assign person=site.data.people[include.name] %}
 {% if person.link %}
-<a href="{{ person.link }}"><span class="shortname">{{ person.shortname }}</span><span class="longname">{{ include.name }}</span></a><!--
+<a href="{{ person.link }}" class="author" fullname="{{ include.name }}">{{ person.shortname }}</a><!--
 {% else %}
-<span class="shortname">{{ person.shortname }}</span><span class="longname">{{ include.name }}</span><!--
+<span class="author" fullname="{{ include.name }}">{{ person.shortname }}</span><!--
 {% endif %}
