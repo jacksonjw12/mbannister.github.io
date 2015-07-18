@@ -31,7 +31,7 @@ img: assets/img/me_rec_web_50.jpg
 
 contacts:
     - name: Edmunds Hall 203
-      link: http://www.pomona.edu/map/?id=523&mrkIid=54434
+      link: http://www.pomona.edu/map/?id=523&amp;mrkIid=54434
     - name: (909) 607-0969
       link:
     - name: michael.bannister@pomona.edu
@@ -45,8 +45,9 @@ profiles:
       link: assets/pdf/cv.pdf
 
 description: >
-    I am a Visiting Assistant Professor in the <a href="http://www.pomona.edu/
-    academics/departments/computer-science/">Department of Computer Science</a>
+    I am a Visiting Assistant Professor in the
+    <a href="http://www.pomona.edu/academics/departments/computer-science/">
+    Department of Computer Science</a>
     at <a href="http://www.pomona.edu/">Pomona College</a>. My research
     interests are in the design and analysis of geometric and graph algorithms,
     particularly algorithms for graph drawing and network visualization.
