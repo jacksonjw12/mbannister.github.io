@@ -3,6 +3,10 @@
 .authors
   display: inline-block
 
+.author
+  display: block
+  white-space: nowrap
+
 .information
   display: inline-block
   vertical-align: top
@@ -16,11 +20,12 @@
     display: block
     span
       display: inline
+
+  .author
+    display: inline
+
   .information
     margin-left: 0
-  .authors ul li
-    display: inline
-    white-space: nowrap
 
   .conference, .journal, .preprint
     display: inline

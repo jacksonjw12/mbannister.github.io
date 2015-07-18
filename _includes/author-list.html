@@ -1,6 +1,4 @@
-<ul>
 {% for author in include.author %}
-<li>
   {% include author-link.html name=author %}
   {% if forloop.rindex0 == 0 %}
   --><span>.</span>
@@ -9,6 +7,4 @@
   {% else %}
   --><span>,</span>
   {% endif %}
-</li>
 {% endfor %}
-</ul>
