@@ -87,7 +87,7 @@ You task for this project is to implement a GameLoop for Conway's Game of Life, 
 * A __quit event__ should exit the game loop
 * A __null event__ should do nothing
 
-The __makefile__ for this project has the same functionality as [project 0](../project0.html). When you are satisfied with your project you will use __make gather__ to produce a __tar.gz__ file to submit to dropbox on eee. There are now two dropboxes on eee; make sure you submit your project to the correct dropbox!
+The __makefile__ for this project has the same functionality as [project 0](../project0). When you are satisfied with your project you will use __make gather__ to produce a __tar.gz__ file to submit to dropbox on eee. There are now two dropboxes on eee; make sure you submit your project to the correct dropbox!
 
 Project 1 starter code: [project1.tar.gz](project1.tar.gz)  
 
