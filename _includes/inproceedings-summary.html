@@ -8,8 +8,16 @@
 
 {% assign conference = site.data.conferences[include.page.conference] %}
 
+{% if include.page.doi %}
+  {% assign link = 'http://doi.org/' | append: include.page.doi %}
+{% elsif include.page.link %}
+  {% assign link = include.page.link %}
+{% else %}
+  {% assign link = conference.link %}
+{% endif %}
+
 <div class="information">
-  <div class="conference"><span>Presented at </span><a href="{{ conference.link }}">{{ include.page.conference }}</a><span>.</span></div>
+  <div class="conference"><span>Presented at </span><a href="{{ link }}">{{ include.page.conference }}</a><span>.</span></div>
 
   {% if include.page.fullversion %}
   {% assign fullversion = (site.research | where: 'id', include.page.fullversion | first) %}
