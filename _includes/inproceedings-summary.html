@@ -16,8 +16,15 @@
   {% assign link = conference.link %}
 {% endif %}
 
+{% capture today %}{{ site.time | date: '%Y-%m-%d' }}{% endcapture %}
+{% if include.page.date > today %}
+  {% assign presented = "To be presented at " %}
+{% else %}
+  {% assign presented = "Presented at " %}
+{% endif %}
+
 <div class="information">
-  <div class="conference"><span>Presented at </span><a href="{{ link }}">{{ include.page.conference }}</a><span>.</span></div>
+  <div class="conference"><span>{{ presented }}</span><a href="{{ link }}">{{ include.page.conference }}</a><span>.</span></div>
 
   {% if include.page.fullversion %}
   {% assign fullversion = (site.research | where: 'id', include.page.fullversion | first) %}
@@ -30,7 +37,9 @@
   <div class="journal"><span>Full version in </span><a href="http://doi.org/{{ fullversion.doi }}">{{ fullversion.journal }} {{ volnum }}</a><span>.</span></div>
   {% endif %}
 
+  {% if include.page.eprint %}
   <div class="preprint"><span>Preprint on </span><a href="http://arxiv.org/abs/{{ include.page.eprint }}">arXiv</a><span>.</span></div>
+  {% endif %}
 </div>
 
 </article>
