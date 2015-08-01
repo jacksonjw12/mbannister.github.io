@@ -24,7 +24,7 @@
 {% endif %}
 
 <div class="information">
-  <div class="conference"><span>{{ presented }}</span><a href="{{ link }}">{{ include.page.conference }}</a><span>.</span></div>
+  <div class="conference"><span class="punctuation">{{ presented }}</span><a href="{{ link }}">{{ include.page.conference }}</a><span class="punctuation">.</span></div>
 
   {% if include.page.fullversion %}
   {% assign fullversion = (site.research | where: 'id', include.page.fullversion | first) %}
@@ -34,11 +34,11 @@
     {% assign volnum = '(to appear)' %}
   {% endif %}
 
-  <div class="journal"><span>Full version in </span><a href="http://doi.org/{{ fullversion.doi }}">{{ fullversion.journal }} {{ volnum }}</a><span>.</span></div>
+  <div class="journal"><span class="punctuation">Full version in </span><a href="http://doi.org/{{ fullversion.doi }}">{{ fullversion.journal }} {{ volnum }}</a><span class="punctuation">.</span></div>
   {% endif %}
 
   {% if include.page.eprint %}
-  <div class="preprint"><span>Preprint on </span><a href="http://arxiv.org/abs/{{ include.page.eprint }}">arXiv</a><span>.</span></div>
+  <div class="preprint"><span class="punctuation">Preprint on </span><a href="http://arxiv.org/abs/{{ include.page.eprint }}">arXiv</a><span class="punctuation">.</span></div>
   {% endif %}
 </div>
 
