@@ -4,7 +4,7 @@ body
   padding: 0 1em
   font-size: 1.2em
 
-  h1,h2,h3
+  h1,h2,h3,h4,h5
     font-weight: normal
 
   @media screen and (min-width: 730px) and (max-width: 860px)
@@ -12,4 +12,135 @@ body
 
   @media screen and (min-width: 0px) and (max-width: 729px)
     font-size: 1em
+
+header
+  margin-bottom: 1em
+
+@media screen and (min-width: 730px)
+  #portrait
+    margin-top: 2em
+    display: inline-block
+    img
+      display: block
+      width: 25vw
+      max-width: 250px
+  
+  #letterhead
+    margin-top: 2em
+    margin-left: 2em
+    display: inline-block
+    vertical-align: top
+  
+  #contacts
+    margin-top: 1em
+    display: inline-block
+  
+  #profiles
+    margin-top: 1em
+    margin-left: 4em
+    display: inline-block
+    vertical-align: top
+
+@media screen and (max-width: 729px)
+  body
+    padding: 1em
+  header
+    text-align: center
+  #contacts
+    margin-top: 1em
+
+@media screen and (max-width: 479px)
+  #contacts li, #profiles li
+    margin-top: 0.25em
+  #portrait
+    display: inline-block
+    width: 50vw
+
+@media screen and (max-width: 450px)
+  #letterhead
+    h1
+      font-size: 9vw
+    h3
+      font-size: 5vw
+
+section
+  h2
+    margin: 1em 0em
+    border-bottom-style: solid
+    border-width: 2px
+
+
+// CSS magic for mobile version of webpage
+
+.section-checkbox
+  display: none
+
+.arrow
+  width: 1em
+  height: 1em
+  vertical-align: middle
+  path
+    fill: none
+    stroke: $base-font-color
+    stroke:
+      width: 2
+      linecap: round
+      linejoin: round
+  display: none
+
+@media screen and (max-width: 479px)
+  .section-title
+    display: block !important
+    width: 100%
+  .section-checkbox:checked
+    ~.section_body
+      display: block !important
+    ~.section-title .arrow
+      .up
+        display: block
+      .down
+        display: none
+  .arrow
+    display: inline
+    .up
+      display: none
+  .section_body
+    display: none
+
+article
+  margin: 1em 0
+
+#about .section-title
+  display: none
+
+
+.authors
+  display: inline-block
+
+.author
+  display: block
+  white-space: nowrap
+
+.information
+  display: inline-block
+  vertical-align: top
+  margin-left: 2em
+
+.authors span, .information span
+  display: none
+
+@media screen and (min-width: 480px)
+  .authors, .information
+    display: block
+    span
+      display: inline
+
+  .author
+    display: inline
+
+  .information
+    margin-left: 0
+
+  .conference, .journal, .preprint
+    display: inline
 
