@@ -1,10 +1,8 @@
 <article class="inproceedings">
 
-<h5>{{ include.page.title }}</h5>
+<h6>{{ include.page.title }}</h6>
 
-<div class="authors">
-  {% include author-list.html author=page.author %}
-</div>
+{% include author-list.html author=page.author %}
 
 {% assign conference = site.data.conferences[include.page.conference] %}
 
@@ -23,8 +21,9 @@
   {% assign presented = "Presented at " %}
 {% endif %}
 
-<div class="information">
-  <div class="conference"><span class="punctuation">{{ presented }}</span><a href="{{ link }}">{{ include.page.conference }}</a><span class="punctuation">.</span></div>
+<ul class="sentence-ul">
+  Published in 
+  <li class="conference"><a href="{{ link }}">{{ include.page.conference }}</a></li>
 
   {% if include.page.fullversion %}
   {% assign fullversion = (site.research | where: 'id', include.page.fullversion | first) %}
@@ -34,12 +33,12 @@
     {% assign volnum = '(to appear)' %}
   {% endif %}
 
-  <div class="journal"><span class="punctuation">Full version in </span><a href="http://doi.org/{{ fullversion.doi }}">{{ fullversion.journal }} {{ volnum }}</a><span class="punctuation">.</span></div>
+  <li class="journal"><a href="http://doi.org/{{ fullversion.doi }}">{{ fullversion.journal }} {{ volnum }}</a></li>
   {% endif %}
 
   {% if include.page.eprint %}
-  <div class="preprint"><span class="punctuation">Preprint on </span><a href="http://arxiv.org/abs/{{ include.page.eprint }}">arXiv</a><span class="punctuation">.</span></div>
+  <li class="preprint"><a href="http://arxiv.org/abs/{{ include.page.eprint }}">arXiv</a></li>
   {% endif %}
-</div>
+</ul>
 
 </article>

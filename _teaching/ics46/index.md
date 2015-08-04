@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "{ICS,CSE} 46: Data Structure Implementation and Analysis"
+shorttitle: "{ICS,CSE} 46"
 syllabus: true
 ---
 ICS/CSE 46: Data Structure Implementation and Analysis (Summer 2014)

@@ -1,146 +1,112 @@
+html
+  font-size: 75%
+  @media (min-width: 750px)
+    font-size: 100%
+  @media (min-width: 1000px)
+    font-size: 125%
+  
 body
   max-width: 960px
   margin: 0 auto
-  padding: 0 1em
-  font-size: 1.2em
+  // TODO: Chane em -> rem when chrome bug fixed.
+  padding: 1em 1em
 
   h1,h2,h3,h4,h5
     font-weight: normal
 
-  @media screen and (min-width: 730px) and (max-width: 860px)
-    font-size: 2.2vw
+@media (min-width: 400px)
+  .rbr400
+    display: none
+@media (min-width: 550px)
+  .rbr550
+    display: none
+@media (min-width: 750px)
+  .rbr750
+    display: none
+@media (min-width: 1000px)
+  .rbr1000
+    display: none
 
-  @media screen and (min-width: 0px) and (max-width: 729px)
-    font-size: 1em
 
+//==== Header ==================================================================
 header
-  margin-bottom: 1em
+  margin-bottom: 1rem
+  img
+    display: block
+    margin: 0 auto
+    width: 36%
+    min-width: 150px
 
-@media screen and (min-width: 730px)
-  #portrait
-    margin-top: 2em
-    display: inline-block
-    img
-      display: block
-      width: 25vw
-      max-width: 250px
-  
-  #letterhead
-    margin-top: 2em
-    margin-left: 2em
-    display: inline-block
-    vertical-align: top
-  
-  #contacts
-    margin-top: 1em
-    display: inline-block
-  
-  #profiles
-    margin-top: 1em
-    margin-left: 4em
-    display: inline-block
-    vertical-align: top
+#letterhead
+  margin: 1rem 0rem
+  text-align: center
 
-@media screen and (max-width: 729px)
-  body
-    padding: 1em
+#contacts
+  display: block
+  margin-top: 1rem
+
+#profiles
+  display: block
+  margin-bottom: 1rem
+
+@media (min-width: 550px)
   header
-    text-align: center
-  #contacts
-    margin-top: 1em
-
-@media screen and (max-width: 479px)
-  #contacts li, #profiles li
-    margin-top: 0.25em
-  #portrait
-    display: inline-block
-    width: 50vw
-
-@media screen and (max-width: 450px)
+    img
+      display: inline-block
+      margin: 1rem
+      width: 200px
+  
   #letterhead
-    h1
-      font-size: 9vw
-    h3
-      font-size: 5vw
+    display: inline-block
+    text-align: left
+    vertical-align: top
+    margin: 2rem 0rem 2rem 1rem
 
+@media (min-width: 750px)
+  #contacts, #profiles
+    display: inline-block
+    vertical-align: top
+    margin: 1rem 1rem 0rem 0rem
+
+@media (min-width: 1000px)
+  header
+    img
+      width: 250px
+
+//==== Sections ================================================================
 section
+  margin: 1rem 0rem
   h2
-    margin: 1em 0em
     border-bottom-style: solid
     border-width: 2px
 
+@media (min-width: 550px)
 
-// CSS magic for mobile version of webpage
-
-.section-checkbox
-  display: none
-
-.arrow
-  width: 1em
-  height: 1em
-  vertical-align: middle
-  path
-    fill: none
-    stroke: $base-font-color
-    stroke:
-      width: 2
-      linecap: round
-      linejoin: round
-  display: none
-
-@media screen and (max-width: 479px)
-  .section-title
-    display: block !important
-    width: 100%
-  .section-checkbox:checked
-    ~.section_body
-      display: block !important
-    ~.section-title .arrow
-      .up
-        display: block
-      .down
-        display: none
-  .arrow
-    display: inline
-    .up
-      display: none
-  .section_body
+  #about h2
     display: none
 
+
+//==== Articles ================================================================
 article
-  margin: 1em 0
+  margin: 1rem 0rem
 
-#about .section-title
-  display: none
+//==== Helper Classes ==========================================================
 
-
-.authors
-  display: inline-block
-
-.author
+.link-ul
   display: block
-  white-space: nowrap
+  li
+    display: inline-block
+    margin-right: 2em
 
-.information
-  display: inline-block
-  vertical-align: top
-  margin-left: 2em
-
-.punctuation
-  display: none
-
-@media screen and (min-width: 480px)
-  .authors, .information
-    display: block
-    span
-      display: inline
-
-  .author
-    display: inline
-
-  .information
-    margin-left: 0
-
-  .conference, .journal, .preprint
-    display: inline
+.sentence-ul
+  display: block
+  li
+    display: inline-block
+    white-space: nowrap
+    &::after
+      content: ","
+    &:nth-last-child(2)::after
+      content: " and "
+    &:last-child::after
+      content: "."
 
