@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "{ICS,CSE} 46: Data Structure Implementation and Analysis"
+title: "{ICS,CSE} 46: Data Structure Implementation <br class=\"rbr400\" />and Analysis"
 shorttitle: "{ICS,CSE} 46"
 syllabus: true
 ---

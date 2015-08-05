@@ -39,9 +39,9 @@ description: The home page of Michael J. Bannister.
   <h2>Teaching</h2>
   <article>
   <h5>Summer 2014</h5>
-  <ul class="link-ul">
+  <ul inline-ul-1>
     {% assign courses = (site.teaching | where: 'syllabus', true %}{% for page in courses %}
-    <li><a href="{{site.baseurl}}{{page.url}}">{{ page.shorttitle }}</a></li>
+    <li><a href="{{site.baseurl}}{{page.url}}">{{ page.title }}</a></li>
     {% endfor %}
   </ul>
   </article>
