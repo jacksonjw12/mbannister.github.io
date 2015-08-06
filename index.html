@@ -13,12 +13,12 @@ description: The home page of Michael J. Bannister.
     <h1>{{ site.name }}</h1>
     <h4>{{ site.department }}</h4>
     <h4>{{ site.school }}</h4>
-    <ul id="contacts">
+    <ul class="empty-ul" id="contacts">
       {% for contact in site.contacts %}
       <li>{% if contact.link %}<a href="{{ contact.link }}">{{ contact.name }}</a>{% else %}{{ contact.name }}{% endif %}</li>
       {% endfor %}
     </ul>
-    <ul id="profiles">
+    <ul class="empty-ul" id="profiles">
       {% for profile in site.profiles %}
       <li>{% if profile.link %}<a href="{{ profile.link }}">{{ profile.name }}</a>{% else %}{{ profile.name }}{% endif %}</li>
       {% endfor %}
@@ -39,7 +39,7 @@ description: The home page of Michael J. Bannister.
   <h2>Teaching</h2>
   <article>
   <h5>Summer 2014</h5>
-  <ul inline-ul-1>
+  <ul class="empty-ul">
     {% assign courses = (site.teaching | where: 'syllabus', true %}{% for page in courses %}
     <li><a href="{{site.baseurl}}{{page.url}}">{{ page.title }}</a></li>
     {% endfor %}

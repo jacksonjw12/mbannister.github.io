@@ -1,0 +1,114 @@
+section, article
+  margin: 1rem 0
+hr
+  border-color: #333
+  border-style: solid
+  border-width: 1px
+
+//==== Typography ==============================================================
+html
+  font-size: 75%
+  @media (min-width: 750px)
+    font-size: 100%
+  @media (min-width: 1000px)
+    font-size: 125%
+
+body
+  max-width: 960px
+  margin: 0 auto
+  padding: 1em
+  font-family: $helvetica
+  font-size: 1em
+  line-height: 1.5
+  color: #333
+
+h1, h2, h3, h4, h5, h6
+  font-family: $helvetica
+  line-height: 1.25
+  margin: 0
+  text-rendering: optimizeLegibility
+
+h1, h2, h3, h4, h5
+  font-weight: normal
+
+h1
+  font-size: 2.25rem
+h2
+  font-size: 2.0rem
+h3
+  font-size: 1.75rem
+h4
+  font-size: 1.5rem
+h5
+  font-size: 1.25rem
+h6
+  font-size: 1rem
+p
+  margin: 0 0 0.75rem 0
+
+a
+  +transition(color 0.25s linear)
+  color: #477DCA
+  text-decoration: none
+  &:hover
+    color: darken(#477DCA, 20)
+  &:active, &:focus
+    color: #477DCA
+    outline: none
+
+img, picture
+  margin: 0
+  max-width: 100%
+
+
+//==== Lists ===================================================================
+.empty-ul
+  margin: 0
+  padding: 0
+  list-style-type: none
+
+.sentence-ul
+  margin: 0
+  padding: 0
+  display: block
+  li
+    display: inline-block
+    white-space: nowrap
+    &::after
+      content: ","
+    &:nth-last-child(2)::after
+      content: " and "
+    &:last-child::after
+      content: "."
+
+.inline-ul
+  margin: 0
+  padding: 0
+  display: block
+  li
+    display: inline-block
+
+dl
+  margin-bottom: 0.75rem
+  dt
+    font-weight: bold
+    margin-top: 0.75rem
+  dd
+    margin: 0
+
+
+//==== Responsive Breaks =======================================================
+@media (min-width: 400px)
+  .rbr400
+    display: none
+@media (min-width: 550px)
+  .rbr550
+    display: none
+@media (min-width: 750px)
+  .rbr750
+    display: none
+@media (min-width: 1000px)
+  .rbr1000
+    display: none
+
+
