@@ -1,6 +1,6 @@
 //==== Header ==================================================================
 header
-  margin-bottom: 1rem
+  margin-bottom: 1.5rem
   img
     display: block
     margin: 0 auto
@@ -8,46 +8,47 @@ header
     min-width: 150px
 
 #letterhead
-  margin: 1rem 0rem
+  margin-top: 1.5em
   text-align: center
 
 #contacts
-  display: block
-  margin-top: 1rem
+  margin-top: 0.75rem
 
 #profiles
+  margin-bottom: 0.75rem
+
+#contacts, #profiles
   display: block
-  margin-bottom: 1rem
+  line-height: 2
+
+@media (min-width: 400px)
+  #contacts, #profiles
+    line-height: 1.5
 
 @media (min-width: 550px)
-  header
-    img
-      display: inline-block
-      margin: 1rem
-      width: 200px
+  header img
+    display: inline-block
+    width: 200px
   
   #letterhead
     display: inline-block
     text-align: left
     vertical-align: top
-    margin: 1.5rem 0rem 1.5rem 1rem
+    margin: 0
+    margin-left: 1.5rem
 
 @media (min-width: 750px)
+  #letterhead
+    margin-left: 3.0rem
   #contacts, #profiles
     display: inline-block
     vertical-align: top
     margin: 1rem 1rem 0rem 0rem
 
-@media (min-width: 1000px)
-  header
-    img
-      width: 250px
-
 //==== Sections ================================================================
-section
-  h2
-    border-bottom-style: solid
-    border-width: 2px
+section h2
+  border-bottom-style: solid
+  border-width: 2px
 
 @media (min-width: 550px)
   #about h2
