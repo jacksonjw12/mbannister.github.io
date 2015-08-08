@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "{ICS,CSE} 45C: Programming in C++ as a <br class=\"rbr400\" />Second Language"
+title: "{ICS,CSE} 45C: Programming in C++ as a Second Language"
 term: Summer
 year: 2014
 syllabus: true
