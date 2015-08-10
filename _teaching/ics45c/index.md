@@ -5,52 +5,56 @@ term: Summer
 year: 2014
 syllabus: true
 ---
-ICS/CSE 45C: Programming in C++ as a Second Language (Summer 2014)
-==================================================================
+
+# ICS/CSE 45C: Programming in C++ as a Second Language
+
+## University of California, Irvine, Summer 2014
+
 ------------------------------------------------------------------
 
-Instructors and office hours
-----------------------------
-- Instructor: [Michael J. Bannister](http://www.ics.uci.edu/~mbannist)  
-  Office: [DBH](http://www.classrooms.uci.edu/GAC/DBH.html) 4219  
-  Email: mbannist at uci dot edu  
-  Office hours: Wednesday, Friday from 3:30pm-5:00pm in DBH 4219
-- Teaching assistant: [Zachary Becker](http://www.ics.uci.edu/~zbecker)  
-  Office: [DBH](http://www.classrooms.uci.edu/GAC/DBH.html) 4032  
-  Email: zbecker at uci dot edu
+## Instructors and office hours
+
+Instructor: [Michael J. Bannister](http://www.ics.uci.edu/~mbannist)  
+Office: [DBH](http://www.classrooms.uci.edu/GAC/DBH.html) 4219  
+Email: mbannist at uci dot edu  
+Office hours: Wednesday, Friday from 3:30pm-5:00pm in DBH 4219
+
+Teaching assistant: [Zachary Becker](http://www.ics.uci.edu/~zbecker)  
+Office: [DBH](http://www.classrooms.uci.edu/GAC/DBH.html) 4032  
+Email: zbecker at uci dot edu
 
 
-Lectures, labs and exams
-------------------------
-- Lecture: Monday, Wednesday, Friday from 1:00pm-2:50pm in [Steinhaus Hall 174](http://www.classrooms.uci.edu/GAC/SH174.html).
-- Lab (optional): Tuesday, Thursday from 11:00am-1:00pm in [ICS](http://www.classrooms.uci.edu/GAC/DBH.html) 183.
-- Midterm exam: Jul 11 in [Steinhaus Hall 174](http://www.classrooms.uci.edu/GAC/SH174.html)
-- Final exam: Jul 30 in [Steinhaus Hall 174](http://www.classrooms.uci.edu/GAC/SH174.html)
+## Lectures, labs and exams
+
+Lecture: Monday, Wednesday, Friday from 1:00pm-2:50pm in [Steinhaus Hall 174](http://www.classrooms.uci.edu/GAC/SH174.html).  
+Lab (optional): Tuesday, Thursday from 11:00am-1:00pm in [ICS](http://www.classrooms.uci.edu/GAC/DBH.html) 183.  
+Midterm exam: Jul 11 in [Steinhaus Hall 174](http://www.classrooms.uci.edu/GAC/SH174.html)  
+Final exam: Jul 30 in [Steinhaus Hall 174](http://www.classrooms.uci.edu/GAC/SH174.html)
 
 
-Textbook and other resources
-----------------------------
-- _C++ Primer (5th Edition)_  __(Optional)__  
-  by Stanley B. Lippman, Josee Lajoie and Barbara E. Moo  
-  Addison-Wesley Professional  
-  ISBN 0321714113  
-- [CPP Reference](http://en.cppreference.com/w/): A reasonably complete online reference for C++.
+## Textbook and other resources
+
+_C++ Primer (5th Edition)_  __(Optional)__  
+by Stanley B. Lippman, Josee Lajoie and Barbara E. Moo  
+Addison-Wesley Professional  
+ISBN 0321714113  
+
+[CPP Reference](http://en.cppreference.com/w/): A reasonably complete online reference for C++.  
 
 
-Grading
--------
+## Grading
+
 Your grade in this course will be based on a weighted average of your scores on each of the five programming projects, midterm and final exam. The break down will be as follows:
-
-- Project 0 (2%)
-- Projects 1-4 (36%)
-- Midterm (26%)
-- Final (36%)
+Project 0 (2%),
+Projects 1-4 (36%),
+Midterm (26%) and
+Final (36%).
 
 The conversion to letter grades will be determined at the end of the course.
 
 
-Tentative schedule
-------------------
+## Tentative schedule
+
 - Week 1, Monday (Jun 23):
   * Course introduction
   * The ICS 45C development environment
@@ -131,8 +135,8 @@ Tentative schedule
   * [Topics on the final](final)
 
 
-Example code
-------------
+## Example code
+
 - [Example0](examples/example0.tar.gz): Fundamental types and control structures
 - [Example1](examples/example1.tar.gz): Functions in C++
 - [Example2](examples/example2.tar.gz): Separate compilation
@@ -162,8 +166,8 @@ These some code examples from another offering of this course:
 [http://www.ics.uci.edu/~thornton/ics45c/CodeExamples/](http://www.ics.uci.edu/~thornton/ics45c/CodeExamples/)
 
 
-Projects
---------
+## Projects
+
 The majority of your effort in this course will be spent on programming projects; the only way to learn a language is to use the language. All of these projects will be coded entirely in C++, specifically C++14. Programming in C++ requires a level of care beyond that required in a higher level language like Python. So expect the project to take more time than than your previous programming projects. If you have prior experience programming in C, make sure you are programming your projects using C++. In general, make sure you start your project early to allow time for debugging.
 
 Your projects will be evaluated based on their _correctness_ and _quality_.  Specifically, your projects will be evaluated on a 30-point scale. The break down of the points will fall into two categories: correctness and quality.
@@ -184,8 +188,8 @@ All projects will be submitted as a single file created by the gather script to 
 - Project 4: [Snake game](project4/)
 
 
-Academic honesty
-----------------
+## Academic honesty
+
 As a student in this course, you are expected to understand and follow the academic honest policies of the University of California, Irvine and the Bren School of Information and Computer Science. Please take a few minutes to familiarize yourself with these [policies](http://www.ics.uci.edu/ugrad/policies/#03).
 
 All of your submitted code is expected to be completed solely by you without outside assistance. Sharing code with students in the class is not permitted. Of course, high-level discussion of course material is permitted and encouraged. All submissions will be analyzed by automated plagiarism detection software, which detects similarities in your code with other students code (this quarter and in the past) and code available on the internet. Similarly, in-class exams are expected to be an individual effort. In addition, all exams will be closed-notes and closed-book.
@@ -195,13 +199,13 @@ Violators of academic honesty policies will be reported and are subject to the p
 Overall, a bad course grade is nowhere near as bad as getting caught cheating.
 
 
-Accommodations for disabilities
--------------------------------
+## Accommodations for disabilities
+
 If you feel that you may need an accommodation based on the impact of a disability, you should contact me privately to discuss these specific needs. Also, contact the Disability Services Center [online](http://www.disability.uci.edu) or by phone at (949) 824-7494 as soon as possible to better ensure that such accommodations, such as alternative test-taking environments or note-taking services, can be arranged for you in a timely way.
 
 
-Acknowledgments
----------------
+## Acknowledgments
+
 This course and webpage are in large part based on an offering of this course by [Alex Thornton](http://www.ics.uci.edu/~thornton) in Spring 2014.
 
 

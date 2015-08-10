@@ -1,6 +1,12 @@
+li
+  list-style-type: none
+  margin: 0
+
 //==== Header ==================================================================
 header
   margin-bottom: 1.5rem
+  h1, h2
+    margin: 0
   img
     display: block
     margin: 0 auto
@@ -11,15 +17,16 @@ header
   margin-top: 1.5em
   text-align: center
 
+#contacts, #profiles
+  display: block
+  line-height: 2
+  margin: 0
+
 #contacts
   margin-top: 0.75rem
 
 #profiles
   margin-bottom: 0.75rem
-
-#contacts, #profiles
-  display: block
-  line-height: 2
 
 @media (min-width: 400px)
   #contacts, #profiles
@@ -43,7 +50,9 @@ header
   #contacts, #profiles
     display: inline-block
     vertical-align: top
-    margin: 1rem 1rem 0rem 0rem
+    margin: 0.75rem 0rem 0rem 0rem
+  #contacts
+    margin-right: 3rem
 
 //==== Sections ================================================================
 section h2
@@ -54,3 +63,25 @@ section h2
   #about h2
     display: none
 
+//==== Research ================================================================
+.inproceedings h4
+  margin: 0
+
+.authors
+  margin: 0
+  li
+    margin: 0
+    display: inline
+    white-space: nowrap
+    &::after
+      content: ","
+    &:nth-last-child(2)::after
+      content: " and "
+    &:last-child::after
+      content: "."
+ 
+.venues
+  margin: 0
+  li
+    margin: 0
+    display: inline

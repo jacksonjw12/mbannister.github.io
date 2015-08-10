@@ -24,6 +24,7 @@ h1, h2, h3, h4, h5, h6
   font-family: $helvetica
   line-height: 1.25
   margin: 0
+  margin-bottom: 0.75rem
   text-rendering: optimizeLegibility
 
 h1, h2
@@ -61,31 +62,22 @@ img, picture
 
 
 //==== Lists ===================================================================
-.empty-ul
-  margin: 0
-  padding: 0
-  list-style-type: none
+ul
+  list-style: circle inside
 
-.sentence-ul
-  margin: 0
-  padding: 0
-  display: block
-  li
-    display: inline-block
-    white-space: nowrap
-    &::after
-      content: ","
-    &:nth-last-child(2)::after
-      content: " and "
-    &:last-child::after
-      content: "."
+ol
+  list-style: decimal inside
 
-.inline-ul
-  margin: 0
-  padding: 0
-  display: block
-  li
-    display: inline-block
+ul, ol
+  padding-left: 0
+  margin-top: 0
+
+ul ul, ul ol, ol ul, ol ol
+  margin: 0.75rem 0 0.75rem 1.5rem
+  font-size: 90%
+
+li
+  margin-bottom: 0.75em
 
 dl
   margin-bottom: 0.75rem
@@ -94,7 +86,6 @@ dl
     margin-top: 0.75rem
   dd
     margin: 0
-
 
 //==== Responsive Breaks =======================================================
 @media (min-width: 400px)
