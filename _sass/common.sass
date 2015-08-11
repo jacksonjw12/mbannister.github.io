@@ -1,11 +1,3 @@
-section, article
-  margin: 1rem 0
-hr
-  border-color: #333
-  border-style: solid
-  border-width: 1px
-
-//==== Typography ==============================================================
 html
   font-size: 75%
   @media (min-width: 750px)
@@ -20,15 +12,33 @@ body
   line-height: 1.5
   color: #333
 
+section, article
+  margin: 1.5rem 0 1.5rem 0
+
+p
+  margin: 0.75rem 0 0.75rem 0
+
+a
+  +transition(color 0.25s linear)
+  color: #477DCA
+  text-decoration: none
+  &:hover
+    color: darken(#477DCA, 20)
+  &:active, &:focus
+    color: #477DCA
+    outline: none
+
+hr
+  border-color: #333
+  border-style: solid
+  border-width: 1px
+  margin: 1.5rem 0 1.5rem 0
+
 h1, h2, h3, h4, h5, h6
   font-family: $helvetica
   line-height: 1.25
-  margin: 0
-  margin-bottom: 0.75rem
+  margin: 0.75rem 0 0.75rem
   text-rendering: optimizeLegibility
-
-h1, h2
-  font-weight: normal
 
 h1
   font-size: 2rem
@@ -43,25 +53,10 @@ h5
 h6
   font-size: 0.67rem
 
-p
-  margin: 0 0 0.75rem 0
-
-a
-  +transition(color 0.25s linear)
-  color: #477DCA
-  text-decoration: none
-  &:hover
-    color: darken(#477DCA, 20)
-  &:active, &:focus
-    color: #477DCA
-    outline: none
-
 img, picture
   margin: 0
   max-width: 100%
 
-
-//==== Lists ===================================================================
 ul
   list-style: circle inside
 
@@ -76,9 +71,6 @@ ul ul, ul ol, ol ul, ol ol
   margin: 0.75rem 0 0.75rem 1.5rem
   font-size: 90%
 
-li
-  margin-bottom: 0.75em
-
 dl
   margin-bottom: 0.75rem
   dt
@@ -87,18 +79,15 @@ dl
   dd
     margin: 0
 
-//==== Responsive Breaks =======================================================
-@media (min-width: 400px)
-  .rbr400
-    display: none
-@media (min-width: 550px)
-  .rbr550
-    display: none
-@media (min-width: 750px)
-  .rbr750
-    display: none
-@media (min-width: 1000px)
-  .rbr1000
-    display: none
+code
+  white-space: nowrap
+  background: #F1F1F1
+  padding: 0.2rem 0.2rem
+  font-size: 90%
 
+pre > code
+  display: block
+  white-space: pre
+  padding: 1.5rem
 
+// TODO: Add stuff for tables!

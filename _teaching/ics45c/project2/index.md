@@ -95,7 +95,7 @@ The input and output files for this project will have a ridged format. When pars
 
 #### How we handle input and output
 
-The input file will be read from __std::cin__ and the output will be written to __std::cout__. In Linux we can redirect a file to a program's __std::cin__ and redirect the output of __std::cout__ to a file with:
+The input file will be read from `std::cin` and the output will be written to `std::cout`. In Linux we can redirect a file to a program's `std::cin` and redirect the output of `std::cout` to a file with:
 
     make run < inputfile > outputfile
 
