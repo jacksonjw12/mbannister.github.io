@@ -4,6 +4,7 @@ title: Michael J. Bannister
 css: homepage
 mathjax: false
 description: The home page of Michael J. Bannister. 
+current_terms: [["Fall", 2015], ["Summer", 2014]]
 ---
 
 
@@ -37,14 +38,24 @@ description: The home page of Michael J. Bannister.
 
 <section id="teaching">
   <h2>Teaching</h2>
-  <article>
-  <h3>Summer 2014</h3>
-  <ul>
-    {% assign courses = (site.teaching | where: 'syllabus', true %}{% for page in courses %}
-    <li><a href="{{site.baseurl}}{{page.url}}">{{ page.title }}</a></li>
-    {% endfor %}
-  </ul>
-  </article>
+  {% assign courses = site.teaching | where: 'syllabus', true %}
+  {% for term in page.current_terms %}
+    <article>
+      <h3>{{ term[0] }} {{ term[1] }}</h3>
+      {% assign cs = courses | where: 'year', term[1] | where: 'term', term[0] %}
+      <ul>
+      {% for c in cs %}
+        <li>
+          {% if c.draft %}
+          {{ c.title }}
+          {% else %}
+          <a href="{{ site.baseurl }}{{ c.url }}">{{ c.title }}</a>
+          {% endif %}
+        </li>
+      {% endfor %}
+      </ul>
+    </article>
+  {% endfor%}
 </section>
 
 

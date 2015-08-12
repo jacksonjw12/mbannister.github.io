@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "{ICS,CSE} 45C: Programming in C++ as a Second Language"
-term: Summer
+title: "{ICS,CSE} 45C: Programming in C++ as a second language"
+term: "Summer"
 year: 2014
 syllabus: true
 ---
