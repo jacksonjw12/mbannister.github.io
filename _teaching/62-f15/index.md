@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "CS 62: Data Structures and Advance Programming Lab"
+title: "CS 62: Data structures and advanced programming lab"
 term: "Fall"
 year: 2015
 syllabus: true
