@@ -49,7 +49,11 @@ current_terms: [["Fall", 2015], ["Summer", 2014]]
           {% if c.draft %}
           {{ c.title }}
           {% else %}
-          <a href="{{ site.baseurl }}{{ c.url }}">{{ c.title }}</a>
+          {% if c.link %}
+          <a href="{{ c.link }}">{{ c.title }}</a>
+          {% else %}
+          <a href="{{ c.url | remove: 'index.html' }}">{{ c.title }}</a>
+          {% endif %}
           {% endif %}
         </li>
       {% endfor %}
