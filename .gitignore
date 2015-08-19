@@ -1,2 +1,18 @@
-.sass-cache
-_site
+### Vim ###
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+*~
+
+
+### Sass ###
+.sass-cache/
+*.css.map
+
+
+### Jekyll ###
+_site/
+.sass-cache/
+.jekyll-metadata
