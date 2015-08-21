@@ -15,30 +15,49 @@ draft: true
 ## Pomona College, Fall 2015
 ---
 
-## Instructor and office hours
+## Instructor, lectures and office hours
 Instructor: Michael J. Bannister  
 Office: Edmunds Hall 230  
 Email: michael.bannister@pomona.edu  
-Office hours: TW 4pm--6pm, Th 10am--noon  
-
-## Lectures, labs and exams
+Office hours: T W 4pm--6pm, Th 10am--noon  
+Lectures: T Th 2:45pm--4:00pm in Edmunds Hall 101   
 
 ## Textbooks and other resources
 
+_Computer Vision: Algorithms and Applications_  
+by [Richard Szeliski](//research.microsoft.com/en-us/um/people/szeliski/)  
+Springer  
+ISBN 978-1-84882-935-0  
+[Free pdf download from Springer Link](//doi.org/10.1007/978-1-84882-935-0)  
+
+Additional readings will be linked from the course schedule.
+
 ## Grading
 
-## Weekly experiments
+Your grade will be based on a weighted average of your grades on the assigned experiments and projects, as follows:
+
+- Experiments: 15% (~1% each)
+- Projects 1--4: 60% (15% each)
+- Project 5: 25%
+
+The conversion to letter grades will be determined at the end of the course.
+
+## Experiments
+There will be approximately fifteen short programming experiments, each of which should take no more than an hour to complete. The purpose of these experiments is to gain intuition for the material covered in class. The experiments are considered individual assignments. The experiments will need to be completed in [MATLAB](//www.mathworks.com/products/matlab/) or [OCTAVE](//www.gnu.org/software/octave/). _Note: MATLAB is available for free through the college._
+
+- Experiment 1: Color to black and white
+- Experiment 2: Median filtering and unsharp masking
 
 ## Projects
-There will be five total projects
+There will be five projects, each of which will require a substantial time investment. __Start the projects early!__ The purpose of the projects is to gain a deep understanding for the challenges of implementing some of the methods presented in class. For the final project (Project 5) you will be free to choose the topic. In addition, you will be giving an in class presentation on Project 5. It is recommend that you complete the projects using [MATLAB](//www.mathworks.com/products/matlab) or [OCTAVE](//www.gnu.org/software/octave/), but you may use another language (e.g., [Julia](//julialang.org/)) with instructor permission. _Note: MATLAB is available for free through the college._
 
 - Project 1: Images of the Russian empire
 - Project 2: Compositing
 - Project 3: Photo mosaics (panoramas)
 - Project 4: High dynamic range photography
-- Project 5: Term project
+- Project 5: Final project
 
-## Tentative schedule
+## Schedule
 
 - Week 1: Course introduction; Digital photography.
   - Tuesday (9/1):
@@ -77,10 +96,10 @@ There will be five total projects
 - Week 11: 3D reconstruction
   - Tuesday (11/10):
   - Thursday (11/12):
-- Week 12: Edge detection and segmentation
+- Week 12: Image understanding
   - Tuesday (11/17):
   - Thursday (11/19):
-- Week 13: Object detection
+- Week 13:
   - Tuesday (11/24): _Flex day_
   - Thursday (11/26): __No class__
 - Week 14
@@ -90,7 +109,14 @@ There will be five total projects
   - Tuesday (12/8): __Presentations__
   - Thursday (12/10): __No class__
 
+<!--
 ## Academic honesty
+TODO
 
 ## Accommodations for disabilities 
+TODO
+
+## Recording
+Pomona College prohibits video or voice recording of any lecture or discussion, except in cases that the office of the Dean of Students has granted a student permission according to the College’s Disability Accommodations Policy, or when permission is granted by the instructor. I choose to give permission in this course to be recorded by students. These recordings are for any reasonable use that arises from participation in this course. These recordings cannot be distributed, transmitted or published in any media or form, nor be used for any commercial purposes.
+-->
 
