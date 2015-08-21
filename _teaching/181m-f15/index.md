@@ -33,9 +33,9 @@ Office hours: TW 4pm--6pm, Th 10am--noon
 There will be five total projects
 
 - Project 1: Images of the Russian empire
-- Project 2: Gradient domain editing
-- Project 3: Automatic photo mosaics
-- Project 4: High dynamic range tone mapping
+- Project 2: Compositing
+- Project 3: Photo mosaics (panoramas)
+- Project 4: High dynamic range photography
 - Project 5: Term project
 
 ## Tentative schedule
@@ -70,21 +70,21 @@ There will be five total projects
 - Week 9: High dynamic range
   - Tuesday (10/27):
   - Thursday (10/29):
-- Week 10: Stereo correspondence
+- Week 10: Non-photorealistic rendering
   - Tuesday (11/3):
   - Thursday (11/5):
   - Friday (11/6): __Project 4 due__
-- Week 11: TBA
+- Week 11: 3D reconstruction
   - Tuesday (11/10):
   - Thursday (11/12):
-- Week 12: TBA
+- Week 12: Edge detection and segmentation
   - Tuesday (11/17):
   - Thursday (11/19):
-- Week 13: TBA
-  - Tuesday (11/24): TBA
+- Week 13: Object detection
+  - Tuesday (11/24): _Flex day_
   - Thursday (11/26): __No class__
 - Week 14
-  - Tuesday (12/1): TBA
+  - Tuesday (12/1): _Flex day_
   - Thursday (12/3): __Presentations__
 - Week 15
   - Tuesday (12/8): __Presentations__
