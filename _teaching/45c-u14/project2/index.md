@@ -134,12 +134,3 @@ You can download this file from a terminal with:
 __wget "http://www.ics.uci.edu/~mbannist/teaching/ics45c/project2/project2.tar.gz"__
     
 
-~~~~ c
-#include <stdio.h>
-
-int main(void)
-{
-    printf("Hello world!");
-    return 0;
-}
-~~~~
