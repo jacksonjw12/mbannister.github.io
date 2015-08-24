@@ -97,7 +97,9 @@ The input and output files for this project will have a ridged format. When pars
 
 The input file will be read from `std::cin` and the output will be written to `std::cout`. In Linux we can redirect a file to a program's `std::cin` and redirect the output of `std::cout` to a file with:
 
-    make run < inputfile > outputfile
+~~~~ bash
+make run < inputfile > outputfile
+~~~~
 
 Your task
 ---------
@@ -132,4 +134,12 @@ You can download this file from a terminal with:
 __wget "http://www.ics.uci.edu/~mbannist/teaching/ics45c/project2/project2.tar.gz"__
     
 
+~~~~ c
+#include <stdio.h>
 
+int main(void)
+{
+    printf("Hello world!");
+    return 0;
+}
+~~~~

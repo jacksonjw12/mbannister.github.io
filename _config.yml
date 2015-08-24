@@ -7,7 +7,7 @@ markdown: kramdown
 encoding: UTF-8
 
 kramdown:
-    enable_coderay: false
+    syntax_highlighter: Null
 
 # Collections
 collections:
