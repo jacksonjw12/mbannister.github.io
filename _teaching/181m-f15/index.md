@@ -4,11 +4,7 @@ title: "CS 181M: Computational photography"
 term: "Fall"
 year: 2015
 syllabus: true
-draft: true
 ---
-
-#!!! UNDER CONSTRUCTION !!!
-{: .geocities }
 
 # CS 181M: Computational photography
 
@@ -64,7 +60,7 @@ There will be five projects, each of which will require a substantial time inves
 
 ## Schedule
 
-The following schedule is to be considered tentative, and will likely change during the semester. The due dates in the schedule do not take precedence over the due dates in the assignment instructions. Please inform me of any inconsistencies that you notice. Links for slides, sample code, and additional readings will be placed in the schedule.
+The following schedule is to be considered tentative, and will likely change during the semester. Please inform me of any inconsistencies that you notice. Links for slides, sample code, and additional readings will be placed in the schedule.
 
 - Week 1: Course introduction; Digital photography.
   - Tuesday (9/1):
@@ -127,7 +123,7 @@ All of your __submitted code__ is expected to be completed solely by you (for in
 
 All __exams__ will be closed-note, closed-book, closed-computer and individual effort.
 
-If you do not abide by the academic honest policies, expect sever __penalties__. The first offense will result in failure in the course and will be reported to the Dean of Students Office. In the event of a second offense, the offense will be reported to the Board of Academic Discipline. For further explanation of the penalties see the academic honest policies linked above.
+If you do not abide by the academic honest policies, expect severe __penalties__. The first offense will result in failure in the course and will be reported to the Dean of Students Office. In the event of a second offense, the offense will be reported to the Board of Academic Discipline. For further explanation of the penalties see the academic honest policies linked above.
 
 ## Recording
 Pomona College prohibits video or voice recording of any lecture or discussion, except in cases that the office of the Dean of Students has granted a student permission according to the College’s Disability Accommodations Policy, or when permission is granted by the instructor. I choose to give permission in this course to be recorded by students. These recordings are for any reasonable use that arises from participation in this course. __These recordings cannot be distributed, transmitted or published in any media or form, nor be used for any commercial purposes.__
