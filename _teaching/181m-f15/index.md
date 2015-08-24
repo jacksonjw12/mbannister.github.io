@@ -15,22 +15,26 @@ draft: true
 ## Pomona College, Fall 2015
 ---
 
+<!-- TODO: Add description -->
+
 ## Instructor, lectures and office hours
 Instructor: Michael J. Bannister  
 Office: Edmunds Hall 230  
 Email: michael.bannister@pomona.edu  
 Office hours: T W 4pm--6pm, Th 10am--noon  
 Lectures: T Th 2:45pm--4:00pm in Edmunds Hall 101   
+<!-- TODO: Add piazza -->
 
 ## Textbooks and other resources
 
-_Computer Vision: Algorithms and Applications_  
+_Computer Vision: Algorithms and Applications_
 by [Richard Szeliski](//research.microsoft.com/en-us/um/people/szeliski/)  
-Springer  
-ISBN 978-1-84882-935-0  
+Springer, ISBN 978-1-84882-935-0.  
 [Free pdf download from Springer Link](//doi.org/10.1007/978-1-84882-935-0)  
 
-Additional readings will be linked from the course schedule.
+### Software
+For the assignments in this course you will be using [MATLAB](//www.mathworks.com/products/matlab/) or [GNU OCTAVE](//www.gnu.org/software/octave/). MATLAB is a commercial software package used for scientific computing, and GNU OCTAVE is a free alternative. The college has a license which allows students in the course to install MATLAB on their home computers, and it is installed on all lab computers. _Students may, with instructor permision, choose to do there assingments in another language, but this is not recommended._ Please place a comment at the top of every assignment which specifies which language you are using and the specification (OS, CPU and RAM) of the computer you were testing it on.
+
 
 ## Grading
 
@@ -43,13 +47,14 @@ Your grade will be based on a weighted average of your grades on the assigned ex
 The conversion to letter grades will be determined at the end of the course.
 
 ## Experiments
-There will be approximately fifteen short programming experiments, each of which should take no more than an hour to complete. The purpose of these experiments is to gain intuition for the material covered in class. The experiments are considered individual assignments. The experiments will need to be completed in [MATLAB](//www.mathworks.com/products/matlab/) or [OCTAVE](//www.gnu.org/software/octave/). _Note: MATLAB is available for free through the college._
+There will be approximately fifteen short programming experiments, each of which should take no more than an hour to complete. The purpose of these experiments is to gain intuition for the material covered in class, and are individual assignments.
 
 - Experiment 1: Color to black and white
 - Experiment 2: Median filtering and unsharp masking
+- Experiment 3: The frequency domain
 
 ## Projects
-There will be five projects, each of which will require a substantial time investment. __Start the projects early!__ The purpose of the projects is to gain a deep understanding for the challenges of implementing some of the methods presented in class. For the final project (Project 5) you will be free to choose the topic. In addition, you will be giving an in class presentation on Project 5. It is recommend that you complete the projects using [MATLAB](//www.mathworks.com/products/matlab) or [OCTAVE](//www.gnu.org/software/octave/), but you may use another language (e.g., [Julia](//julialang.org/)) with instructor permission. _Note: MATLAB is available for free through the college._
+There will be five projects, each of which will require a substantial time investment. __Start the projects early!__ The purpose of the projects is to gain a deep understanding for the challenges of implementing some of the methods presented in class. For the final project (Project 5) you will be free to choose the topic. In addition, you will be giving an in class presentation on Project 5. 
 
 - Project 1: Images of the Russian empire
 - Project 2: Compositing
@@ -58,6 +63,8 @@ There will be five projects, each of which will require a substantial time inves
 - Project 5: Final project
 
 ## Schedule
+
+The following schedule is to be considered tentative, and will likely change during the semester. The due dates in the schedule do not take precedence over the due dates in the assignment instructions. Please inform me of any inconsistencies that you notice. Links for slides, sample code, and additional readings will be placed in the schedule.
 
 - Week 1: Course introduction; Digital photography.
   - Tuesday (9/1):
@@ -108,15 +115,20 @@ There will be five projects, each of which will require a substantial time inves
 - Week 15
   - Tuesday (12/8): __Presentations__
   - Thursday (12/10): __No class__
+- Finals Week
+  - Thursday (12/17): __No exam__, __Project 5 due__
 
-<!--
-## Academic honesty
-TODO
+## Collaboration and Academic Honesty Policy
+As a student in this course, you are expected to understand and follow the academic honest policies of Pomona College (or your home campus) and the Department of Computer Science. Please take a few minutes to familiarize yourself with these policies:
+[Department of Computer Science Academic Honesty Policy](//www.cs.pomona.edu/academichonesty); [Pomona College Academic Honesty Policy](http://catalog.pomona.edu/content.php?catoid=7&navoid=394).
+Unless the instructions for an assignment explicitly allow a form of collaboration, assume that the standard academic honesty policies apply. If for any reason you do not understand how the academic policies apply to a particular course or assignment, discuss your concerns with the teaching staff for the course.
 
-## Accommodations for disabilities 
-TODO
+All of your __submitted code__ is expected to be completed solely by you (for individual assignments) or your assigned group (for group assignments) without outside assistance. Copying even a few lines of code from another student or other source that has not be explicitly allowed is not permitted. Submitted code may be analyzed by automated plagiarism detection software, which detects structural similarities in your code with other students submitted code (this quarter and in the past) and code available on internet repositories. Of course, high-level discussion of course material and assignments is permitted and encouraged, but this should never involve looking at another students monitor while they are working on an assignment.
+
+All __exams__ will be closed-note, closed-book, closed-computer and individual effort.
+
+If you do not abide by the academic honest policies, expect sever __penalties__. The first offense will result in failure in the course and will be reported to the Dean of Students Office. In the event of a second offense, the offense will be reported to the Board of Academic Discipline. For further explanation of the penalties see the academic honest policies linked above.
 
 ## Recording
-Pomona College prohibits video or voice recording of any lecture or discussion, except in cases that the office of the Dean of Students has granted a student permission according to the College’s Disability Accommodations Policy, or when permission is granted by the instructor. I choose to give permission in this course to be recorded by students. These recordings are for any reasonable use that arises from participation in this course. These recordings cannot be distributed, transmitted or published in any media or form, nor be used for any commercial purposes.
--->
+Pomona College prohibits video or voice recording of any lecture or discussion, except in cases that the office of the Dean of Students has granted a student permission according to the College’s Disability Accommodations Policy, or when permission is granted by the instructor. I choose to give permission in this course to be recorded by students. These recordings are for any reasonable use that arises from participation in this course. __These recordings cannot be distributed, transmitted or published in any media or form, nor be used for any commercial purposes.__
 
