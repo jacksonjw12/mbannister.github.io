@@ -11,15 +11,13 @@ syllabus: true
 ## Pomona College, Fall 2015
 ---
 
-<!-- TODO: Add description -->
-
 ## Instructor, lectures and office hours
 Instructor: Michael J. Bannister  
 Office: Edmunds Hall 230  
 Email: michael.bannister@pomona.edu  
 Office hours: T W 4pm--6pm, Th 10am--noon  
 Lectures: T Th 2:45pm--4:00pm in Edmunds Hall 101   
-<!-- TODO: Add piazza -->
+[Piazza discussion board](//piazza.com/pomona/fall2015/cs181m/home)
 
 ## Textbooks and other resources
 
@@ -29,8 +27,9 @@ Springer, ISBN 978-1-84882-935-0.
 [Free pdf download from Springer Link](//doi.org/10.1007/978-1-84882-935-0)  
 
 ### Software
-For the assignments in this course you will be using [MATLAB](//www.mathworks.com/products/matlab/) or [GNU OCTAVE](//www.gnu.org/software/octave/). MATLAB is a commercial software package used for scientific computing, and GNU OCTAVE is a free alternative. The college has a license which allows students in the course to install MATLAB on their home computers, and it is installed on all lab computers. _Students may, with instructor permision, choose to do there assingments in another language, but this is not recommended._ Please place a comment at the top of every assignment which specifies which language you are using and the specification (OS, CPU and RAM) of the computer you were testing it on.
+For the assignments in this course you will be using [MATLAB](//www.mathworks.com/products/matlab/) or [GNU OCTAVE](//www.gnu.org/software/octave/). MATLAB is a commercial software package used for scientific computing, and GNU OCTAVE is a free alternative. The college has a license which allows students in the course to install MATLAB on their home computers, and it is installed on all lab computers. In addition, the college has access to [lynda.com](//www.lynda.com) video tutorials for MATLAB. _Students may, with instructor permision, choose to do there assingments in another language, but this is not recommended._ Please place a comment at the top of every assignment which specifies which language you are using and the specification (OS, CPU and RAM) of the testing computer.
 
+Some photo editing tasks (e.g. importing, cropping and resizing) are more easily done is photo editing software than in MATLAB. We have installed [Adobe Photoshop](//www.adobe.com/products/photoshop.html) on the lab computers, and you may which to install [GIMP](//www.gimp.org) (a free alternative to Photoshop) on your personal computer.
 
 ## Grading
 
@@ -43,7 +42,7 @@ Your grade will be based on a weighted average of your grades on the assigned ex
 The conversion to letter grades will be determined at the end of the course.
 
 ## Experiments
-There will be approximately fifteen short programming experiments, each of which should take no more than an hour to complete. The purpose of these experiments is to gain intuition for the material covered in class, and are individual assignments.
+There will be approximately fifteen short programming experiments, each of which should take no more than an hour to complete. The purpose of these experiments is to gain intuition for the material covered in class.
 
 - Experiment 1: Color to black and white
 - Experiment 2: Median filtering and unsharp masking
@@ -127,4 +126,13 @@ If you do not abide by the academic honest policies, expect severe __penalties__
 
 ## Recording
 Pomona College prohibits video or voice recording of any lecture or discussion, except in cases that the office of the Dean of Students has granted a student permission according to the College’s Disability Accommodations Policy, or when permission is granted by the instructor. I choose to give permission in this course to be recorded by students. These recordings are for any reasonable use that arises from participation in this course. __These recordings cannot be distributed, transmitted or published in any media or form, nor be used for any commercial purposes.__
+
+## Acknowledgments
+The design of this course is in large part based on similar courses offered by:  
+[Chuck Dyer @ UW](//pages.cs.wisc.edu/~dyer/cs534/index.html), 
+[Alexei Efros @ UCB](//inst.eecs.berkeley.edu/~cs194-26/fa14/), 
+[Charless Fowlkes @ UCI](//www.ics.uci.edu/~fowlkes/class/cs116/), 
+[James Hays @ Brown](//cs.brown.edu/courses/cs129/), 
+[Kris Kitani @ CMU](//graphics.cs.cmu.edu/courses/15-463/2014_fall/) and  
+[Svetlana Lazebnik @ UNC](//www.cs.unc.edu/~lazebnik/research/fall08/)
 
