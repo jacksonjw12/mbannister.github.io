@@ -124,15 +124,23 @@ All __exams__ will be closed-note, closed-book, closed-computer and individual e
 
 If you do not abide by the academic honest policies, expect severe __penalties__. The first offense will result in failure in the course and will be reported to the Dean of Students Office. In the event of a second offense, the offense will be reported to the Board of Academic Discipline. For further explanation of the penalties see the academic honest policies linked above.
 
+## Academic Accommodations
+If you are seeking academic accommodations, you must contact your home college's disability coordinator to establish accommodations. You should plan to meet with your coordinator to discuss appropriate accommodations and may be asked to provide documentation necessary to verify disabilities. The disability coordinators for the Claremont Colleges are:
+<a href='mailto:Jan.Collins-Eaglin@pomona.edu'>Jan Collins-Eaglin</a>,
+<a href='mailto:julia.easley@claremontmckenna.edu'>Julia Easley (CMC)</a>, 
+<a href='mailto:Jill_Hawthorne@pitzer.edu'>Jill Hawthorne (Pitzer)</a>, 
+<a href='mailto:sdelator@scrippscollege.edu'>Sonia De la Torre Iniguez (Scripps)</a> and 
+<a href='mailto:hbird@hmc.edu'>Heidi Bird (HMC)</a>.
+
 ## Recording
 Pomona College prohibits video or voice recording of any lecture or discussion, except in cases that the office of the Dean of Students has granted a student permission according to the College’s Disability Accommodations Policy, or when permission is granted by the instructor. I choose to give permission in this course to be recorded by students. These recordings are for any reasonable use that arises from participation in this course. __These recordings cannot be distributed, transmitted or published in any media or form, nor be used for any commercial purposes.__
 
 ## Acknowledgments
-The design of this course is in large part based on similar courses offered by:  
+The design of this course is in large part based on similar courses offered by: 
 [Chuck Dyer @ UW](//pages.cs.wisc.edu/~dyer/cs534/index.html), 
 [Alexei Efros @ UCB](//inst.eecs.berkeley.edu/~cs194-26/fa14/), 
 [Charless Fowlkes @ UCI](//www.ics.uci.edu/~fowlkes/class/cs116/), 
 [James Hays @ Brown](//cs.brown.edu/courses/cs129/), 
-[Kris Kitani @ CMU](//graphics.cs.cmu.edu/courses/15-463/2014_fall/) and  
+[Kris Kitani @ CMU](//graphics.cs.cmu.edu/courses/15-463/2014_fall/) and 
 [Svetlana Lazebnik @ UNC](//www.cs.unc.edu/~lazebnik/research/fall08/)
 
