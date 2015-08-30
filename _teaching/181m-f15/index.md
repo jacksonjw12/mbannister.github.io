@@ -23,17 +23,18 @@ Lectures: T Th 2:45pm--4:00pm in Edmunds Hall 101
 
 _Computer Vision: Algorithms and Applications_
 by [Richard Szeliski](//research.microsoft.com/en-us/um/people/szeliski/)  
-Springer, ISBN 978-1-84882-935-0.  
-[Free pdf download from Springer Link](//doi.org/10.1007/978-1-84882-935-0)  
+Springer, ISBN 978-1-84882-935-0. [PDF @ Springer Link](//doi.org/10.1007/978-1-84882-935-0)
+
+[MATLAB Documentation](//www.mathworks.com/help/matlab/)
 
 ### Software
-For the assignments in this course you will be using [MATLAB](//www.mathworks.com/products/matlab/) or [GNU OCTAVE](//www.gnu.org/software/octave/). MATLAB is a commercial software package used for scientific computing, and GNU OCTAVE is a free alternative. The college has a license which allows students in the course to install MATLAB on their home computers, and it is installed on all lab computers. In addition, the college has access to [lynda.com](//www.lynda.com) video tutorials for MATLAB. _Students may, with instructor permision, choose to do there assingments in another language, but this is not recommended._ Please place a comment at the top of every assignment which specifies which language you are using and the specification (OS, CPU and RAM) of the testing computer.
+For the assignments in this course you will be using [MATLAB](//www.mathworks.com/products/matlab/) or [GNU OCTAVE](//www.gnu.org/software/octave/). MATLAB is a commercial software package used for scientific computing, and GNU OCTAVE is a free alternative. The college has a license which allows students in the course to install MATLAB on their home computers, and it is installed on all lab computers. In addition, the college has access to [lynda.com](//www.lynda.com) video tutorials for MATLAB. _Students may, with instructor permision, choose to do their assingments in another language, but this is not recommended._ Please place a comment at the top of every assignment which specifies which language you are using and the specification (OS, CPU and RAM) of the testing computer.
 
-Some photo editing tasks (e.g. importing, cropping and resizing) are more easily done is photo editing software than in MATLAB. We have installed [Adobe Photoshop](//www.adobe.com/products/photoshop.html) on the lab computers, and you may which to install [GIMP](//www.gimp.org) (a free alternative to Photoshop) on your personal computer.
+Some tasks (e.g. importing, cropping and resizing) are more easily done is photo editing software than in MATLAB. We have installed [Adobe Photoshop](//www.adobe.com/products/photoshop.html) on the lab computers, and you may wish to install [GIMP](//www.gimp.org) (a free alternative to Photoshop) on your personal computer.
 
 ## Grading
 
-Your grade will be based on a weighted average of your grades on the assigned experiments and projects, as follows:
+Your grade in the course is a weighted average of your grades on the assigned experiments and projects, as follows:
 
 - Experiments: 15% (~1% each)
 - Projects 1--4: 60% (15% each)
@@ -42,7 +43,7 @@ Your grade will be based on a weighted average of your grades on the assigned ex
 The conversion to letter grades will be determined at the end of the course.
 
 ## Experiments
-There will be approximately fifteen short programming experiments, each of which should take no more than an hour to complete. The purpose of these experiments is to gain intuition for the material covered in class.
+There will be approximately fifteen short programming experiments, each of which should take no more than an hour to complete. The purpose of these experiments is to gain intuition for the material covered in class and to learn to use MATLAB.
 
 - Experiment 1: Color to black and white
 - Experiment 2: Median filtering and unsharp masking
@@ -118,7 +119,7 @@ As a student in this course, you are expected to understand and follow the acade
 [Department of Computer Science Academic Honesty Policy](//www.cs.pomona.edu/academichonesty); [Pomona College Academic Honesty Policy](http://catalog.pomona.edu/content.php?catoid=7&navoid=394).
 Unless the instructions for an assignment explicitly allow a form of collaboration, assume that the standard academic honesty policies apply. If for any reason you do not understand how the academic policies apply to a particular course or assignment, discuss your concerns with the teaching staff for the course.
 
-All of your __submitted code__ is expected to be completed solely by you (for individual assignments) or your assigned group (for group assignments) without outside assistance. Copying even a few lines of code from another student or other source that has not be explicitly allowed is not permitted. Submitted code may be analyzed by automated plagiarism detection software, which detects structural similarities in your code with other students submitted code (this quarter and in the past) and code available on internet repositories. Of course, high-level discussion of course material and assignments is permitted and encouraged, but this should never involve looking at another students monitor while they are working on an assignment.
+Submitted code may be analyzed by automated plagiarism detection software, which detects structural similarities in your code with other students submitted code (this quarter and in the past) and code available on internet repositories.
 
 All __exams__ will be closed-note, closed-book, closed-computer and individual effort.
 
