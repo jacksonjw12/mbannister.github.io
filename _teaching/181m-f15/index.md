@@ -28,9 +28,9 @@ Springer, ISBN 978-1-84882-935-0. [PDF @ Springer Link](//doi.org/10.1007/978-1-
 [MATLAB Documentation](//www.mathworks.com/help/matlab/)
 
 ### Software
-For the assignments in this course you will be using [MATLAB](//www.mathworks.com/products/matlab/) or [GNU OCTAVE](//www.gnu.org/software/octave/). MATLAB is a commercial software package used for scientific computing, and GNU OCTAVE is a free alternative. The college has a license which allows students in the course to install MATLAB on their home computers, and it is installed on all lab computers. In addition, the college has access to [lynda.com](//www.lynda.com) video tutorials for MATLAB. _Students may, with instructor permision, choose to do their assingments in another language, but this is not recommended._ Please place a comment at the top of every assignment which specifies which language you are using and the specification (OS, CPU and RAM) of the testing computer.
+For the assignments in this course you will be using [MATLAB](//www.mathworks.com/products/matlab/) or [GNU OCTAVE](//www.gnu.org/software/octave/). MATLAB is a commercial software package used for scientific computing, and GNU OCTAVE is a free alternative. The college has a license which allows students in the course to install MATLAB on their home computers, and it is installed on all lab computers. In addition, the college has access to [lynda.com](//www.lynda.com) video tutorials for MATLAB. _Students may, with instructor permision, choose to do their assingments in another language, but this is not recommended._ Please place a comment at the top of every assignment, specifying which language you are using and the specifications (OS, CPU and RAM) of the testing computer.
 
-Some tasks (e.g. importing, cropping and resizing) are more easily done is photo editing software than in MATLAB. We have installed [Adobe Photoshop](//www.adobe.com/products/photoshop.html) on the lab computers, and you may wish to install [GIMP](//www.gimp.org) (a free alternative to Photoshop) on your personal computer.
+Some tasks (e.g. importing, cropping and resizing) are more easily done in photo editing software. We have installed [Adobe Photoshop](//www.adobe.com/products/photoshop.html) on the lab computers, and you may wish to install [GIMP](//www.gimp.org) (a free alternative to Photoshop) on your personal computer.
 
 ## Grading
 
@@ -50,7 +50,7 @@ There will be approximately fifteen short programming experiments, each of which
 - Experiment 3: The frequency domain
 
 ## Projects
-There will be five projects, each of which will require a substantial time investment. __Start the projects early!__ The purpose of the projects is to gain a deep understanding for the challenges of implementing some of the methods presented in class. For the final project (Project 5) you will be free to choose the topic. In addition, you will be giving an in class presentation on Project 5. 
+There will be five projects, each of which will require a substantial time investment. __Start the projects early!__ The purpose of the projects is to gain a deep understanding for the challenges of implementing some of the methods presented in class. For the final project (Project 5) you will be free to choose the topic. In addition, you will be giving an in class presentation on Project 5.
 
 - Project 1: Images of the Russian empire
 - Project 2: Compositing
@@ -127,7 +127,7 @@ If you do not abide by the academic honest policies, expect severe __penalties__
 
 ## Academic Accommodations
 If you are seeking academic accommodations, you must contact your home college's disability coordinator to establish accommodations. You should plan to meet with your coordinator to discuss appropriate accommodations and may be asked to provide documentation necessary to verify disabilities. The disability coordinators for the Claremont Colleges are:
-<a href='mailto:Jan.Collins-Eaglin@pomona.edu'>Jan Collins-Eaglin</a>,
+<a href='mailto:Jan.Collins-Eaglin@pomona.edu'>Jan Collins-Eaglin (Pomona)</a>,
 <a href='mailto:julia.easley@claremontmckenna.edu'>Julia Easley (CMC)</a>, 
 <a href='mailto:Jill_Hawthorne@pitzer.edu'>Jill Hawthorne (Pitzer)</a>, 
 <a href='mailto:sdelator@scrippscollege.edu'>Sonia De la Torre Iniguez (Scripps)</a> and 
