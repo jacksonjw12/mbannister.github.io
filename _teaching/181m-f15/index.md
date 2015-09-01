@@ -19,6 +19,13 @@ Office hours: T W 4pm--6pm, Th 10am--noon
 Lectures: T Th 2:45pm--4:00pm in Edmunds Hall 101   
 [Piazza discussion board](//piazza.com/pomona/fall2015/cs181m/home)
 
+## Catalog description
+Introduction to the mathematical and algorithmic techniques from image processing and computer vision via applications to computational photography. Computational photography is an exciting new field at the intersection of computer vision, graphics and machine learning. Its goal is to overcome the limitations of the traditional camera by using computational techniques to create, enhance, modify, and interpret digital images.
+
+Topics may include: noise and blur reduction, warping and morphing, hole-filling, panoramic photo stitching, matting and blending, high dynamic range imaging and texture synthesis.
+
+Prerequisites: CSCI055 PO (Discrete Math), CSCI062 PO (Data Structures), and MATH060 PO (Linear Algebra).
+
 ## Textbooks and other resources
 
 _Computer Vision: Algorithms and Applications_
@@ -43,14 +50,14 @@ Your grade in the course is a weighted average of your grades on the assigned ex
 The conversion to letter grades will be determined at the end of the course.
 
 ## Experiments
-There will be approximately fifteen short programming experiments, each of which should take no more than an hour to complete. The purpose of these experiments is to gain intuition for the material covered in class and to learn to use MATLAB.
+There will be approximately fifteen short programming experiments, each of which should take no more than an hour to complete. The purpose of these experiments is to gain intuition for the material covered in class and to learn to use MATLAB. You may work together when working on the experiments, but it is expected that any code or text you turn was typed by you and not "copy and pasted" from another student or other source.
 
 - Experiment 1: Color to black and white
 - Experiment 2: Median filtering and unsharp masking
 - Experiment 3: The frequency domain
 
 ## Projects
-There will be five projects, each of which will require a substantial time investment. __Start the projects early!__ The purpose of the projects is to gain a deep understanding for the challenges of implementing some of the methods presented in class. For the final project (Project 5) you will be free to choose the topic. In addition, you will be giving an in class presentation on Project 5.
+There will be five projects, each of which will require a substantial time investment. __Start the projects early!__ The purpose of the projects is to gain a deep understanding for the challenges of implementing some of the methods presented in class. For the final project (Project 5) you will be free to choose the topic. In addition, you will be giving an in class presentation on Project 5. Projects 1 to 4 will be pair programming projects, and project 5 will be done in groups of two are three students.
 
 - Project 1: Images of the Russian empire
 - Project 2: Compositing
