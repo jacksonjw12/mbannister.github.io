@@ -69,8 +69,8 @@ There will be five projects, each of which will require a substantial time inves
 
 The following schedule is to be considered tentative, and will likely change during the semester. Please inform me of any inconsistencies that you notice. Links for slides, sample code, and additional readings will be placed in the schedule.
 
-- Week 1:
-  - Tuesday (9/1): Introduction ([slides](slides/01_Introduction.pdf)).
+- Week 1
+  - Tuesday (9/1): Introduction ([slides](slides/01_Introduction.pdf)); Reading: 1.1, 1.2
   - Thursday (9/3): Digital photography
 - Week 2: Image processing 1/2
   - Tuesday (9/8):
