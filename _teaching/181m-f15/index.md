@@ -69,9 +69,13 @@ There will be five projects, each of which will require a substantial time inves
 
 The following schedule is to be considered tentative, and will likely change during the semester. Please inform me of any inconsistencies that you notice. Links for slides, sample code, and additional readings will be placed in the schedule.
 
+*[URM]: Up and Running with MATLAB
+
 - Week 1
-  - Tuesday (9/1): Introduction ([slides](slides/01_Introduction.pdf)); Reading: 1.1, 1.2
-  - Thursday (9/3): Digital photography; Reading: 2.1 (mostly 2.1.5), 2.2 (mostly 2.2.3)
+  - Tuesday (9/1): Introduction ([slides](slides/01_Introduction.pdf))  
+    Szeliski: 1.1, 1.2; Lynda.com URM: 0-2
+  - Thursday (9/3): Digital photography  
+    Szeliski: 2.1 (mostly 2.1.5), 2.2 (mostly 2.2.3); Lynda.com URM: 3-5
 - Week 2: Image processing 1/2
   - Tuesday (9/8):
   - Thursday (9/10):
