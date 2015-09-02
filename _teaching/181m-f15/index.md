@@ -15,7 +15,7 @@ syllabus: true
 Instructor: Michael J. Bannister  
 Office: Edmunds Hall 230  
 Email: michael.bannister@pomona.edu  
-Office hours: T W 4pm--6pm, Th 10am--noon  
+Office hours: T W 4pm--6pm, Th 10am--11:45am  
 Lectures: T Th 2:45pm--4:00pm in Edmunds Hall 101   
 [Piazza discussion board](//piazza.com/pomona/fall2015/cs181m/home)
 
