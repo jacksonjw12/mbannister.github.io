@@ -69,14 +69,14 @@ There will be five projects, each of which will require a substantial time inves
 
 The following schedule is to be considered tentative, and will likely change during the semester. Please inform me of any inconsistencies that you notice. Links for slides, sample code, and additional readings will be placed in the schedule.
 
-- Week 1: Course introduction; Digital photography.
-  - Tuesday (9/1):
-  - Thursday (9/3):
+- Week 1:
+  - Tuesday (9/1): Introduction ([slides](slides/01_Introduction.pdf)).
+  - Thursday (9/3): Digital photography
 - Week 2: Image processing 1/2
   - Tuesday (9/8):
   - Thursday (9/10):
 - Week 3: Image processing 2/2
-  - Monday (9/14): __Project 1 due__
+  - Monday (9/14):
   - Tuesday (9/15):
   - Thursday (9/17):
 - Week 4: Blending and compositing 1/2 (Laplacian)
@@ -85,14 +85,14 @@ The following schedule is to be considered tentative, and will likely change dur
 - Week 5: Blending and compositing 2/2 (Poisson); Matting.
   - Tuesday (9/29):
   - Thursday (10/1):
-  - Friday (10/2): __Project 2 due__
+  - Friday (10/2):
 - Week 6: Homographies and mosaics (panoramas)
   - Tuesday (10/6):
   - Thursday (10/8):
 - Week 7: Image retargeting
   - Tuesday (10/13):
   - Thursday (10/15):
-  - Friday (10/16): __Project 3 due__
+  - Friday (10/16):
 - Week 8: Texture synthesis
   - Tuesday (10/20): __No class__
   - Thursday (10/22): 
@@ -102,7 +102,7 @@ The following schedule is to be considered tentative, and will likely change dur
 - Week 10: Non-photorealistic rendering
   - Tuesday (11/3):
   - Thursday (11/5):
-  - Friday (11/6): __Project 4 due__
+  - Friday (11/6):
 - Week 11: 3D reconstruction
   - Tuesday (11/10):
   - Thursday (11/12):
@@ -119,7 +119,7 @@ The following schedule is to be considered tentative, and will likely change dur
   - Tuesday (12/8): __Presentations__
   - Thursday (12/10): __No class__
 - Finals Week
-  - Thursday (12/17): __No exam__, __Project 5 due__
+  - Thursday (12/17): __No exam__,
 
 ## Collaboration and Academic Honesty Policy
 As a student in this course, you are expected to understand and follow the academic honest policies of Pomona College (or your home campus) and the Department of Computer Science. Please take a few minutes to familiarize yourself with these policies:
