@@ -71,7 +71,7 @@ The following schedule is to be considered tentative, and will likely change dur
 
 - Week 1
   - Tuesday (9/1): Introduction ([slides](slides/01_Introduction.pdf)); Reading: 1.1, 1.2
-  - Thursday (9/3): Digital photography
+  - Thursday (9/3): Digital photography; Reading: 2.1 (mostly 2.1.5), 2.2 (mostly 2.2.3)
 - Week 2: Image processing 1/2
   - Tuesday (9/8):
   - Thursday (9/10):
