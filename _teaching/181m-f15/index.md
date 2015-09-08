@@ -39,6 +39,8 @@ For the assignments in this course you will be using [MATLAB](//www.mathworks.co
 
 Some tasks (e.g. importing, cropping and resizing) are more easily done in photo editing software. We have installed [Adobe Photoshop](//www.adobe.com/products/photoshop.html) on the lab computers, and you may wish to install [GIMP](//www.gimp.org) (a free alternative to Photoshop) on your personal computer.
 
+__Update(9/8):__ If you are working with images from your own camera, you may desire low level access to the RAW data your camera captures. To get this data you need to set it to save RAW image files---I recommend you also have it save a jpg file. This is not possible on all camera, and if you are unsure of how to set this option come by office hours. To work with these file with full control you can use a program called [dcraw](https://www.cybercom.net/~dcoffin/dcraw/).
+
 ## Grading
 
 Your grade in the course is a weighted average of your grades on the assigned experiments and projects, as follows:
@@ -72,31 +74,32 @@ The following schedule is to be considered tentative, and will likely change dur
 *[URM]: Up and Running with MATLAB
 
 - Week 1
-  - Tuesday (9/1): Introduction ([slides](slides/01_Introduction.pdf))  
+  - Tuesday (9/1): Introduction  
     Szeliski: 1.1, 1.2; Lynda.com URM: 0-2
   - Thursday (9/3): Digital photography  
     Szeliski: 2.1 (mostly 2.1.5), 2.2 (mostly 2.2.3); Lynda.com URM: 3-5
-- Week 2: Image processing 1/2
-  - Tuesday (9/8):
-  - Thursday (9/10):
-- Week 3: Image processing 2/2
-  - Monday (9/14):
-  - Tuesday (9/15):
-  - Thursday (9/17):
-- Week 4: Blending and compositing 1/2 (Laplacian)
+- Week 2
+  - Tuesday (9/8): Sensors and color  
+    Szeliski: 2.3
+  - Thursday (9/10): Point operators and linear filtering  
+    Szeliski: 3.1, 3.2
+- Week 3
+  - Tuesday (9/15): Image transformations  
+    Szeliski: 2.1, 3.6
+  - Thursday (9/17): Warping and morphing  
+    Szeliski: 3.6
+- Week 4: Fourier transformations
   - Tuesday (9/22):
   - Thursday (9/24): __No class__
-- Week 5: Blending and compositing 2/2 (Poisson); Matting.
+- Week 5: Blending and compositing; Matting.
   - Tuesday (9/29):
   - Thursday (10/1):
-  - Friday (10/2):
 - Week 6: Homographies and mosaics (panoramas)
   - Tuesday (10/6):
   - Thursday (10/8):
 - Week 7: Image retargeting
   - Tuesday (10/13):
   - Thursday (10/15):
-  - Friday (10/16):
 - Week 8: Texture synthesis
   - Tuesday (10/20): __No class__
   - Thursday (10/22): 
@@ -106,7 +109,6 @@ The following schedule is to be considered tentative, and will likely change dur
 - Week 10: Non-photorealistic rendering
   - Tuesday (11/3):
   - Thursday (11/5):
-  - Friday (11/6):
 - Week 11: 3D reconstruction
   - Tuesday (11/10):
   - Thursday (11/12):
