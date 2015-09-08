@@ -93,9 +93,12 @@ The total score with extra credit is capped at 105 points.
 This is considered a pair project. You should form a team with another student in the class, and pick a team name. Once you have formed the team and named yourself, each member the of the team must email me with the team name and the list of team member. If you have a strong desire (or legitimate reason) to work in a team of one or three, please discuss this with be vis email or office hours. For teams of one or three the project specifications and grading rubric may be adjusted to keep things fair to all students.
 
 ## Parting words of advise
-- Remember to convert your input images to doubles.
-- Translating an image is easy to do in MATLAB by using `circshift`.
-- The borders of the images will hurt your scoring, try computing your metric on a set of internal pixels.
+- Make sure you understand [MATLAB's matrix indexing](http://www.mathworks.com/help/matlab/math/matrix-indexing.html).
+- Make sure you understand [MATLAB's functions](http://www.mathworks.com/help/matlab/functions.html) and use them to organize your code.
+- Look up any functions in the starter code you don't know/understand.
+- Remember to convert your input images to doubles, using `im2double`.
+- "Translating" an image is easy to do in MATLAB by using `circshift`.
+- The borders of the images will hurt the accuracy your scoring, try computing your metric on a set of internal pixels.
 - Output all of your images to jpg, it'll save you a lot of disk space.
 - __START EARLY!!!__ You should have complete a basic coarse-to-fine pyramid by 9/15.
 
