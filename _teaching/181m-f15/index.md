@@ -67,7 +67,7 @@ There will be five projects, each of which will require a substantial time inves
 
 ## Schedule
 
-The following schedule is to be considered tentative, and will likely change during the semester. Please inform me of any inconsistencies that you notice. Links for slides, sample code, and additional readings will be placed in the schedule.
+The following schedule is to be considered tentative, and will likely change during the semester. Please inform me of any inconsistencies that you notice. Links for sample code, and additional readings will be placed in the schedule. The lecture slides will be available on Piazza.
 
 *[URM]: Up and Running with MATLAB
 
