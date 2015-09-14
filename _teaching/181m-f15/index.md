@@ -132,6 +132,15 @@ The following schedule is to be considered tentative, and will likely change dur
 - Finals Week
   - Thursday (12/17): __No exam__,
 
+## External links
+I will addd relevant link to other pages here.
+
+- [The Five Pillars of Exposure (video)](https://www.youtube.com/watch?v=c9ZwMuP1vQg)
+- [The Truth About Lenses and Perspective (video)](https://www.youtube.com/watch?v=FP3kvSbN8q0)
+- [Demystifying the Inverse Square Law (video)](https://www.youtube.com/watch?v=hjIKwOdfPMw)
+- [The Late Show with Stephen Colbert Intro, using tilt-shift lens? (video)](https://www.youtube.com/watch?v=Wf4_bcrJ864)
+- [An Intuitive Explanation of Fourier Theory](http://cns-alumni.bu.edu/~slehar/fourier/fourier.html)
+
 ## Collaboration and Academic Honesty Policy
 As a student in this course, you are expected to understand and follow the academic honest policies of Pomona College (or your home campus) and the Department of Computer Science. Please take a few minutes to familiarize yourself with these policies:
 [Department of Computer Science Academic Honesty Policy](//www.cs.pomona.edu/academichonesty); [Pomona College Academic Honesty Policy](http://catalog.pomona.edu/content.php?catoid=7&navoid=394).
