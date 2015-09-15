@@ -54,7 +54,7 @@ The conversion to letter grades will be determined at the end of the course.
 ## Experiments
 There will be approximately fifteen short programming experiments, each of which should take no more than an hour to complete. The purpose of these experiments is to gain intuition for the material covered in class and to learn to use MATLAB. You may work together when working on the experiments, but it is expected that any code or text you turn in was typed by you and not "copy and pasted" from another student or other source.
 
-- [Experiment 1: Color to black and white](experiment01.html)
+- [Experiment 1: Color to black and white](experiment01.html) ([Solution](experiment01_sol.m))
 - [Experiment 2: Demosaicing with bilinear interpolation](experiment02.html)
 
 <!--
