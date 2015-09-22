@@ -89,16 +89,19 @@ The following schedule is to be considered tentative, and will likely change dur
   - Thursday (9/10): Point operators and linear filtering  
     Szeliski: 3.1, 3.2
 - Week 3
-  - Tuesday (9/15): Image transformations  
+  - Tuesday (9/15): Image transformations and warping  
     Szeliski: 2.1, 3.6
-  - Thursday (9/17): Warping and morphing  
-    Szeliski: 3.6
-- Week 4: Fourier transformations
-  - Tuesday (9/22):
-  - Thursday (9/24): __No class__
-- Week 5: Blending and compositing; Matting.
-  - Tuesday (9/29):
-  - Thursday (10/1):
+  - Thursday (9/17): Morphing and Fourier transforms  
+    Szeliski: 3.6, 3.4
+- Week 4
+  - Tuesday (9/22): Laplacian blending and compositing  
+    Szeliski: 3.5
+  - Thursday (9/24): __No class__  
+    Go outside and take some picture!
+  - Sunday (9/27): __Project 1 due!__
+- Week 5
+  - Tuesday (9/29): Gradient domain editing
+  - Thursday (10/1): Matting
 - Week 6: Homographies and mosaics (panoramas)
   - Tuesday (10/6):
   - Thursday (10/8):
