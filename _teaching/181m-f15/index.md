@@ -72,6 +72,10 @@ There will be five projects, each of which will require a substantial time inves
 - Project 4: High dynamic range photography
 - Project 5: Final project
 
+## Examples
+I will place code examples from class here.
+- [Example 1: Fourier domain manipulation](example01.zip)
+
 ## Schedule
 
 The following schedule is to be considered tentative, and will likely change during the semester. Please inform me of any inconsistencies that you notice. Links for sample code, and additional readings will be placed in the schedule. The lecture slides will be available on Piazza.
