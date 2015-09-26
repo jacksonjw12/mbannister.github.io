@@ -7,7 +7,7 @@ title: "Project 1"
 
 ## Team email due: 9/10 @ 11:59pm
 
-## Project due: 9/24 @ 11:59pm
+## Project due: <s>&nbsp;9/24&nbsp;</s> 9/27 @ 11:59pm
 
 ---
 

@@ -54,7 +54,7 @@ The conversion to letter grades will be determined at the end of the course.
 ## Experiments
 There will be approximately fifteen short programming experiments, each of which should take no more than an hour to complete. The purpose of these experiments is to gain intuition for the material covered in class and to learn to use MATLAB. You may work together when working on the experiments, but it is expected that any code or text you turn in was typed by you and not "copy and pasted" from another student or other source.
 
-- [Experiment 1: Color to black and white](experiment01.html)
+- [Experiment 1: Color to black and white](experiment01.html) ([Solution](experiment01_sol.m))
 - [Experiment 2: Demosaicing with bilinear interpolation](experiment02.html)
 
 <!--
@@ -71,6 +71,11 @@ There will be five projects, each of which will require a substantial time inves
 - Project 3: Photo mosaics (panoramas)
 - Project 4: High dynamic range photography
 - Project 5: Final project
+
+## Examples
+I will place code examples from class here.
+
+- [Example 1: Fourier domain manipulation](example01.zip)
 
 ## Schedule
 
@@ -89,16 +94,19 @@ The following schedule is to be considered tentative, and will likely change dur
   - Thursday (9/10): Point operators and linear filtering  
     Szeliski: 3.1, 3.2
 - Week 3
-  - Tuesday (9/15): Image transformations  
+  - Tuesday (9/15): Image transformations and warping  
     Szeliski: 2.1, 3.6
-  - Thursday (9/17): Warping and morphing  
-    Szeliski: 3.6
-- Week 4: Fourier transformations
-  - Tuesday (9/22):
-  - Thursday (9/24): __No class__
-- Week 5: Blending and compositing; Matting.
-  - Tuesday (9/29):
-  - Thursday (10/1):
+  - Thursday (9/17): Morphing and Fourier transforms  
+    Szeliski: 3.6, 3.4
+- Week 4
+  - Tuesday (9/22): Laplacian blending and compositing  
+    Szeliski: 3.5
+  - Thursday (9/24): __No class__  
+    Go outside and take some picture!
+  - Sunday (9/27): __Project 1 due!__
+- Week 5
+  - Tuesday (9/29): Gradient domain editing
+  - Thursday (10/1): Matting
 - Week 6: Homographies and mosaics (panoramas)
   - Tuesday (10/6):
   - Thursday (10/8):
@@ -131,6 +139,15 @@ The following schedule is to be considered tentative, and will likely change dur
   - Thursday (12/10): __No class__
 - Finals Week
   - Thursday (12/17): __No exam__,
+
+## External links
+I will addd relevant link to other pages here.
+
+- [The Five Pillars of Exposure (video)](https://www.youtube.com/watch?v=c9ZwMuP1vQg)
+- [The Truth About Lenses and Perspective (video)](https://www.youtube.com/watch?v=FP3kvSbN8q0)
+- [Demystifying the Inverse Square Law (video)](https://www.youtube.com/watch?v=hjIKwOdfPMw)
+- [The Late Show with Stephen Colbert Intro, using tilt-shift lens? (video)](https://www.youtube.com/watch?v=Wf4_bcrJ864)
+- [An Intuitive Explanation of Fourier Theory](http://cns-alumni.bu.edu/~slehar/fourier/fourier.html)
 
 ## Collaboration and Academic Honesty Policy
 As a student in this course, you are expected to understand and follow the academic honest policies of Pomona College (or your home campus) and the Department of Computer Science. Please take a few minutes to familiarize yourself with these policies:
