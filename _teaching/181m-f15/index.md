@@ -67,7 +67,7 @@ There will be approximately fifteen short programming experiments, each of which
 There will be five projects, each of which will require a substantial time investment. __Start the projects early!__ The purpose of the projects is to gain a deep understanding for the challenges of implementing some of the methods presented in class. For the final project (Project 5) you will be free to choose the topic. In addition, you will be giving an in class presentation on Project 5. Projects 1 to 4 will be pair programming projects, and project 5 will be done in groups of two or three students.
 
 - [Project 1: Images of the Russian empire](project01.html)
-- Project 2: Compositing
+- [Project 2: Fun with frequencies](project02.html)
 - Project 3: Photo mosaics (panoramas)
 - Project 4: High dynamic range photography
 - Project 5: Final project
