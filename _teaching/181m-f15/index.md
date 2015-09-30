@@ -56,11 +56,7 @@ There will be approximately fifteen short programming experiments, each of which
 
 - [Experiment 1: Color to black and white](experiment01.html) ([Solution](experiment01_sol.m))
 - [Experiment 2: Demosaicing with bilinear interpolation](experiment02.html)
-
-<!--
-- Experiment 2: Median filtering and unsharp masking
-- Experiment 3: The frequency domain
--->
+- [Experiment 3: Noisy Gnomes](experiment03.html)
 
 
 ## Projects
