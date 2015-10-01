@@ -102,8 +102,8 @@ The following schedule is to be considered tentative, and will likely change dur
     Go outside and take some picture!
   - Sunday (9/27): __Project 1 due!__
 - Week 5
-  - Tuesday (9/29): Gradient domain editing
-  - Thursday (10/1): Matting
+  - Tuesday (9/29): Details of Laplacian blending and overview of Poisson blending
+  - Thursday (10/1): Homographies <!-- TODO: fit in Matting -->
 - Week 6: Homographies and mosaics (panoramas)
   - Tuesday (10/6):
   - Thursday (10/8):
