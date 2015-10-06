@@ -102,11 +102,14 @@ The following schedule is to be considered tentative, and will likely change dur
     Go outside and take some picture!
   - Sunday (9/27): __Project 1 due!__
 - Week 5
-  - Tuesday (9/29): Details of Laplacian blending and overview of Poisson blending
-  - Thursday (10/1): Homographies <!-- TODO: fit in Matting -->
-- Week 6: Homographies and mosaics (panoramas)
-  - Tuesday (10/6):
-  - Thursday (10/8):
+  - Tuesday (9/29): Details of Laplacian blending and overview of Poisson blending  
+    Szeliski: 3.5, 9.3
+  - Thursday (10/1): Homographies <!-- TODO: fit in Matting -->  
+    Szeliski: 2.1, 9.1, 9.2
+- Week 6
+  - Tuesday (10/6): Automatic Correspondence for Mosaics  
+    Szeliski: 6.1
+  - Thursday (10/8): Singular Value Decomposition (theory and practice)
 - Week 7: Image retargeting
   - Tuesday (10/13):
   - Thursday (10/15):
