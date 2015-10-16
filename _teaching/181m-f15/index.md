@@ -65,7 +65,7 @@ There will be five projects, each of which will require a substantial time inves
 
 - [Project 1: Images of the Russian empire](project01.html)
 - [Project 2: Fun with frequencies](project02.html)
-- Project 3: Photo mosaics (panoramas)
+- [Project 3: Photo mosaics (panoramas)](project03.html)
 - Project 4: High dynamic range photography
 - Project 5: Final project
 
