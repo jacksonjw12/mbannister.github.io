@@ -141,8 +141,9 @@ The following schedule is to be considered tentative, and will likely change dur
   - Thursday (12/17): __No exam__,
 
 ## External links
-I will addd relevant link to other pages here.
+I will add relevant link to other pages here.
 
+- [Light L16 Camera](https://light.co)
 - [The Five Pillars of Exposure (video)](https://www.youtube.com/watch?v=c9ZwMuP1vQg)
 - [The Truth About Lenses and Perspective (video)](https://www.youtube.com/watch?v=FP3kvSbN8q0)
 - [Demystifying the Inverse Square Law (video)](https://www.youtube.com/watch?v=hjIKwOdfPMw)
