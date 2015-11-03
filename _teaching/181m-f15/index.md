@@ -70,7 +70,7 @@ There will be five projects, each of which will require a substantial time inves
 - [Project 1: Images of the Russian empire](project01.html)
 - [Project 2: Fun with frequencies](project02.html)
 - [Project 3: Photo mosaics (panoramas)](project03.html)
-- Project 4: 3D Reconstruction
+- [Project 4: 3D Reconstruction](project04.html)
 - Project 5: Final project
 
 ## Examples
@@ -129,10 +129,10 @@ The following schedule is to be considered tentative, and will likely change dur
     Szeliski: 11; HZ: 6, 9, 10
   - Thursday (10/29): Overview of high dynamic range photography and tone mapping
 - Week 10:
-  - Tuesday (11/3): Practical aspects of 3D reconstruction  
+  - Tuesday (11/3): Object Recognition
+  - Thursday (11/5): Object recognition; Practical aspects of 3D reconstruction for Project 4 
     Szeliski: 11; HZ: 7, 11
-  - Thursday (11/5): Object recognition
-- Week 11: Image understanding
+- Week 11: Image segmentation
   - Tuesday (11/10):
   - Thursday (11/12):
 - Week 12: Gradient domain methods: Redux
