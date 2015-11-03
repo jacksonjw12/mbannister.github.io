@@ -32,6 +32,10 @@ _Computer Vision: Algorithms and Applications_
 by [Richard Szeliski](//research.microsoft.com/en-us/um/people/szeliski/)  
 Springer, ISBN 978-1-84882-935-0. [PDF @ Springer Link](//doi.org/10.1007/978-1-84882-935-0)
 
+_Multiple View Geometry in Computer Vision_
+by Richard Hartley and Andrew Zisserman  
+Cambridge, ISBN 978-0-521-54051-3. [PDF @ Worldcat](//ccl.on.worldcat.org/oclc/171123855?databaseList=1708,239,245,251,638)
+
 [MATLAB Documentation](//www.mathworks.com/help/matlab/)
 
 ### Software
@@ -111,16 +115,21 @@ The following schedule is to be considered tentative, and will likely change dur
     Szeliski: 6.1
   - Thursday (10/8): Singular Value Decomposition (theory and practice)
 - Week 7:
-  - Tuesday (10/13): Texture and histograms
-  - Thursday (10/15): Texture and stitching
+  - Tuesday (10/13): Texture and histograms  
+    Szeliski: 10.5
+  - Thursday (10/15): Texture and stitching  
+    Szeliski: 10.5
 - Week 8: Texture synthesis
   - Tuesday (10/20): __No class__
-  - Thursday (10/22): Stereo geometry
+  - Thursday (10/22): Stereo geometry  
+    Szeliski: 11; HZ: 6, 9, 10
 - Week 9:
   - Tuesday (10/27): More on stereo geometry
+    Szeliski: 11; HZ: 6, 9, 10
   - Thursday (10/29): Overview of high dynamic range photography and tone mapping
 - Week 10:
-  - Tuesday (11/3): Practical aspects of 3D reconstruction
+  - Tuesday (11/3): Practical aspects of 3D reconstruction  
+    Szeliski: 11; HZ: 7, 11
   - Thursday (11/5): Object recognition
 - Week 11: Image understanding
   - Tuesday (11/10):
