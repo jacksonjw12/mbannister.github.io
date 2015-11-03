@@ -124,7 +124,7 @@ The following schedule is to be considered tentative, and will likely change dur
   - Thursday (10/22): Stereo geometry  
     Szeliski: 11; HZ: 6, 9, 10
 - Week 9:
-  - Tuesday (10/27): More on stereo geometry
+  - Tuesday (10/27): More on stereo geometry  
     Szeliski: 11; HZ: 6, 9, 10
   - Thursday (10/29): Overview of high dynamic range photography and tone mapping
 - Week 10:
