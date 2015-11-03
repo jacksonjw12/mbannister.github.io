@@ -13,10 +13,10 @@ syllabus: true
 
 ## Instructor, lectures and office hours
 Instructor: Michael J. Bannister  
-Office: Edmunds Hall 230  
+Office: Edmund's Hall 230  
 Email: michael.bannister@pomona.edu  
 Office hours: T W 4pm--6pm, Th 10am--11:45am  
-Lectures: T Th 2:45pm--4:00pm in Edmunds Hall 101   
+Lectures: T Th 2:45pm--4:00pm in Edmund's Hall 101   
 [Piazza discussion board](//piazza.com/pomona/fall2015/cs181m/home)
 
 ## Catalog description
@@ -35,7 +35,7 @@ Springer, ISBN 978-1-84882-935-0. [PDF @ Springer Link](//doi.org/10.1007/978-1-
 [MATLAB Documentation](//www.mathworks.com/help/matlab/)
 
 ### Software
-For the assignments in this course you will be using [MATLAB](//www.mathworks.com/products/matlab/) or [GNU OCTAVE](//www.gnu.org/software/octave/). MATLAB is a commercial software package used for scientific computing, and GNU OCTAVE is a free alternative. The college has a license which allows students in the course to install MATLAB on their home computers, and it is installed on all lab computers. In addition, the college has access to [lynda.com](//www.lynda.com) video tutorials for MATLAB. _Students may, with instructor permision, choose to do their assingments in another language, but this is not recommended._ Please place a comment at the top of every assignment, specifying which language you are using and the specifications (OS, CPU and RAM) of the testing computer.
+For the assignments in this course you will be using [MATLAB](//www.mathworks.com/products/matlab/) or [GNU OCTAVE](//www.gnu.org/software/octave/). MATLAB is a commercial software package used for scientific computing, and GNU OCTAVE is a free alternative. The college has a license which allows students in the course to install MATLAB on their home computers, and it is installed on all lab computers. In addition, the college has access to [lynda.com](//www.lynda.com) video tutorials for MATLAB. _Students may, with instructor permission, choose to do their assignments in another language, but this is not recommended._ Please place a comment at the top of every assignment, specifying which language you are using and the specifications (OS, CPU and RAM) of the testing computer.
 
 Some tasks (e.g. importing, cropping and resizing) are more easily done in photo editing software. We have installed [Adobe Photoshop](//www.adobe.com/products/photoshop.html) on the lab computers, and you may wish to install [GIMP](//www.gimp.org) (a free alternative to Photoshop) on your personal computer.
 
@@ -66,7 +66,7 @@ There will be five projects, each of which will require a substantial time inves
 - [Project 1: Images of the Russian empire](project01.html)
 - [Project 2: Fun with frequencies](project02.html)
 - [Project 3: Photo mosaics (panoramas)](project03.html)
-- Project 4: High dynamic range photography
+- Project 4: 3D Reconstruction
 - Project 5: Final project
 
 ## Examples
@@ -110,29 +110,29 @@ The following schedule is to be considered tentative, and will likely change dur
   - Tuesday (10/6): Automatic Correspondence for Mosaics  
     Szeliski: 6.1
   - Thursday (10/8): Singular Value Decomposition (theory and practice)
-- Week 7: Image retargeting
-  - Tuesday (10/13):
-  - Thursday (10/15):
+- Week 7:
+  - Tuesday (10/13): Texture and histograms
+  - Thursday (10/15): Texture and stitching
 - Week 8: Texture synthesis
   - Tuesday (10/20): __No class__
-  - Thursday (10/22): 
-- Week 9: High dynamic range
-  - Tuesday (10/27):
-  - Thursday (10/29):
-- Week 10: Non-photorealistic rendering
-  - Tuesday (11/3):
-  - Thursday (11/5):
-- Week 11: 3D reconstruction
+  - Thursday (10/22): Stereo geometry
+- Week 9:
+  - Tuesday (10/27): More on stereo geometry
+  - Thursday (10/29): Overview of high dynamic range photography and tone mapping
+- Week 10:
+  - Tuesday (11/3): Practical aspects of 3D reconstruction
+  - Thursday (11/5): Object recognition
+- Week 11: Image understanding
   - Tuesday (11/10):
   - Thursday (11/12):
-- Week 12: Image understanding
+- Week 12: Gradient domain methods: Redux
   - Tuesday (11/17):
   - Thursday (11/19):
 - Week 13:
-  - Tuesday (11/24): _Flex day_
+  - Tuesday (11/24): Non-photorealistic rendering
   - Thursday (11/26): __No class__
 - Week 14
-  - Tuesday (12/1): _Flex day_
+  - Tuesday (12/1): Image watermarking
   - Thursday (12/3): __Presentations__
 - Week 15
   - Tuesday (12/8): __Presentations__
@@ -155,7 +155,7 @@ As a student in this course, you are expected to understand and follow the acade
 [Department of Computer Science Academic Honesty Policy](//www.cs.pomona.edu/academichonesty); [Pomona College Academic Honesty Policy](http://catalog.pomona.edu/content.php?catoid=7&navoid=394).
 Unless the instructions for an assignment explicitly allow a form of collaboration, assume that the standard academic honesty policies apply. If for any reason you do not understand how the academic policies apply to a particular course or assignment, discuss your concerns with the teaching staff for the course.
 
-Submitted code may be analyzed by automated plagiarism detection software, which detects structural similarities in your code with other students submitted code (this quarter and in the past) and code available on internet repositories.
+Submitted code may be analyzed by automated plagiarism detection software, which detects structural similarities in your code with other students submitted code (this quarter and in the past) and code available on Internet repositories.
 
 All __exams__ will be closed-note, closed-book, closed-computer and individual effort.
 
