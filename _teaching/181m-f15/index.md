@@ -77,6 +77,7 @@ There will be five projects, each of which will require a substantial time inves
 I will place code examples from class here.
 
 - [Example 1: Fourier domain manipulation](example01.zip)
+- [Example 2: Interpolation Demo](interp_demo.zip)
 
 ## Schedule
 
