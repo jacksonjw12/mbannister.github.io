@@ -71,7 +71,7 @@ There will be five projects, each of which will require a substantial time inves
 - [Project 2: Fun with frequencies](project02.html)
 - [Project 3: Photo mosaics (panoramas)](project03.html)
 - [Project 4: 3D Reconstruction](project04.html)
-- Project 5: Final project
+- [Project 5: Final project](project05.html)
 
 ## Examples
 I will place code examples from class here.
