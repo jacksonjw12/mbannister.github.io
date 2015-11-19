@@ -83,11 +83,9 @@ I will place code examples from class here.
 
 The following schedule is to be considered tentative, and will likely change during the semester. Please inform me of any inconsistencies that you notice. Links for sample code, and additional readings will be placed in the schedule. The lecture slides will be available on Piazza.
 
-*[URM]: Up and Running with MATLAB
-
 - Week 1
   - Tuesday (9/1): Introduction  
-    Szeliski: 1.1, 1.2; Lynda.com URM: 0-2
+    Szeliski: 1.1, 1.2; Lynda.com URM (up and running with MATLAB): 0-2
   - Thursday (9/3): Digital photography  
     Szeliski: 2.1 (mostly 2.1.5), 2.2 (mostly 2.2.3); Lynda.com URM: 3-5
 - Week 2
@@ -130,20 +128,20 @@ The following schedule is to be considered tentative, and will likely change dur
   - Thursday (10/29): Overview of high dynamic range photography and tone mapping
 - Week 10:
   - Tuesday (11/3): Object Recognition
-  - Thursday (11/5): Object recognition; Practical aspects of 3D reconstruction for Project 4 
+  - Thursday (11/5): Object recognition; Practical aspects of 3D reconstruction for Project 4  
     Szeliski: 11; HZ: 7, 11
 - Week 11: Image segmentation
   - Tuesday (11/10):
   - Thursday (11/12):
-- Week 12: Gradient domain methods: Redux
-  - Tuesday (11/17):
-  - Thursday (11/19):
+- Week 12:
+  - Tuesday (11/17): Single view 3D reconstruction.
+  - Thursday (11/19): More single view 3D reconstruction and Project 5 ideas.
 - Week 13:
-  - Tuesday (11/24): Non-photorealistic rendering
+  - Tuesday (11/24): Gradient domain methods: Redux
   - Thursday (11/26): __No class__
 - Week 14
   - Tuesday (12/1): Image watermarking
-  - Thursday (12/3): __Presentations__
+  - Thursday (12/3): Something fun!
 - Week 15
   - Tuesday (12/8): __Presentations__
   - Thursday (12/10): __No class__
@@ -174,20 +172,19 @@ If you do not abide by the academic honest policies, expect severe __penalties__
 ## Academic Accommodations
 If you are seeking academic accommodations, you must contact your home college's disability coordinator to establish accommodations. You should plan to meet with your coordinator to discuss appropriate accommodations and may be asked to provide documentation necessary to verify disabilities. The disability coordinators for the Claremont Colleges are:
 <a href='mailto:Jan.Collins-Eaglin@pomona.edu'>Jan Collins-Eaglin (Pomona)</a>,
-<a href='mailto:julia.easley@claremontmckenna.edu'>Julia Easley (CMC)</a>, 
-<a href='mailto:Jill_Hawthorne@pitzer.edu'>Jill Hawthorne (Pitzer)</a>, 
-<a href='mailto:sdelator@scrippscollege.edu'>Sonia De la Torre Iniguez (Scripps)</a> and 
+<a href='mailto:julia.easley@claremontmckenna.edu'>Julia Easley (CMC)</a>,
+<a href='mailto:Jill_Hawthorne@pitzer.edu'>Jill Hawthorne (Pitzer)</a>,
+<a href='mailto:sdelator@scrippscollege.edu'>Sonia De la Torre Iniguez (Scripps)</a> and
 <a href='mailto:hbird@hmc.edu'>Heidi Bird (HMC)</a>.
 
 ## Recording
 Pomona College prohibits video or voice recording of any lecture or discussion, except in cases that the office of the Dean of Students has granted a student permission according to the College’s Disability Accommodations Policy, or when permission is granted by the instructor. I choose to give permission in this course to be recorded by students. These recordings are for any reasonable use that arises from participation in this course. __These recordings cannot be distributed, transmitted or published in any media or form, nor be used for any commercial purposes.__
 
 ## Acknowledgments
-The design of this course is in large part based on similar courses offered by: 
-[Chuck Dyer @ UW](//pages.cs.wisc.edu/~dyer/cs534/index.html), 
-[Alexei Efros @ UCB](//inst.eecs.berkeley.edu/~cs194-26/fa14/), 
-[Charless Fowlkes @ UCI](//www.ics.uci.edu/~fowlkes/class/cs116/), 
-[James Hays @ Brown](//cs.brown.edu/courses/cs129/), 
-[Kris Kitani @ CMU](//graphics.cs.cmu.edu/courses/15-463/2014_fall/) and 
+The design of this course is in large part based on similar courses offered by:
+[Chuck Dyer @ UW](//pages.cs.wisc.edu/~dyer/cs534/index.html),
+[Alexei Efros @ UCB](//inst.eecs.berkeley.edu/~cs194-26/fa14/),
+[Charless Fowlkes @ UCI](//www.ics.uci.edu/~fowlkes/class/cs116/),
+[James Hays @ Brown](//cs.brown.edu/courses/cs129/),
+[Kris Kitani @ CMU](//graphics.cs.cmu.edu/courses/15-463/2014_fall/) and
 [Svetlana Lazebnik @ UNC](//www.cs.unc.edu/~lazebnik/research/fall08/)
-
