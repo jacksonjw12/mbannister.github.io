@@ -26,7 +26,9 @@ Use the camera matrices you found above to compute the fundamental matrices for 
 
 ## 3D reconstruction (35 points)
 Now, hand-pick corresponding points across the different images (within the same subset) using the epipolar line tool you created,  and recover the 3D location of these corresponding points by triangulation. For each of your subsets select approximately 200 correspondence well distributed over the horse. Make sure you save your points often.
-### For up to 10 points extra credit you can implement automatic point correspondence selection.
+
+### Extra credit
+For up to 10 points extra credit you can implement automatic point correspondence selection.
 
 ## Display the 3D points cloud (10 points)
 Display points from your first subset using blue points and points from your second subset using red points. If you have done everything correctly and accurately, you should see only one horse even after merging the data from both subsets.
