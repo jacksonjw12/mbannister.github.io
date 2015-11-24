@@ -4,13 +4,22 @@ title: "Project 5"
 ---
 # Project 5: Final Project
 
-## Project due: TBA
+## Project due: Proposal (12/1); Short talk (12/8); Code/writeup due (12/17).
 
-## Teams: For this project you may work alon or in teams of two or three people.
+## Teams: For this project you may work alone or in teams of two or three people.
 
 ---
 
-Some possible ideas for your last project:
+## Proposal
+Your project proposal must include:
+
+1. The names of all team members
+2. Two or three sentences describing the topic of the project
+3. Two or three sentences describing what your group will be doing, e.g., coding, collecting data, running experiments, etc...
+4. What languages, libraries and platforms will you be using for your project?
+5. What background do the members of your team have that will allow your team to successfully complete this project?
+
+## Some possible ideas for your last project:
 
 - [Face morphing 1](http://www.ics.uci.edu/~fowlkes/class/cs116/hwk2/index.html), [Face morphing 2](http://inst.eecs.berkeley.edu/~cs194-26/fa14/hw/proj5-morph/index.html)
 - [Texture quilting](http://www.ics.uci.edu/~fowlkes/class/cs116/hwk4/index.html), [Texture transfer](http://cs.brown.edu/courses/cs129/asgn/proj4/)
