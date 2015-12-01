@@ -137,10 +137,10 @@ The following schedule is to be considered tentative, and will likely change dur
   - Tuesday (11/17): Single view 3D reconstruction.
   - Thursday (11/19): More single view 3D reconstruction and Project 5 ideas.
 - Week 13:
-  - Tuesday (11/24): Gradient domain methods: Redux
+  - Tuesday (11/24): Colorization
   - Thursday (11/26): __No class__
 - Week 14
-  - Tuesday (12/1): Image watermarking
+  - Tuesday (12/1): Coded aperture photography
   - Thursday (12/3): Something fun!
 - Week 15
   - Tuesday (12/8): __Presentations__
