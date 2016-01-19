@@ -4,7 +4,6 @@ title: "CS 55: Discrete mathematics"
 term: "Spring"
 year: 2016
 syllabus: true
-draft: true
 mathjax: true
 ---
 
@@ -17,11 +16,11 @@ mathjax: true
 Instructor: Michael J. Bannister  
 Office: Edmunds Hall 230  
 Email: michael.bannister@pomona.edu  
-Lectures: M W 11am--12:15pm in TBA  
-Office hours: TBA  
+Lectures: M W 11am--12:15pm in Edmunds Hall 101  
+Office hours: M W 5pm--7pm or by appointment    
 
-Mentors: Emily Chen, Ethan Prater-Fahey, Anant Jaitha, James Waller, Li Zhao  
-Mentor hours: Tuesday 8-10pm, Saturday 8-10pm, Sunday 6-8pm  
+Mentors: Emily Chen, Anant Jaitha, Ethan Prater-Fahey, James Waller, Li Zhao  
+Mentor hours: Tuesday 8--10pm, Saturday 8--10pm, Sunday 6--8pm  
 
 [Piazza discussion board](https://piazza.com/pomona/spring2016/cs55/home)
 
@@ -64,7 +63,7 @@ The conversion from numeric score to letter grades will be determined at the end
 ## Homework
 There will be a weekly homework assignment, assigned Wednesday morning and due in-class Wednesday of the following week. Poor presentation of your homework may affect your grade. Your solutions are expected to be written neatly on untorn paper (with four straight sides) and stapled together. Many of the problems will require you to justify or prove your answers. In these cases, you are expected to write in complete sentences and grammatically correct English.
 
-You are encouraged to work together while solving homework problems, but all submitted solutions should be in your own words. I will be very sad if I do not see evidence of student work on the whiteboard walls in Edmonds Hall!
+You are encouraged to work together while solving homework problems, but all submitted solutions should be in your own words.
 
 ## Quizzes and Exams
 
@@ -76,9 +75,9 @@ There will be two in-class exams in addition to a scheduled comprehensive final 
 
 Date|Lecture|Reading and Homework
 ----|-------|-------
-W 1/20 | Propositional logic | <!-- Week 0 -->
-M 1/25 | Predicate logic | <!-- Week 1 -->
-W 1/27 | Naive set theory |
+W 1/20 | Introduction & Propositional logic |<!-- Week 0 -->Reading: 1.1-1.2; Homework 1
+M 1/25 | Predicate logic |<!-- Week 1 -->Reading: 1.3
+W 1/27 | Naive set theory | Reading: 1.4-1.5; Homework 2
 M 2/1  | Functions and cardinality | <!-- Week 2 -->
 W 2/3  | Sequences and summations |
 M 2/8  | Asymptotics | <!-- Week 3 -->
