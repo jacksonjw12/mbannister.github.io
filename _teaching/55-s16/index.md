@@ -20,7 +20,7 @@ Lectures: M W 11am--12:15pm in Edmunds Hall 101
 Office hours: M W 5pm--7pm or by appointment    
 
 Mentors: Emily Chen, Anant Jaitha, Ethan Prater-Fahey, James Waller, Li Zhao  
-Mentor hours: Tuesday 8--10pm, Saturday 8--10pm, Sunday 6--8pm  
+Mentor hours: Tuesday 8--10pm, Monday 7--9pm, Saturday 8--10pm, Sunday 6--8pm  
 
 [Piazza discussion board](https://piazza.com/pomona/spring2016/cs55/home)
 
@@ -61,7 +61,9 @@ Your grade in the course is a weighted average of your grades on homework, quizz
 The conversion from numeric score to letter grades will be determined at the end of the course.
 
 ## Homework
-There will be a weekly homework assignment, assigned Wednesday morning and due in-class Wednesday of the following week. Poor presentation of your homework may affect your grade. Your solutions are expected to be written neatly on untorn paper (with four straight sides) and stapled together. Many of the problems will require you to justify or prove your answers. In these cases, you are expected to write in complete sentences and grammatically correct English.
+There will be a weekly homework assignment, assigned Wednesday morning and due in-class Wednesday of the following week. Poor presentation of your homework may affect your grade. Your solutions are expected to be written neatly on un-torn paper (with four straight sides) and stapled together. Weekly homework will be divided into two parts, where typically each part will be based on one lecture. Each part must be clearly labeled. It is important that you the following information on each page submitted: your full name, my last name, the homework number, the part number. An example of how homework should be submitted will be given in class.
+
+Many of the problems will require you to justify or prove your answers. In these cases, you are expected to write in complete sentences and grammatically correct English.
 
 You are encouraged to work together while solving homework problems, but all submitted solutions should be in your own words.
 
