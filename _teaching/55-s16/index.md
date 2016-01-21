@@ -7,9 +7,9 @@ syllabus: true
 mathjax: true
 ---
 
-# CS 55: Discrete mathematics
+# Discrete mathematics
 
-## Pomona College, Spring 2016
+## CS 55 Section 1 --- Pomona College --- Spring 2016
 ---
 
 ## Instructors, lecture and office hours
@@ -22,7 +22,9 @@ Office hours: M W 5pm--7pm or by appointment
 Mentors: Emily Chen, Anant Jaitha, Ethan Prater-Fahey, James Waller, Li Zhao  
 Mentor hours: Tuesday 8--10pm, Monday 7--9pm, Saturday 8--10pm, Sunday 6--8pm  
 
-[Piazza discussion board](https://piazza.com/pomona/spring2016/cs55/home)
+[Piazza discussion board](https://piazza.com/pomona/spring2016/cs55/home)  
+
+[Webpage for Section 2 of CS 55](http://www.jennylam.cc/courses/55/)
 
 
 ## Catalog description
@@ -77,7 +79,7 @@ There will be two in-class exams in addition to a scheduled comprehensive final 
 
 Date|Lecture|Reading and Homework
 ----|-------|-------
-W 1/20 | Introduction & Propositional logic |<!-- Week 0 -->Reading: 1.1-1.2; [Homework 1](homework01.html)
+W 1/20 | Introduction & Propositional logic ([pdf](lecture_1.pdf), [keynote](lecture_1.key)) |<!-- Week 0 -->Reading: 1.1-1.2; [Homework 1](homework01.html)
 M 1/25 | Predicate logic |<!-- Week 1 -->Reading: 1.3
 W 1/27 | Naive set theory | Reading: 1.4-1.5; Homework 2
 M 2/1  | Functions and cardinality | <!-- Week 2 -->
