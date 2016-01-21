@@ -77,7 +77,7 @@ There will be two in-class exams in addition to a scheduled comprehensive final 
 
 Date|Lecture|Reading and Homework
 ----|-------|-------
-W 1/20 | Introduction & Propositional logic |<!-- Week 0 -->Reading: 1.1-1.2; Homework 1
+W 1/20 | Introduction & Propositional logic |<!-- Week 0 -->Reading: 1.1-1.2; [Homework 1](homework01.html)
 M 1/25 | Predicate logic |<!-- Week 1 -->Reading: 1.3
 W 1/27 | Naive set theory | Reading: 1.4-1.5; Homework 2
 M 2/1  | Functions and cardinality | <!-- Week 2 -->
