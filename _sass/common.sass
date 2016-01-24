@@ -103,38 +103,17 @@ pre > code
   overflow: auto
 
 // Table stuff
-
-// Old table style.
-// table
-//   border-collapse: collapse
-//   font-feature-settings: "kern", "liga", "tnum"
-//   margin: 0.75rem 0
-//   table-layout: fixed
-//   width: 100%
-//
-// th
-//   border-bottom: 2px solid #333
-//   padding: 0.75rem 0
-//   text-align: left
-//
-// td
-//   border-bottom: 1px
-//   padding: 0.75rem 0
-//
-// tr, td, th
-//   vertical-align: middle
-
 table
   border-collapse: collapse
   font-feature-settings: "kern", "liga", "tnum"
   margin: 0.75rem 0
-  //table-layout: fixed
   width: 100%
 
 th
   border: 1px solid #e5e5e5
   padding: 0.25rem 0.5rem
   text-align: left
+  background-color: #eaeaea
 
 td
   border: 1px solid #e5e5e5
@@ -143,15 +122,8 @@ td
 tr, td, th
   vertical-align: middle
 
-tbody tr:nth-child(odd) td,
-tbody tr:nth-child(odd) th
+tbody tr:nth-child(2n+0) td
   background-color: #f9f9f9
-
-td:last-child
-  width: 100%
-
-td:not(:last-child)
-  white-space: nowrap
 
 // Hack for firefox
 abbr[title]
