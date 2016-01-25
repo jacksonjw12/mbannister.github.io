@@ -84,7 +84,7 @@ Date|Lecture|Reading|Homework|Assignments
 ----|-------|-------|--------|-----------
 W 1/20 | [Introduction & Overview](Lecture01/Lecture01.pdf) ([code](https://github.com/mbannister/mbannister.github.io/tree/master/_teaching/62-s16/Lecture01/code)) | Ch 0 & 1, Appendix B.3.2 |	1.1, 1.3 <!-- Week 0 -->
 F 1/22 | [Pre- and Post-Conditions](Lecture02/Lecture02.pdf) ([code](https://github.com/mbannister/mbannister.github.io/tree/master/_teaching/62-s16/Lecture02/code)) | Ch 2 | 2.1, 2.3
-M 1/25 | Java Graphics ([code](https://github.com/mbannister/mbannister.github.io/tree/master/_teaching/62-s16/Lecture03/code)) |[Standard Java Graphics](http://www.cs.pomona.edu/~kim/CSC062F15/handouts/StdGraphics/StdJavaGraphics.html) | | Assignment 1 <!-- Week 1 -->
+M 1/25 | [Java Graphics](Lecture03/Lecture03.pdf) ([code](https://github.com/mbannister/mbannister.github.io/tree/master/_teaching/62-s16/Lecture03/code)) |[Standard Java Graphics](http://www.cs.pomona.edu/~kim/CSC062F15/handouts/StdGraphics/StdJavaGraphics.html), [Programming With Assertions](http://docs.oracle.com/javase/8/docs/technotes/guides/language/assert.html) | | Assignment 1 <!-- Week 1 -->
 W 1/27 | Events & ArrayLists | | | Laboratory 1
 F 1/29 | ArrayList Implementation |
 M 2/1  | | | | Assignment 2 <!-- Week 2 -->
