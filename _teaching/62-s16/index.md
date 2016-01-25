@@ -82,8 +82,8 @@ COMING SOON
 
 Date|Lecture|Reading|Homework|Assignments
 ----|-------|-------|--------|-----------
-W 1/20 | [Introduction & Overview](Lecture1.pdf) | Ch 0 & 1, Appendix B.3.2 |	1.1, 1.3 <!-- Week 0 -->
-F 1/22 | [Pre- and Post-Conditions](Lecture2.pdf) | Ch 2 | 2.1, 2.3
+W 1/20 | [Introduction & Overview](Lecture01/Lecture01.pdf) | Ch 0 & 1, Appendix B.3.2 |	1.1, 1.3 <!-- Week 0 -->
+F 1/22 | [Pre- and Post-Conditions](Lecture02/Lecture02.pdf) | Ch 2 | 2.1, 2.3
 M 1/25 | Java Graphics |[Standard Java Graphics](http://www.cs.pomona.edu/~kim/CSC062F15/handouts/StdGraphics/StdJavaGraphics.html) | | Assignment 1 <!-- Week 1 -->
 W 1/27 | Events & ArrayLists | | | Laboratory 1
 F 1/29 | ArrayList Implementation |
