@@ -81,7 +81,7 @@ Date|Lecture|Reading and Homework
 ----|-------|-------
 W 1/20 | [Introduction & Propositional logic](lecture_1.pdf) |<!-- Week 0 -->Reading: 1.1-1.2; [Homework 1](homework01.html)
 M 1/25 | [First-order logic](lecture_2.pdf) |<!-- Week 1 -->Reading: 1.3
-W 1/27 | Naive set theory | Reading: 1.4-1.5; Homework 2
+W 1/27 | [Naive set theory](lecture_3.pdf) | Reading: 1.4-1.5; Homework 2
 M 2/1  | Functions and cardinality | <!-- Week 2 -->
 W 2/3  | Sequences and summations |
 M 2/8  | Asymptotics | <!-- Week 3 -->
