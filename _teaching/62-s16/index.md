@@ -64,19 +64,29 @@ The conversion from numeric score to letter grades will be determined at the end
 
 ## Quizzes
 
-COMING SOON
+ There will also be quizzes every week except the first week of classes. The quizzes will be during the first five minutes of class. Your lowest two quiz score will be dropped.
 
 ## Labs
 
-COMING SOON
+Labs for this course will be held on Wednesday afternoons from 1:15 p.m to 2:30 p.m. and from 2:45 p.m. to 4 p.m. in 229 Edmunds. The room is equipped with iMac computers.
+
+Attendance at these lab sessions is __mandatory__. Please arrive well prepared for the lab or you will waste your time and ours.
+
+Unlike in CS 51 at Pomona, lab work will generally be distinct from the weekly programming assignments, though the lab work will generally be relevant to those longer assignments. Instead we will often use lab time to introduce you to new software tools and techniques that require more hands-on experience to understand. You will usually need to submit your results from the lab by end of the lab period.
 
 ## Assignments
 
-COMING SOON
+There will be two types of weekly programming assignments: individual programs and team programs. All programs assigned during the semester should be completed following the guidelines in the Academic Honesty Policy .
+
+There will be 10 to 12 weekly programs due. All programs will be graded on design, documentation and style, correctness, and efficiency. The elements of a good program are very much like the elements of a good paper. It must be correct, but it should also be written in a style that is clear and elegant. You will receive written comments on all of your programs.
+
+Weekly assignments will generally be due on Sunday evenings at 11:59 p.m. There will be a penalty assessed of $3^n \\%$ for a program that is n days late. Programs will not be accepted more than four days late. It is usually better to turn in a correct and well-documented program one or two days late than a non-functioning or non-documented program on time.
+
+All assignments should be submitted electronically. The procedure will be explained in laboratory.
 
 ## Exams
 
-COMING SOON
+There will be two in-class exams and a scheduled comprehensive exam during finals week. The final exam will be given early for graduating seniors. See the course schedule below for exam dates.
 
 ## Schedule
 
