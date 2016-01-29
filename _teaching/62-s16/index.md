@@ -97,47 +97,47 @@ F 1/22 | [Pre- and Post-Conditions](Lecture02/Lecture02.pdf) ([code](https://git
 M 1/25 | [Java Graphics](Lecture03/Lecture03.pdf) ([code](https://github.com/mbannister/mbannister.github.io/tree/master/_teaching/62-s16/Lecture03/code)) |[Standard Java Graphics](http://www.cs.pomona.edu/~kim/CSC062F15/handouts/StdGraphics/StdJavaGraphics.html), [Programming With Assertions](http://docs.oracle.com/javase/8/docs/technotes/guides/language/assert.html) | | [Assignment 1](Assignment01/Assignment01.pdf) <!-- Week 1 -->
 W 1/27 | [Events & ArrayLists](Lecture04/Lecture04.pdf) |  	Ch 3 & 4 | 3.7 | [Laboratory 1](Lab01/lab01.pdf)
 F 1/29 | ArrayList Implementation ([code](https://github.com/mbannister/mbannister.github.io/tree/master/_teaching/62-s16/Lecture05/code)) | Ch 3 & 4  | 3.5, 3.7
-M 2/1  | | | | Assignment 2 <!-- Week 2 -->
-W 2/3  | | | | Laboratory 2
-F 2/5  | |
-M 2/8  | | | | Assignment 3 <!-- Week 3 -->
-W 2/10 | | | | Laboratory 3
-F 2/12 | |
-M 2/15 | | | | Assignment 4 <!-- Week 4 -->
-W 2/17 | | | | Laboratory 4
-F 2/19 | |
-M 2/22 | | | | Assignment 5 <!-- Week 5 -->
-W 2/24 | | | | Laboratory 5 <!-- Lecture 15 -->
+M 2/1  | Analysis of Algorithms | Ch 5.1  | 5.5, 5.9, 5.11 | Assignment 2 <!-- Week 2 -->
+W 2/3  | Sorting 1 | Ch 5.2-3, Ch 6  | 5.21,5.23 | Laboratory 2
+F 2/5  | Sorting 2 | Ch 6 | 6.7
+M 2/8  | Iterators | Ch 8 | 8.3 | Assignment 3 <!-- Week 3 -->
+W 2/10 | Linked Lists 1 | Ch 9 | 9.5 | Laboratory 3
+F 2/12 | Linked Lists 2 | Ch 9 | 9.15
+M 2/15 | Stacks | Ch 10.1 | 10.3 | Assignment 4 <!-- Week 4 -->
+W 2/17 | Queues | Ch 10.2 | 10.5 | Laboratory 4
+F 2/19 | Binary Trees 1 | _TBD_
+M 2/22 | Binary Trees 2 | _TBD_ | | Assignment 5 <!-- Week 5 -->
+W 2/24 | Review | | | Laboratory 5 <!-- Lecture 15 -->
 F 2/26 | __Exam 1__ |
-M 2/29 | | | | Assignment 6 <!-- Week 6 -->
-W 3/2  | | | | Laboratory 6 <!-- Send out low grade notifications -->
-F 3/4  | |
-M 3/7  | | | | Assignment 6 <!-- Week 7 -->
-W 3/9  | | | | Laboratory 7 <!-- Mar 10: last day to drop -->
-F 3/11 | |
+M 2/29 | Priority Queues | | | Assignment 6 <!-- Week 6 -->
+W 3/2  | Heaps & Heapsort | | | Laboratory 6 <!-- Send out low grade notifications -->
+F 3/4  | Binary Search Trees 1 |
+M 3/7  | Binary Search Trees 2 | | |  <!-- Week 7 -->
+W 3/9  | Balanced Binary Search Trees | | | Laboratory 7 <!-- Mar 10: last day to drop -->
+F 3/11 | Sorting and Search Lower Bounds |
 M 3/14 | __Spring recess__ |
 W 3/16 | __Spring recess__ |
 F 3/18 | __Spring recess__ |
-M 3/21 | | | | Assignment 7 <!-- Week 8 -->
-W 3/23 | | | | Laboratory 8
+M 3/21 | Parallelism | | | Assignment 7 <!-- Week 8 -->
+W 3/23 | Concurrency 1 | | | Laboratory 8
 F 3/25 | __César Chávez Day__ |
-M 3/28 | | | | Assignment 8 <!-- Week 9 -->
-W 3/30 | | | | Laboratory 9
-F 4/1  | |
-M 4/4  | | | | Assignment 9 <!-- Week 10 -->
-W 4/6  | | | | Laboratory 10
-F 4/8  | |
-M 4/11 | | | | Assignment 10 <!-- Week 11 -->
-W 4/13 | | | | Laboratory 11
-F 4/15 | | <!-- Lecture 15 + 17 = 32 -->
+M 3/28 | Concurrency 2 | | | Assignment 8 <!-- Week 9 -->
+W 3/30 | Concurrency 3 | | | Laboratory 9
+F 4/1  | C 1 |
+M 4/4  | C 2 | | | Assignment 9 <!-- Week 10 -->
+W 4/6  | C 3 | | | Laboratory 10
+F 4/8  | C 4 |
+M 4/11 | C 5 | | | Assignment 10 <!-- Week 11 -->
+W 4/13 | C 6 | | | Laboratory 11
+F 4/15 | C 7 & Review | <!-- Lecture 15 + 17 = 32 -->
 M 4/18 | __Exam 2__ | | | Assignment 10 <!-- Week 12 -->
-W 4/20 | | | | Laboratory 12
-F 4/22 | |
-M 4/25 | | | | Assignment 12 <!-- Week 13 -->
-W 4/27 | | | | Laboratory 13
-F 4/29 | |
-M 5/2  | | <!-- Week 14 -->
-W 5/4  | | <!-- Lecture 32 + 7 = 39 -->
+W 4/20 | Hash Tables 1 | | | Laboratory 12
+F 4/22 | Hash Tables 2 |
+M 4/25 | Graph Algorithms | | | Assignment 12 <!-- Week 13 -->
+W 4/27 | Graph Algorithms | | | Laboratory 13
+F 4/29 | Graph Algorithms |
+M 5/2  | Graph Algorithms | <!-- Week 14 -->
+W 5/4  | Review | <!-- Lecture 32 + 7 = 39 -->
 W 5/11 | __Final Exam__ |
 
 ## Collaboration and Academic Honesty Policy
