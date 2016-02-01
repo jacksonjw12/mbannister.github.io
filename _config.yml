@@ -34,8 +34,8 @@ contacts:
       link: http://www.pomona.edu/map/?id=523&amp;mrkIid=54434
     - name: (909) 607-0969
       link:
-    - name: michael.bannister@pomona.edu
-      link: mailto:michael.bannister@pomona.edu
+    - name: mbannister@fastmail.fm
+      link: mailto:mbannister@fastmail.fm
     - name: PGP public key
       link: assets/asc/public_key.asc
 profiles:
@@ -51,4 +51,3 @@ description: >
     at <a href="http://www.pomona.edu/">Pomona College</a>. My research
     interests are in the design and analysis of geometric and graph algorithms,
     particularly algorithms for graph drawing and network visualization.
-
