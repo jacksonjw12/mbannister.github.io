@@ -98,7 +98,7 @@ M 1/25 | [Java Graphics](Lecture03/Lecture03.pdf) ([code](https://github.com/mba
 W 1/27 | [Events & ArrayLists](Lecture04/Lecture04.pdf) |  	Ch 3 & 4 | 3.7 | [Laboratory 1](Lab01/lab01.pdf)
 F 1/29 | [ArrayList Implementation](Lecture05/Lecture5.pdf)([code](https://github.com/mbannister/mbannister.github.io/tree/master/_teaching/62-s16/Lecture05/code)) | Ch 3 & 4  | 3.5, 3.7
 M 2/1  | [Analysis of Algorithms](Lecture06/Lecture6.pdf) | Ch 5.1  | 5.5, 5.9, 5.11 | [Assignment 2](Assignment02/Assignment02.pdf) <!-- Week 2 -->
-W 2/3  | Sorting 1 | Ch 5.2-3, Ch 6  | 5.21,5.23 | [Laboratory 2](Lab02/Lab02.pdf)
+W 2/3  | [Sorting 1](Lecture07/Lecture7.pdf) ([code](https://github.com/mbannister/mbannister.github.io/tree/master/_teaching/62-s16/Lecture07/code)) | Ch 5.2-3, Ch 6  | 5.21,5.23 | [Laboratory 2](Lab02/Lab02.pdf)
 F 2/5  | Sorting 2 | Ch 6 | 6.7
 M 2/8  | Iterators | Ch 8 | 8.3 | Assignment 3 <!-- Week 3 -->
 W 2/10 | Linked Lists 1 | Ch 9 | 9.5 | Laboratory 3
