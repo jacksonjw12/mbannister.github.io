@@ -83,8 +83,8 @@ W 1/20 | [Introduction & Propositional logic](lecture_1.pdf) |<!-- Week 0 -->Rea
 M 1/25 | [First-order logic](lecture_2.pdf) |<!-- Week 1 -->Reading: 1.3
 W 1/27 | [Naive set theory](lecture_3.pdf) | Reading: 1.4-1.5; [Homework 2](homework02.html)
 M 2/1  | [Functions and cardinality](lecture_4.pdf) | Reading: 1.6, 1.7(last section) <!-- Week 2 -->
-W 2/3  | Sequences and summations |
-M 2/8  | Asymptotics | <!-- Week 3 -->
+W 2/3  | [Sequences and summations](lecture_5.pdf) | Reading: 1.7
+M 2/8  | Asymptotics | Reading 1.8 <!-- Week 3 -->
 W 2/10 | Induction |
 M 2/15 | Number theory | <!-- Week 4 -->
 W 2/17 | Number theory |
