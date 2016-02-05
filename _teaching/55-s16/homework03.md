@@ -4,6 +4,8 @@ title: "Homework 3"
 mathjax: true
 ---
 
+# Homework 2
+
 Due date: Wednesday 2/10/2016 in class  
 Instructions: please turn in each part stapled separately, labeled with
 
@@ -13,6 +15,8 @@ Instructions: please turn in each part stapled separately, labeled with
 * instructor.
 
 Please do not use paper torn off of a notebook.
+
+---
 
 ## Part 1
 
@@ -37,6 +41,8 @@ Note: the identity function is the function that returns as output its input.
 
 ### Problem 3
 Let $$f(x) = ax + b$$ and $$g(x) = cx+d$$ where $$a, b, c, d$$ are constants. Determine for which constants $$a, b, c$$ and $$d$$ it is true that $$f \circ g = g \circ f$$. Justify your answer.
+
+---
 
 ## Part 2
 
