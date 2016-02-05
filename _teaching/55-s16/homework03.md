@@ -1,8 +1,6 @@
 ---
-layout: course
+layout: default
 title: "Homework 3"
-courseid: 55
-navorder: 0
 mathjax: true
 ---
 
