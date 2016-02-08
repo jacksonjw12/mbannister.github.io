@@ -100,8 +100,8 @@ F 1/29 | [ArrayList Implementation](Lecture05/Lecture5.pdf)([code](https://githu
 M 2/1  | [Analysis of Algorithms](Lecture06/Lecture6.pdf) | Ch 5.1  | 5.5, 5.9, 5.11 | [Assignment 2](Assignment02/Assignment02.pdf) <!-- Week 2 -->
 W 2/3  | [Sorting 1](Lecture07/Lecture7.pdf) ([code](https://github.com/mbannister/mbannister.github.io/tree/master/_teaching/62-s16/Lecture07/code)) | Ch 5.2-3, Ch 6  | 5.21,5.23 | [Laboratory 2](Lab02/Lab02.pdf)
 F 2/5  | Sorting 2 | Ch 6 | 6.7
-M 2/8  | Iterators | Ch 8 | 8.3 | Assignment 3 <!-- Week 3 -->
-W 2/10 | Linked Lists 1 | Ch 9 | 9.5 | Laboratory 3
+M 2/8  | Iterators | Ch 8 | 8.3 | [Assignment 3](Assignment03/Assignment03.pdf) <!-- Week 3 -->
+W 2/10 | Linked Lists 1 | Ch 9 | 9.5 | [Laboratory 3](Lab03/Lab03.pdf)
 F 2/12 | Linked Lists 2 | Ch 9 | 9.15
 M 2/15 | Stacks | Ch 10.1 | 10.3 | Assignment 4 <!-- Week 4 -->
 W 2/17 | Queues | Ch 10.2 | 10.5 | Laboratory 4
