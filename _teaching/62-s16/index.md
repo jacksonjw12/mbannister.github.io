@@ -45,7 +45,7 @@ A pdf of these notes _will_ be freely available online.
 ## Online resources
 
 [Documentation and Handouts](http://www.cs.pomona.edu/~kim/CSC062F15/csc062_4.html)  
-[New submission instructions!!!](docs/submission.html)
+[New submission instructions!!!](https://gist.github.com/rwoll/cee60dcec437ad176021)
 
 ## Piazza
 
