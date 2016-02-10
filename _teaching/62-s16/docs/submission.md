@@ -13,7 +13,7 @@ with the following contents:
 > Replace `##` with the two digit assignment/lab number. If this number is < `10`,
 > pad the single digit with a `0`.
 
-```json
+{% highlight json %}
 {
   "version": "0.0.1",
   "class": "CSCI062",
@@ -23,7 +23,7 @@ with the following contents:
   "notes": "No notes.",
   "ec": false
 }
-```
+{% endhighlight %}
 
 - Replace `rwollman` under the list of collaborators with your DCI
   username. (The username you use to log in to the lab computers.)
