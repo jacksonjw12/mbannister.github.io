@@ -85,7 +85,7 @@ W 1/27 | [Naive set theory](lecture_3.pdf) | Reading: 1.4-1.5; [Homework 2](home
 M 2/1  | [Functions and cardinality](lecture_4.pdf) | Reading: 1.6, 1.7(last section) <!-- Week 2 -->
 W 2/3  | [Sequences and summations](lecture_5.pdf) | Reading: 1.7; [Homework 3](homework03.html)
 M 2/8  | Asymptotics | Reading 1.8 <!-- Week 3 -->
-W 2/10 | Induction |
+W 2/10 | <del>Induction</del><ins>Asymptotics</ins> | [Homework 4](homework04.html)
 M 2/15 | Number theory | <!-- Week 4 -->
 W 2/17 | Number theory |
 M 2/22 | Cryptography / Representation of numbers | <!-- Week 5 -->
