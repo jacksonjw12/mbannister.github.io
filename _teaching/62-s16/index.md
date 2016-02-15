@@ -81,7 +81,7 @@ There will be two types of weekly programming assignments: individual programs a
 
 There will be 10 to 12 weekly programs due. All programs will be graded on design, documentation and style, correctness, and efficiency. The elements of a good program are very much like the elements of a good paper. It must be correct, but it should also be written in a style that is clear and elegant. You will receive written comments on all of your programs.
 
-Weekly assignments will generally be due on Sunday evenings at 11:59 p.m. There will be a penalty assessed of $3^n \\%$ for a program that is n days late. Programs will not be accepted more than four days late. It is usually better to turn in a correct and well-documented program one or two days late than a non-functioning or non-documented program on time.
+Weekly assignments will generally be due on Sunday evenings at 11:59 p.m. There will be a penalty assessed of $$3^n \%$$ for a program that is n days late. Programs will not be accepted more than four days late. It is usually better to turn in a correct and well-documented program one or two days late than a non-functioning or non-documented program on time.
 
 All assignments should be submitted electronically. The procedure will be explained in laboratory.
 
@@ -104,8 +104,8 @@ F 2/5  | Sorting 2 | Ch 6 | 6.7
 M 2/8  | [Iterators](Lecture09/Lecture9.pdf) ([code](https://github.com/mbannister/mbannister.github.io/tree/master/_teaching/62-s16/Lecture09/code)) | Ch 8 | 8.3 | [Assignment 3](Assignment03/Assignment03.pdf) <!-- Week 3 -->
 W 2/10 | [Linked Lists 1](Lecture10/Lecture10.pdf) | Ch 9 | 9.5 | [Laboratory 3](Lab03/Lab03.pdf)
 F 2/12 | Linked Lists 2 | Ch 9 | 9.15
-M 2/15 | Stacks | Ch 10.1 | 10.3 | Assignment 4 <!-- Week 4 -->
-W 2/17 | Queues | Ch 10.2 | 10.5 | Laboratory 4
+M 2/15 | Stacks | Ch 10.1 | 10.3 | [Assignment 4](Assignment04/Assignment04.pdf) <!-- Week 4 -->
+W 2/17 | Queues | Ch 10.2 | 10.5 | [Laboratory 4](Lab04/Lab04.pdf)
 F 2/19 | Binary Trees 1 | _TBD_
 M 2/22 | Binary Trees 2 | _TBD_ | | Assignment 5 <!-- Week 5 -->
 W 2/24 | Review | | | Laboratory 5 <!-- Lecture 15 -->
