@@ -105,7 +105,7 @@ M 2/8  | [Iterators](Lecture09/Lecture9.pdf) ([code](https://github.com/mbannist
 W 2/10 | [Linked Lists 1](Lecture10/Lecture10.pdf) | Ch 9 | 9.5 | [Laboratory 3](Lab03/Lab03.pdf)
 F 2/12 | [Linked Lists 2](Lecture11/Lecture11.pdf) | Ch 9 | 9.15
 M 2/15 | [Stacks](Lecture12/Lecture12.pdf) | Ch 10.1 | 10.3 | [Assignment 4](Assignment04/Assignment04.pdf) <!-- Week 4 -->
-W 2/17 | Queues | Ch 10.2 | 10.5 | [Laboratory 4](Lab04/Lab04.pdf)
+W 2/17 | [Queues](Lecture13/Lecture13.pdf) | Ch 10.2 | 10.5 | [Laboratory 4](Lab04/Lab04.pdf)
 F 2/19 | Binary Trees 1 | _TBD_
 M 2/22 | Binary Trees 2 | _TBD_ | | Assignment 5 <!-- Week 5 -->
 W 2/24 | Review | | | Laboratory 5 <!-- Lecture 15 -->
