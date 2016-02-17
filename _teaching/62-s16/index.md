@@ -13,15 +13,15 @@ mathjax: true
 ---
 
 ## Instructors, lecture and office hours
-Instructor: Michael J. Bannister  
-Office: Edmunds Hall 230  
-Email: michael.bannister@pomona.edu  
-Lectures: M W F 10am--10:50pm in Edmunds Hall 101  
-Office hours: M W 5pm--7pm or by appointment    
+Instructor: Michael J. Bannister
+Office: Edmunds Hall 230
+Email: michael.bannister@pomona.edu
+Lectures: M W F 10am--10:50pm in Edmunds Hall 101
+Office hours: M W 5pm--7pm or by appointment
 
 Mentors: Andi Chen, Peter Cowal, Sara Gong, Maya Man,
-Noah Mulfinger and Ross Wollman  
-Mentor hours: W 8--10pm, Th 8--10pm, Sa 1--3pm, Su 2--4pm & 8--10pm   
+Noah Mulfinger and Ross Wollman
+Mentor hours: W 8--10pm, Th 8--10pm, Sa 1--3pm, Su 2--4pm & 8--10pm
 
 [Piazza discussion board](https://piazza.com/pomona/spring2016/cs62/home)
 
@@ -153,11 +153,7 @@ If you do not abide by the academic honesty policies, expect severe penalties. T
 
 ## Academic Accommodations
 If you are seeking academic accommodations, you must contact your home college's disability coordinator to establish accommodations. You should plan to meet with your coordinator to discuss appropriate accommodations and may be asked to provide documentation necessary to verify disabilities. The disability coordinators for the Claremont Colleges are:
-<a href='mailto:Jan.Collins-Eaglin@pomona.edu'>Jan Collins-Eaglin (Pomona)</a>,
-<a href='mailto:julia.easley@claremontmckenna.edu'>Julia Easley (CMC)</a>,
-<a href='mailto:Jill_Hawthorne@pitzer.edu'>Jill Hawthorne (Pitzer)</a>,
-<a href='mailto:sdelator@scrippscollege.edu'>Sonia De la Torre Iniguez (Scripps)</a> and
-<a href='mailto:hbird@hmc.edu'>Heidi Bird (HMC)</a>.
+<a href='mailto:Jan.Collins-Eaglin@pomona.edu'>Jan Collins-Eaglin (Pomona)</a>, <a href='mailto:julia.easley@claremontmckenna.edu'>Julia Easley (CMC)</a>, <a href='mailto:Jill_Hawthorne@pitzer.edu'>Jill Hawthorne (Pitzer)</a>, <a href='mailto:sdelator@scrippscollege.edu'>Sonia De la Torre Iniguez (Scripps)</a> and <a href='mailto:hbird@hmc.edu'>Heidi Bird (HMC)</a>.
 
 ## Recording
 Pomona College prohibits video or voice recording of any lecture or discussion, except in cases that the office of the Dean of Students has granted a student permission according to the College’s Disability Accommodations Policy, or when permission is granted by the instructor. I choose to give permission in this course to be recorded by students. These recordings are for any reasonable use that arises from participation in this course. __These recordings cannot be distributed, transmitted or published in any media or form, nor be used for any commercial purposes.__
