@@ -84,21 +84,21 @@ M 1/25 | [First-order logic](lecture_2.pdf) |<!-- Week 1 -->Reading: 1.3
 W 1/27 | [Naive set theory](lecture_3.pdf) | Reading: 1.4-1.5; [Homework 2](homework02.html)
 M 2/1  | [Functions and cardinality](lecture_4.pdf) | Reading: 1.6, 1.7(last section) <!-- Week 2 -->
 W 2/3  | [Sequences and summations](lecture_5.pdf) | Reading: 1.7; [Homework 3](homework03.html)
-M 2/8  | Asymptotics | Reading 1.8 <!-- Week 3 -->
-W 2/10 | <del>Induction</del><ins>Asymptotics</ins> | [Homework 4](homework04.html)
-M 2/15 | Number theory | <!-- Week 4 -->
-W 2/17 | Number theory |
-M 2/22 | Cryptography / Representation of numbers | <!-- Week 5 -->
-W 2/24 | Flex day |
+M 2/8  | Asymptotics | Reading: 1.8 <!-- Week 3 -->
+W 2/10 | Asymptotics | Reading: 1.8 [Homework 4](homework04.html)
+M 2/15 | Mathematical Induction | Reading: 3.2 <!-- Week 4 -->
+W 2/17 | Recursive Definition | Reading: 3.3
+M 2/22 | Number Theory | Reading: 2.3 <!-- Week 5 -->
+W 2/24 | Number Theory & Review for Exam 1 | Reading: 2.4
 M 2/29 | __Exam 1__ | <!-- Week 6 -->
-W 3/2  | Counting | <!-- Send out low grade notifications -->
-M 3/7  | Counting and recursive definitions | <!-- Week 7 -->
-W 3/9  | Counting | <!-- Mar 10: last day to drop -->
+W 3/2  | Number Theory Applications | Reading: 2.5 <!-- Send out low grade notifications -->
+M 3/7  | Counting | Reading: 4.1 <!-- Week 7 -->
+W 3/9  | Counting | Reading: 4.2 <!-- Mar 10: last day to drop -->
 M 3/14 | _Spring recess_ |
 W 3/16 | _Spring recess_ |
-M 3/21 | Probability | <!-- Week 8 -->
-W 3/23 | Probability |
-M 3/28 | Probability | <!-- Week 9 -->
+M 3/21 | Counting | Reading: 4.3 <!-- Week 8 -->
+W 3/23 | Probability | Reading: 4.4
+M 3/28 | Probability | Reading: 4.5 <!-- Week 9 -->
 W 3/30 | Advanced counting |
 M 4/4  | Advanced counting | <!-- Week 10 -->
 W 4/6  | Flex day |
