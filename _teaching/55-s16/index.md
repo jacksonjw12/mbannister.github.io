@@ -87,7 +87,7 @@ W 2/3  | [Sequences and summations](lecture_5.pdf) | Reading: 1.7; [Homework 3](
 M 2/8  | Asymptotics | Reading: 1.8 <!-- Week 3 -->
 W 2/10 | Asymptotics | Reading: 1.8 [Homework 4](homework04.html)
 M 2/15 | Mathematical Induction | Reading: 3.2 <!-- Week 4 -->
-W 2/17 | Recursive Definition | Reading: 3.3
+W 2/17 | Recursive Definition | Reading: 3.3 [Homework 4](homework05.html)
 M 2/22 | Number Theory | Reading: 2.3 <!-- Week 5 -->
 W 2/24 | Number Theory & Review for Exam 1 | Reading: 2.4
 M 2/29 | __Exam 1__ | <!-- Week 6 -->
