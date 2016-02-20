@@ -48,7 +48,8 @@ For which nonnegative integers $$n$$ is $$2n + 3 \leq 2^n$$? Prove your answer u
 
 Show that
 
-$$\sum_{s \in P(\{1, 2, \dots, n\})} \frac{1}{\prod_{x \in s}x} = n.$$
+<del>$$\sum_{s \in P(\{1, 2, \dots, n\})} \frac{1}{\prod_{x \in s}x} = n.$$</del>
+<ins>$$\sum_{s \in P(\{1, 2, \dots, n\})} \frac{1}{\prod_{x \in s}x} = n.$$</ins>
 
 
 ### Problem 6
