@@ -50,14 +50,16 @@ Show that
 
 $$\sum_{s \in P(\{1, 2, \dots, n\})} \frac{1}{\prod_{x \in s}x} = \color{red}{\xcancel{n}}\color{blue}{n+1}.$$
 
+<ins> Recall that $$\displaystyle \prod_{x \in \varnothing} = 1$$, i.e., the the _empty product_ is 1.</ins>
+
 
 ### Problem 6
 
-Let $$T: \mathbf{N} \to \mathbf{R}$$ be defined recursively by
+Let $$T: \mathbf{N} \to \mathbf{R}$$ be defined recursively by <ins>$$T(0) = 0$$ and </ins>
 
 $$T(n) = T(\lfloor n/2\rfloor) + n$$
 
-Prove that $$T(n) \leq 2n$$. (Hint: use the fact that $$\lfloor n/2 \rfloor \leq n$$.)
+Prove that $$T(n) \leq 2n$$. (Hint: use the fact that $$\lfloor \color{red}{\xcancel{n/2} \color{blue}{n}} \rfloor \leq n$$.)
 
 ### Problem 7
 
