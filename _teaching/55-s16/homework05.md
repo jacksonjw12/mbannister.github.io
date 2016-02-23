@@ -57,6 +57,7 @@ $$\sum_{s \in P(\{1, 2, \dots, n\})} \frac{1}{\prod_{x \in s}x} = \color{red}{\x
 <ins> Recall that $$\displaystyle \prod_{x \in \varnothing} = 1$$, i.e., the the _empty product_ is 1.</ins>
 
 ---
+
 ## Part 2
 
 ### Problem 6
