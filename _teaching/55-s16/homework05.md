@@ -4,6 +4,8 @@ title: "Homework 5"
 mathjax: true
 ---
 
+# Homework 5
+
 Due date: Wednesday 2/24/2016 in class  
 Instructions: please turn in each part stapled separately. Label each part with
 
@@ -13,6 +15,8 @@ Instructions: please turn in each part stapled separately. Label each part with
 * instructor name.
 
 Please do not use paper torn off of a notebook.
+
+---
 
 ## Part 1
 
@@ -52,6 +56,8 @@ $$\sum_{s \in P(\{1, 2, \dots, n\})} \frac{1}{\prod_{x \in s}x} = \color{red}{\x
 
 <ins> Recall that $$\displaystyle \prod_{x \in \varnothing} = 1$$, i.e., the the _empty product_ is 1.</ins>
 
+---
+## Part 2
 
 ### Problem 6
 
