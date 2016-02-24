@@ -138,7 +138,7 @@ Then drag your renamed folder into the dropbox. Be sure that your code is clear,
 
 ## Extra credit
 
-If you are interested in extra credit, you might add a decimal point button so that your calculator can handle floating point numbers. Be sure to check that the user does not input an illegal number (e.g., with two decimal points). Possibilities for new buttons with this include square root, trig functions (e.g., sin, cos, tan, etc.), inverse trig functions, $x^y$, $e^x$,factorial, or logarithms. See the class `Math` in package `java.lang` for a list of available mathematical functions in Java. Make sure the basic functions of your calculator are working correctly before moving on to extra credit. You may find the floating point does not work with the auto-grader compatibility test; this is fine, but please name your folder
+If you are interested in extra credit, you might add a decimal point button so that your calculator can handle floating point numbers. Be sure to check that the user does not input an illegal number (e.g., with two decimal points). Possibilities for new buttons with this include square root, trig functions (e.g., sin, cos, tan, etc.), inverse trig functions, $x^y$, $e^x$,factorial, or logarithms. See the class `Math` in package `java.lang` for a list of available mathematical functions in Java. Make sure the basic functions of your calculator are working correctly before moving on to extra credit. <del>You may find the floating point does not work with the auto-grader compatibility test; this is fine, but p</del> <ins>P</ins>lease name your folder
 
 ```
 Assignment05_LastNameFirstName_ExtraCredit
