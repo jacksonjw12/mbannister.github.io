@@ -89,9 +89,9 @@ W 2/10 | Asymptotics | Reading: 1.8 [Homework 4](homework04.html)
 M 2/15 | Mathematical Induction | Reading: 3.2 <!-- Week 4 -->
 W 2/17 | Recursive Definition | Reading: 3.3 [Homework 5](homework05.html)
 M 2/22 | Number Theory | Reading: 2.3 <!-- Week 5 -->
-W 2/24 | Number Theory & Review for Exam 1 | Reading: 2.4
+W 2/24 | Number Theory & Review for Exam 1 | Reading: 2.3
 M 2/29 | __Exam 1__ | <!-- Week 6 -->
-W 3/2  | Number Theory Applications | Reading: 2.5 <!-- Send out low grade notifications -->
+W 3/2  | Number Theory Applications | TBD <!-- Send out low grade notifications -->
 M 3/7  | Counting | Reading: 4.1 <!-- Week 7 -->
 W 3/9  | Counting | Reading: 4.2 <!-- Mar 10: last day to drop -->
 M 3/14 | _Spring recess_ |
