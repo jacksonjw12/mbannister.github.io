@@ -108,7 +108,7 @@ M 2/15 | [Stacks](Lecture12/Lecture12.pdf) | Ch 10.1 | 10.3 | [Assignment 4](Ass
 W 2/17 | [Queues](Lecture13/Lecture13.pdf) | Ch 10.2 | 10.5 | [Laboratory 4](Lab04/Lab04.pdf)
 F 2/19 | [Binary Trees 1](Lecture14/Lecture14.pdf) | Chap 12.1-5 | 12.3, 12.7
 M 2/22 | [Binary Trees 2](Lecture15/Lecture15.pdf) | 12.6-12.10 | 12.11 | Assignment 5 <!-- Week 5 -->
-W 2/24 | Review | | | Laboratory 5 <!-- Lecture 15 -->
+W 2/24 | Review | | | [Laboratory 5](Lab05/Lab05.pdf) <!-- Lecture 15 -->
 F 2/26 | __Exam 1__ |
 M 2/29 | Priority Queues | | | Assignment 6 <!-- Week 6 -->
 W 3/2  | Heaps & Heapsort | | | Laboratory 6 <!-- Send out low grade notifications -->
