@@ -88,7 +88,7 @@ M 2/8  | Asymptotics | Reading: 1.8 <!-- Week 3 -->
 W 2/10 | Asymptotics | Reading: 1.8 [Homework 4](homework04.html)
 M 2/15 | Mathematical Induction | Reading: 3.2 <!-- Week 4 -->
 W 2/17 | Recursive Definition | Reading: 3.3 [Homework 5](homework05.html)
-M 2/22 | Number Theory | Reading: 2.3 <!-- Week 5 -->
+M 2/22 | Number Theory | Reading: 2.3 [Homework 6](homework06.html) <!-- Week 5 -->
 W 2/24 | Number Theory & Review for Exam 1 | Reading: 2.3
 M 2/29 | __Exam 1__ | <!-- Week 6 -->
 W 3/2  | Number Theory Applications | TBD <!-- Send out low grade notifications -->
