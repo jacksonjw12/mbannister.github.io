@@ -4,7 +4,7 @@ title: "Homework 6"
 mathjax: true
 ---
 
-# Homework 5
+# Homework 6
 
 ## Due: This assignment will not be collected or graded.
 
