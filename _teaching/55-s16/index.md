@@ -17,7 +17,7 @@ Instructor: Michael J. Bannister
 Office: Edmunds Hall 230  
 Email: michael.bannister@pomona.edu  
 Lectures: M W 11am--12:15pm in Edmunds Hall 101  
-Office hours: M W 5pm--7pm or by appointment    
+Office hours: <del>M W 5pm--7pm</del> <ins>Tu 11am-1pm, Fr 3pm-5pm</ins> or by appointment    
 
 Mentors: Emily Chen, Anant Jaitha, Ethan Prater-Fahey, James Waller, Li Zhao  
 Mentor hours: Tuesday 8--10pm, Monday 7--9pm, Saturday 8--10pm, Sunday 6--8pm  

@@ -17,7 +17,7 @@ Instructor: Michael J. Bannister
 Office: Edmunds Hall 230  
 Email: michael.bannister@pomona.edu  
 Lectures: M W F 10am--10:50pm in Edmunds Hall 101  
-Office hours: M W 5pm--7pm or by appointment
+Office hours: <del>M W 5pm--7pm</del> <ins>Tu 11am-1pm, Fr 3pm-5pm</ins> or by appointment
 
 Mentors: Andi Chen, Peter Cowal, Sara Gong, Maya Man,
 Noah Mulfinger and Ross Wollman  
