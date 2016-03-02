@@ -110,7 +110,7 @@ F 2/19 | [Binary Trees 1](Lecture14/Lecture14.pdf) | Chap 12.1-5 | 12.3, 12.7
 M 2/22 | [Binary Trees 2](Lecture15/Lecture15.pdf) | 12.6-12.10 | 12.11 | [Assignment 5](Assignment05/Assignment05.html) <!-- Week 5 -->
 W 2/24 | Review | | | [Laboratory 5](Lab05/Lab05.pdf) <!-- Lecture 15 -->
 F 2/26 | __Exam 1__ |
-M 2/29 | [Array Representation of Trees](Lecture16/Lecture16.pdf) | | | Assignment 6 <!-- Week 6 -->
+M 2/29 | [Array Representation of Trees](Lecture16/Lecture16.pdf) | | | [Assignment 6](Assignment06/Assignment06.pdf) <!-- Week 6 -->
 W 3/2  | [Heaps & Heapsort](Lecture17/Lecture17.pdf) | | | [Laboratory 6](Lab06/Lab06.html) <!-- Send out low grade notifications -->
 F 3/4  | Binary Search Trees 1 |
 M 3/7  | Binary Search Trees 2 | | |  <!-- Week 7 -->
