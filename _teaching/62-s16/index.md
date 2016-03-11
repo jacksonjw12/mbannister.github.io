@@ -115,7 +115,7 @@ W 3/2  | [Heaps & Heapsort](Lecture17/Lecture17.pdf) | | | [Laboratory 6](Lab06/
 F 3/4  | [Binary Search Trees 1](Lecture18/Lecture18.pdf) |
 M 3/7  | [Binary Search Trees 2](Lecture19/Lecture19.pdf) | | |  <!-- Week 7 -->
 W 3/9  | [Balanced Binary Search Trees](Lecture20/Lecture20.pdf) | | | [Laboratory 7](Lab07/lab07.pdf) <!-- Mar 10: last day to drop -->
-F 3/11 | Sorting and Search Lower Bounds |
+F 3/11 | [Sorting and Search Lower Bounds](Lecture21/Lecture21.pdf) |
 M 3/14 | __Spring recess__ |
 W 3/16 | __Spring recess__ |
 F 3/18 | __Spring recess__ |
