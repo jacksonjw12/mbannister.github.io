@@ -91,9 +91,9 @@ W 2/17 | Recursive Definition | Reading: 3.3 [Homework 5](homework05.html)
 M 2/22 | Number Theory | Reading: 2.3 [Homework 6](homework06.html) <!-- Week 5 -->
 W 2/24 | Number Theory & Review for Exam 1 | Reading: 2.3
 M 2/29 | __Exam 1__ | <!-- Week 6 -->
-W 3/2  | Number Theory Applications | TBD <!-- Send out low grade notifications -->
-M 3/7  | Counting | Reading: 4.1 <!-- Week 7 -->
-W 3/9  | Counting | Reading: 4.2 <!-- Mar 10: last day to drop -->
+W 3/2  | Number Theory Applications |  <!-- Send out low grade notifications -->
+M 3/7  | Number Theory Applications | [Homework 7](homework07.html)  <!-- Week 7 -->
+W 3/9  | Counting | Reading: 4.1  <!-- Mar 10: last day to drop -->
 M 3/14 | _Spring recess_ |
 W 3/16 | _Spring recess_ |
 M 3/21 | Counting | Reading: 4.3 <!-- Week 8 -->
