@@ -119,7 +119,7 @@ F 3/11 | [Sorting and Search Lower Bounds](Lecture21/Lecture21.pdf) |
 M 3/14 | __Spring recess__ |
 W 3/16 | __Spring recess__ |
 F 3/18 | __Spring recess__ |
-M 3/21 | Parallelism | | | Assignment 7 <!-- Week 8 -->
+M 3/21 | [Parallelism](Lecture22/Lecture22.pdf) | | | Assignment 7 <!-- Week 8 -->
 W 3/23 | Concurrency 1 | | | Laboratory 8
 F 3/25 | __César Chávez Day__ |
 M 3/28 | Concurrency 2 | | | Assignment 8 <!-- Week 9 -->
