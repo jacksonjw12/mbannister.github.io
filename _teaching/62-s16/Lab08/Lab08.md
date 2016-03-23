@@ -88,7 +88,7 @@ public class Lab08 {
 To compile this you’ll need to add one extra thing to your compile command:
 
 ```bash
-javac - classpath /common/cs/cs062/bailey.jar:. bst/*.java
+javac -classpath /common/cs/cs062/bailey.jar:. bst/*.java
 ```
 
 The `-classpath` flag tells the compiler where to find all of the classes that we need for our program.
@@ -129,13 +129,15 @@ with `"YOUR NAME"` and `"YOUR EMAIL ADDRESS"` replaces by your name and (one of)
 Let’s begin by converting the directory you have been working in to a `Git` repository. Such a repository (also called a “repo” for short) is called a local repository, as it resides on your local machine. Typically, you would also have a remote repository on a separate server so that the files could be shared among other developers on the project. We will save working with remote repositories for a future lab.
 
 We begin by creating the `Git` repository itself. This needs to be done once per project. From the command line, change into your `lab08` directory.
+
 ```bash
 cd ~
 cd Documents
 cd cs062
 cd lab08
 ```
-The `~` is a special character that indicates a user’s home directory. Alternately, you could have just typed `cd ~/Documents/cs062/lab08 which` has the same effect as the commands above. It is important that you verify you are in the correct directory before continuing. You can check what directory you are in by typing the command `pwd` (print working directory). Once you are in the correct directory type
+
+The `~` is a special character that indicates a user’s home directory. Alternately, you could have just typed `cd ~/Documents/cs062/lab08` which has the same effect as the commands above. It is important that you verify you are in the correct directory before continuing. You can check what directory you are in by typing the command `pwd` (print working directory). Once you are in the correct directory type:
 
 Now, we need to tell `Git` that we would like to use this directory as a repository by typing
 
