@@ -12,6 +12,7 @@ kramdown:
   syntax_highlighter_opts:
     inline_theme: github
     css_class: null
+  hard_wrap: false
 
 # Collections
 collections:
