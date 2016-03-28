@@ -8,7 +8,7 @@ mathjax: true
 
 ## Wednesday March 30, 2016
 
-##Timing Quicksort in Parallel
+## Timing Quicksort in Parallel
 
 In this lab, we’ll once again be playing with sorting algorithms! This time our goal is to make them more efficient by using parallelism. You may work in pairs on this lab.
 
