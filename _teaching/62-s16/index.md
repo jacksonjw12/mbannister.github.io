@@ -119,11 +119,11 @@ F 3/11 | [Sorting and Search Lower Bounds](Lecture21/Lecture21.pdf) |
 M 3/14 | __Spring recess__ |
 W 3/16 | __Spring recess__ |
 F 3/18 | __Spring recess__ |
-M 3/21 | [Parallelism](Lecture22/Lecture22.pdf) | | | [Assignment 8](Assignment08/Assignment08.pdf) <!-- Week 8 -->
-W 3/23 | [Concurrency 1](Lecture23/Lecture23.pdf) | | | [Laboratory 8](Lab08/Lab08.html)
+M 3/21 | [Parallelism](Lecture22/Lecture22.pdf) ([code](https://github.com/mbannister/mbannister.github.io/tree/master/_teaching/62-s16/Lecture22/code))| | | [Assignment 8](Assignment08/Assignment08.pdf) <!-- Week 8 -->
+W 3/23 | [Concurrency 1](Lecture23/Lecture23.pdf) ([code](https://github.com/mbannister/mbannister.github.io/tree/master/_teaching/62-s16/Lecture22/code))| | | [Laboratory 8](Lab08/Lab08.html)
 F 3/25 | __César Chávez Day__ |
-M 3/28 | [Concurrency 2](Lecture24/Lecture24.pdf) | | | [Assignment 9](Assignment09/Assignment09.html) <!-- Week 9 -->
-W 3/30 | Concurrency 3 | | | [Laboratory 9](Lab09/Lab09.html)
+M 3/28 | [Concurrency 2](Lecture24/Lecture24.pdf) ([code](https://github.com/mbannister/mbannister.github.io/tree/master/_teaching/62-s16/Lecture22/code))| | | [Assignment 9](Assignment09/Assignment09.html) <!-- Week 9 -->
+W 3/30 | Concurrency 3 ([code](https://github.com/mbannister/mbannister.github.io/tree/master/_teaching/62-s16/Lecture22/code))| | | [Laboratory 9](Lab09/Lab09.html)
 F 4/1  | C 1 |
 M 4/4  | C 2 | | | <!-- Week 10 -->
 W 4/6  | C 3 | | | Laboratory 10
