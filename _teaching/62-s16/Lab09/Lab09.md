@@ -40,9 +40,42 @@ __3)__ Explain why you think this version of QuickSort is faster or slower (depe
 
 ## More cores == more speed?
 
-In this final part of the project we will see how our code runs on the departs server with 48 cores!
+In this final part of the lab we will see how our code runs on the departs server with 48 cores!
 
-__Comming soon...__
+We will use SSH to connect to the server from the lab computers (if you account is expired, you will need to get it reset to do this part of the lab). The command to connect to the server is
+
+```bash
+ssh <username>@project2.cs.pomona.edu
+```
+
+Where you will need to replace `<username>` with your actual username. When I do this I get
+
+```bash
+ssh mbannister@project2.cs.pomona.edu
+mbannister@project2.cs.pomona.edu's password:
+```
+
+I then enter my password and hit enter (note your password will not be echoed to you). If your login was successful you will get something that looks like this
+
+```bash
+Welcome to Ubuntu 12.04.5 LTS (GNU/Linux 3.2.0-30-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com/
+
+  System information as of Wed Mar 30 10:16:55 PDT 2016
+
+  System load:  1.04                Processes:              405
+  Usage of /:   53.0% of 406.10GB   Users logged in:        0
+  Memory usage: 2%                  IP address for eth0:    134.173.66.121
+  Swap usage:   0%                  IP address for docker0: 172.17.42.1
+
+  Graph this data and manage this system at:
+    https://landscape.canonical.com/h
+
+mbannister@project2 ~ $
+```
+
+You screen may not look exactly like this, and that is ok. If you look around in this terminal, you will find that all of your file are here. In fact, the two file systems are kept in sync through magic! So navigate to you current lab and use the knowledge you gained in the last lab to run your program in this terminal. Even though the files are all the same, when you run programs they are run on the remote server.
 
 ## What to turn in
 
