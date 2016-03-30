@@ -79,4 +79,4 @@ You screen may not look exactly like this, and that is ok. If you look around in
 
 ## What to turn in
 
-Save your answers to the questions above and the times for the three different versions of the program for 10,000 and 20,000 elements in a text file named `Lab09 LastNameFirstName.txt`. Include at the end of the file the code for your last version of the program. If you worked with a partner, put both of your names at the top of the text file. Also, remember to include JSON file with your information!
+Save your answers to the questions above and the times for the three different versions of the program for 10,000 and 20,000 elements in a text file named `Lab09_LastNameFirstName.txt`. Include at the end of the file the code for your last version of the program. If you worked with a partner, put both of your names at the top of the text file.
