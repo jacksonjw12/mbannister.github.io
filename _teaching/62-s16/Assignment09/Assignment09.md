@@ -6,7 +6,7 @@ mathjax: true
 
 # Assignment 09: The BooOS operating system
 
-## Due on ???
+## Design due on 4/3; Assignment due on 4/10
 
 ## Introduction
 
@@ -18,13 +18,13 @@ balance += amount;
 setBalance(balance);
 ```
 
-Assuming that `getBalance( )` and `setBalance( )` are implemented as they should be, you can feel comfortable in a single-threaded program that nothing can really go wrong here; the old balance will be fetched and placed into the variable balance, an amount will be added to it, and the result will become the new balance. (There is one possible problem, which is the fact that ints have a maximum value and the balance will roll back to a negative number if it passes that maximum.) This chunk of code is simple, straightforward, and predictable.
+Assuming that `getBalance( )` and `setBalance( )` are implemented as they should be, you can feel comfortable in a single-threaded program that nothing can really go wrong here; the old balance will be fetched and placed into the variable balance, an amount will be added to it, and the result will become the new balance. (There is one possible problem, which is the fact that `ints` have a maximum value and the balance will roll back to a negative number if it passes that maximum.) This chunk of code is simple, straightforward, and predictable.
 
 We call Java programs that perform only one task at a time _single-threaded_. However, not all Java programs fall into this category. In Java, a thread consists of a run-time stack and a program counter (pointing to the current bytecode instruction that is to be executed). Java programs can have multiple, simultaneously-executing threads, meaning that they can have more than one run-time stack (one per thread) and more than one program counter (again, one per thread), though all the threads will share the same static memory and the same heap. (There is essentially no theoretical limit on how many threads you can run at a time, though there are practical limitations, such as the reality that run-time stacks are pre-allocated to a size that can be as large as a megabyte or two each.) The practical effect of this is that a program can carry on doing multiple, separate tasks simultaneously, with this simultaneity achieved by literally running the threads on separate processors, if you have at least as many processor cores as threads, or by time-slicing---rapidly switching between them, so that one processor can contribute to the work of more than one thread---if you have more threads than processors.
 
 When first confronted with this notion, a reasonable question to ask is "Why would I want my program to be able to do more than one thing at a time?" There are a variety of reasons. A few of these reasons are:
 
-- On a machine with multiple processors — something that has become the norm for personal computers and even many smartphones — more than one processor can execute parts of your program simultaneously. Current trends lead to a future where even personal computers may well have a very large number of processors; we'll want our programs to be able to make use of these. But a single Java thread can only keep a single processor busy! If you had four processors on a machine, 3/4 of your processing power would sit idle, even if there was theoretically work they could be doing.
+- On a machine with multiple processors---something that has become the norm for personal computers and even many smartphones---more than one processor can execute parts of your program simultaneously. Current trends lead to a future where even personal computers may well have a very large number of processors; we'll want our programs to be able to make use of these. But a single Java thread can only keep a single processor busy! If you had four processors on a machine, 75% of your processing power would sit idle, even if there was theoretically work they could be doing.
 - Even on a machine with a single processor, multiple threads, used judiciously, can be a valuable design aid, allowing us to take disparate tasks and separate them into threads, so that the code for each task does not have to be intertwined with code for the other. One place where this need arises is in programs with graphical user interfaces. For example, all of the UI-related code in a Java-based graphical user interface (using Java's Swing library) is required to run on the same thread, so long-running tasks must be run on a separate thread to allow the UI to remain responsive while those tasks proceed.
 - A program that can be broken up into completely autonomous tasks that communicate only by passing messages back and forth can then be broken up into separate programs that run together as a distributed system on separate machines, with the messages sent over a network instead of just being copied from one memory location to another. This has some tremendous scalability benefits---if you have 1,000 machines and have enough work to keep all of them busy all the time, you can get your work done up to 1,000 times faster than you could on a single machine. Of course, you'll never really achieve the 1,000x speedup, since there is time spent creating, sending, and receiving messages — and quite possibly time spent by each machine waiting for another machine to do work that must be done before it can continue. But the speedup can still be dramatic, especially if you can get a lot of machines to work together on a problem that is easily divisible into individual, independent units of work. (And they don't all have to be your machines! [Folding@home](https://en.wikipedia.org/wiki/SETI@home), for example, asks people all over the world to donate their spare computing resources — times when their machines aren't doing anything else — to work on achieving a deeper understanding of diseases like Alzheimer's, Mad Cow, and Parkinson's. [SETI@home](https://en.wikipedia.org/wiki/SETI@home) is a similar project devoted to finding evidence of intelligent extra-terrestrial life.)
 
@@ -42,7 +42,7 @@ Our operating system for this assignment is called BooOS. BooOS doesn't manage a
 
 BooOS can run any number of programs simultaneously, each of which is a sequence of operations that are either file creations, file reads, file writes, line prints (printing one line of output to a printer), or calculations. Only one program is permitted to print to a printer at a time; similarly, no two programs can access the same file at the same time. File and printer operations are not instantaneous; they take time, and BooOS has the job of making sure that programs that attempt to access a file are suspended while another program is already accessing it.
 
-There are no fairness considerations in BooOS. Suppose Program A begins accessing the file X. While its access is proceeding, Program B attempts an access to the same file and is blocked; just after that, Program C also attempts an access to the same file and is blocked. When Program A's access completes, either Program B or Program C can be chosen to gain access to the file next. The same rule applies to printers. _This is the default behavior when you using locks in Java._
+There are __no__ fairness considerations in BooOS. Suppose Program A begins accessing the file X. While its access is proceeding, Program B attempts an access to the same file and is blocked; just after that, Program C also attempts an access to the same file and is blocked. When Program A's access completes, either Program B or Program C can be chosen to gain access to the file next. The same rule applies to printers. _This is the default behavior when you using locks in Java._
 
 ## The assignment: a BooOS simulator
 
@@ -62,7 +62,7 @@ For your simulator, assume that BooOS is running on a hardware platform that has
 
 Your simulator will store files in memory, rather than on disk. Printer output will be written to a text file, rather than printed to an actual printer.
 
-The simulator is not required to print output to the console, but you might find it useful to print output whenever anything interesting happens (e.g., a program starts, a program ends, a program begins a read operation, a program finishes a read operation, and so on). Be aware that the `System.out.println()` method provides synchronized access to the console automatically; each call to `println()` blocks other threads from printing to the console until it's done. However, if you want to print a line of output to the console by using multiple calls to System.out.print, you may find that output from one thread will be interleaved with output from another; for this reason, it is better to build the entire line of output as a string, then print that string using one single call to `System.out.println()`.
+The simulator is not required to print output to the console, but you might find it useful to print output whenever anything interesting happens (e.g., a program starts, a program ends, a program begins a read operation, a program finishes a read operation, and so on). _Programming tip: Eclipse will write a toString method for you! Look under the source menu_ Be aware that the `System.out.println()` method provides synchronized access to the console automatically; each call to `println()` blocks other threads from printing to the console until it's done. However, if you want to print a line of output to the console by using multiple calls to System.out.print, you may find that output from one thread will be interleaved with output from another; for this reason, it is better to build the entire line of output as a string, then print that string using one single call to `System.out.println()`.
 
 ## Input file format
 
@@ -95,11 +95,11 @@ In general, the format of the input file is as follows.
 - For each program:
     - A single word, on its own line, indicating the name of the program. You can assume that all the program names will be unique.
     - A sequence of commands, one per line, taken from the following set:
-        - `CREATE` filename size — where filename is a single word and size is a positive integer
-        - `READ` filename offset — where filename is a single word and offset is a positive integer
-        - `WRITE` filename offset character — where filename is a single word, offset is a positive integer, and character is a single character
-        - `PRINT` filename — where filename is a single word
-        - `SLEEP` duration — where duration is a positive integer
+        - `CREATE filename size` — where filename is a single word and size is a positive integer
+        - `READ filename offset` — where filename is a single word and offset is a positive integer
+        - `WRITE filename offset character` — where filename is a single word, offset is a positive integer, and character is a single character
+        - `PRINT filename` — where filename is a single word
+        - `SLEEP duration` — where duration is a positive integer
         - `END`
     - Each program ends with an `END` command, which is only permitted to appear at the end of a program.
 
@@ -109,18 +109,18 @@ You may assume that the input file is properly formatted according to these rule
 
 The semantics of each command follow.
 
-- `CREATE` _filename size_: Creates a new file called _filename_ whose _size_ is given by size (meaning that the file stores _size_ characters). Initially, the file consists of spaces. If a file with this name already exists and is at least as big as _size_ bytes, the command does nothing; if a file with this name already exists but is smaller than _size_ bytes, the existing file is resized to be _size_ bytes and spaces are used to fill in the new area. If creation is successful (either because a new file is being created or an existing file is being extended), block the currently-running program for 300 milliseconds.
-- `READ` _filename offset_: Reads the character at the given offset from the file whose name is _filename_. Fails silently if no file with the name _filename_ exists or if the offset is not within the bounds of the file. If the file exists, block the currently-running program for 150 milliseconds.
-- `WRITE` _filename offset character_: Writes the character character into offset offset of the file whose name is _filename_. Fails silently if no file with the name _filename_ exists or if the offset is not within the bounds of the file. If the file exists, block the currently-running program for 200 milliseconds.
-- `PRINT` _filename_: Prints the contents of the file whose name is _filename_ to the output file containing the printer's output. (The output of each `PRINT` command should be on its own line of the output file.) Fails silently if the file does not exist. If the file exists, block the currently-running program for 1000 milliseconds plus one millisecond per byte in the file. (So, for example, if the file has a length of 300 bytes, you'll block the currently-running program for 1300 milliseconds.) Note that printing a file requires locking both the printer and the file for the duration of the print operation.
-- `SLEEP` _duration_: Blocks the currently-running program for _duration_ milliseconds. This is used to simulate the program doing calculations that do not involve system resources like files and printers.
+- `CREATE filename size`: Creates a new file called `filename` whose `size` is given by `size` (meaning that the file stores `size` characters). Initially, the file consists of spaces. If a file with this name already exists and is at least as big as `size` bytes, the command does nothing; if a file with this name already exists but is smaller than `size` bytes, the existing file is resized to be `size` bytes and spaces are used to fill in the new area. If creation is successful (either because a new file is being created or an existing file is being extended), block the currently-running program for 300 milliseconds.
+- `READ filename offset`: Reads the character at the given offset from the file whose name is `filename`. Fails silently if no file with the name `filename` exists or if the offset is not within the bounds of the file. If the file exist (even if the offset is out of bounds), block the currently-running program for 150 milliseconds.
+- `WRITE filename offset character`: Writes the character `character` into offset `offset` of the file whose name is `filename`. Fails silently if no file with the name `filename` exists or if the offset is not within the bounds of the file. If the file exists (even if the offset is out of bounds), block the currently-running program for 200 milliseconds.
+- `PRINT filename`: Prints the contents of the file whose name is `filename` to the output file containing the printer's output. (The output of each `PRINT` command should be on its own line of the output file.) Fails silently if the file does not exist. If the file exists, block the currently-running program for 1000 milliseconds plus one millisecond per byte in the file. (So, for example, if the file has a length of 300 bytes, you'll block the currently-running program for 1300 milliseconds.) Note that printing a file requires locking both the printer and the file for the duration of the print operation.
+- `SLEEP duration`: Blocks the currently-running program for `duration` milliseconds. This is used to simulate the program doing calculations that do not involve system resources like files and printers.
 - `END`: Ends the program.
 
-(You may be wondering why the READ command doesn't seem to have any real use, since there are no commands that take the character that was read and do anything with it. Remember, though, that the intent here is not to provide a programming language; it's just to simulate the interaction of multiple programs wanting to perform input and output to the same devices simultaneously. In such a context, it's less important what the operations are and more important when they occur relative to one another and how simultaneous operations affect one another.)
+(You may be wondering why the `READ` command doesn't seem to have any real use, since there are no commands that take the character that was read and do anything with it. Remember, though, that the intent here is not to provide a programming language; it's just to simulate the interaction of multiple programs wanting to perform input and output to the same devices simultaneously. In such a context, it's less important what the operations are and more important when they occur relative to one another and how simultaneous operations affect one another.)
 
 ## Running your simulator
 
-Your `main()` method should be written in a class called `Simulator`; all of your classes should be in a package `BooOS`. It should accept two command-line parameters: the name of the input file containing the programs it should execute, and the name of the output file to which printer output should be written. We should be able to run your program from the command line using the following command:
+Your `main()` method should be written in a class called `Simulator`; all of your classes should be in a package `BooOS`. Your program should accept two command-line parameters: the name of the input file containing the programs it should execute, and the name of the output file to which printer output should be written. We should be able to run your program from the command line using the following command:
 
 ```bash
 java Simulator input1.txt output1.txt
@@ -133,15 +133,25 @@ java Simulator input1.txt output1.txt
 This is an exploration of concurrency, so you'll need to use multiple threads in your solution. Furthermore, this is an exploration of shared-state concurrency, so you'll also need to have shared objects. I'm requiring the following basic design for your simulator:
 
 - The main thread, when the simulator starts, should read the input file, then create and start one thread for each program that needs to be executed. It's fine to store the contents of the program in an `ArrayList<String>` and parse it as you execute it. (You can use a more complex solution, such as the [Command pattern](https://en.wikipedia.org/wiki/Command_pattern), if you prefer.)
-- Start the threads one after another, but don't start any of them until after you've read all of the programs.
+- Start the threads one after another (use a for-loop), but don't start any of them until after you've read all of the programs.
 - Files and the printer should be represented as shared objects. Note that you don't have to do anything special in Java to share objects; objects are shared by default, as all threads share the same heap. But you do need to ensure that all threads are accessing the same object for each file and the same object for the printer.
-- Use an ArrayList of Bailey Associations to store the mapping between filenames and file objects. If you are feeling adventurous, use a [HashMap](http://docs.oracle.com/javase/8/docs/api/java/util/HashMap.html) to store the mapping between filenames and file objects.
+- Use a [HashMap](http://docs.oracle.com/javase/8/docs/api/java/util/HashMap.html) to store the mapping between filenames and file objects, i.e., it is acting as your file system. If you have never used a `HashMap` before, read the JavaDocs and bring questions to class, office hours or mentor hours.
 - Java synchronization and coordination primitives such as the `synchronized` keyword, `wait()`, and `notify()` should be used to coordinate activities between programs. You can use whichever combination of these primitives you think is appropriate to ensure that the simulation's threading-related guarantees are met. Be sure you're not just "sprinkling" the `synchronized` keyword throughout your program; use it when it's the right thing to use and avoid it when it's not.
 - The current version of Java provides a library of useful concurrency-related classes (e.g., the `java.util.concurrent` library), but these classes are __strictly off-limits__ here; stick to the primitive operations like `synchronized`, `wait()`, and `notify()`.
 
-## Deliverables
+## General rules and regulations
 
-You will submit your exported Eclipse project using the the usual method with the usual naming convention. Remember to include a JSON file for your project.
+You may work with a partner for this assignment. Follow the naming convention we have used in lab when working with partners when submitting your assignment and remember the JSON file. You will be submitting your assignment in two parts: first a design, and second the completed project with a short write-up explaining how you implemented the project. Details about the write up will be posted shortly. For now work on the design and coding.
+
+For the design you will be submitting incomplete implementations of the classes you will use in your assignment. The classes will need to include a description of their purpose, any classes they inherit from, decelerations for all public methods and JavaDocs for all public methods.
+
+The Java library has many useful classes in it, and your classes may inherit from these classes. This can save you from writing a lot of code! Additionally, eclipse can auto-generate a lot of code for you! Look under the source menu. In this project I would like to encourage you to use both of these facilities.
+
+You will submit your exported Eclipse project using the the usual method with the usual naming convention. Remember to include a JSON file for your project. For the design prefix your directory with `_design`.
+
+## Rubric
+
+Coming soon. Ask me if you have any questions.
 
 ## Acknowledgements
 

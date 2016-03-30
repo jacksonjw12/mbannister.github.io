@@ -122,19 +122,19 @@ F 3/18 | __Spring recess__ |
 M 3/21 | [Parallelism](Lecture22/Lecture22.pdf) | | | [Assignment 8](Assignment08/Assignment08.pdf) <!-- Week 8 -->
 W 3/23 | [Concurrency 1](Lecture23/Lecture23.pdf) | | | [Laboratory 8](Lab08/Lab08.html)
 F 3/25 | __César Chávez Day__ |
-M 3/28 | [Concurrency 2](Lecture24/Lecture24.pdf) | | | Assignment 9 <!-- Week 9 -->
+M 3/28 | [Concurrency 2](Lecture24/Lecture24.pdf) | | | [Assignment 9](Assignment09/Assignment09.html) <!-- Week 9 -->
 W 3/30 | Concurrency 3 | | | [Laboratory 9](Lab09/Lab09.html)
 F 4/1  | C 1 |
-M 4/4  | C 2 | | | Assignment 10 <!-- Week 10 -->
+M 4/4  | C 2 | | | <!-- Week 10 -->
 W 4/6  | C 3 | | | Laboratory 10
 F 4/8  | C 4 |
-M 4/11 | C 5 | | | Assignment 11 <!-- Week 11 -->
+M 4/11 | C 5 | | | Assignment 10 <!-- Week 11 -->
 W 4/13 | C 6 | | | Laboratory 11
 F 4/15 | C 7 & Review | <!-- Lecture 15 + 17 = 32 -->
-M 4/18 | __Exam 2__ | | | Assignment 12 <!-- Week 12 -->
+M 4/18 | __Exam 2__ | | | Assignment 11 <!-- Week 12 -->
 W 4/20 | Hash Tables 1 | | | Laboratory 12
 F 4/22 | Hash Tables 2 |
-M 4/25 | Graph Algorithms | | | Assignment 13 <!-- Week 13 -->
+M 4/25 | Graph Algorithms | | | Assignment 12 <!-- Week 13 -->
 W 4/27 | Graph Algorithms | | | Laboratory 13
 F 4/29 | Graph Algorithms |
 M 5/2  | Graph Algorithms | <!-- Week 14 -->
