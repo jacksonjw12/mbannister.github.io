@@ -98,7 +98,7 @@ M 3/14 | _Spring recess_ |
 W 3/16 | _Spring recess_ |
 M 3/21 | Counting | Reading: 4.3 [Homework 8](homework08.html) <!-- Week 8 -->
 W 3/23 | Counting | Reading: 4.2
-M 3/28 | Probability | Reading: 4.4  <!-- Week 9 -->
+M 3/28 | Probability | [Homework 9](homework09.html) Reading: 4.4  <!-- Week 9 -->
 W 3/30 | Probability | Reading: 4.5
 M 4/4  | Advanced counting | <!-- Week 10 -->
 W 4/6  | Flex day |
