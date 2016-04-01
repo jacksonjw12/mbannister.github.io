@@ -42,6 +42,9 @@ A pdf of these notes is freely available online ([link](http://homes.cs.washingt
 __A rapid introduction to C__ by Michael J. Bannister  
 A pdf of these notes _will_ be freely available online.
 
+__Essential C__ and __Pointers and Memory__ by Nick Parlante  
+A pdf pf these notes are freely available online ([link](http://cslibrary.stanford.edu/101/)).
+
 ## Online resources
 
 [Documentation and Handouts](http://www.cs.pomona.edu/~kim/CSC062F15/csc062_4.html)  
@@ -124,7 +127,7 @@ W 3/23 | [Concurrency 1](Lecture23/Lecture23.pdf) ([code](https://github.com/mba
 F 3/25 | __César Chávez Day__ |
 M 3/28 | [Concurrency 2](Lecture24/Lecture24.pdf) ([code](https://github.com/mbannister/mbannister.github.io/tree/master/_teaching/62-s16/Lecture22/code))| | | [Assignment 9](Assignment09/Assignment09.html) <!-- Week 9 -->
 W 3/30 | [Concurrency 3](Lecture25/Lecture25.pdf) ([code](https://github.com/mbannister/mbannister.github.io/tree/master/_teaching/62-s16/Lecture22/code))| | | [Laboratory 9](Lab09/Lab09.html)
-F 4/1  | C 1 |
+F 4/1  | [C 1](Lecture26/Lecture26.pdf) |
 M 4/4  | C 2 | | | <!-- Week 10 -->
 W 4/6  | C 3 | | | Laboratory 10
 F 4/8  | C 4 |
