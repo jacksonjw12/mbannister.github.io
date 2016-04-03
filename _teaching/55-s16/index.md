@@ -93,14 +93,14 @@ W 2/24 | Number Theory & Review for Exam 1 | Reading: 2.3
 M 2/29 | __Exam 1__ | <!-- Week 6 -->
 W 3/2  | Number Theory Applications |  <!-- Send out low grade notifications -->
 M 3/7  | Number Theory Applications | [Homework 7](homework07.html)  <!-- Week 7 -->
-W 3/9  | Counting | Reading: 4.1  <!-- Mar 10: last day to drop -->
+W 3/9  | [Counting](Count_1.pdf) | Reading: 4.1  <!-- Mar 10: last day to drop -->
 M 3/14 | _Spring recess_ |
 W 3/16 | _Spring recess_ |
-M 3/21 | Counting | Reading: 4.3 [Homework 8](homework08.html) <!-- Week 8 -->
-W 3/23 | Counting | Reading: 4.2
-M 3/28 | Probability | [Homework 9](homework09.html) Reading: 4.4  <!-- Week 9 -->
-W 3/30 | Probability | Reading: 4.5
-M 4/4  | Advanced counting | <!-- Week 10 -->
+M 3/21 | [Counting](Count_1.pdf) | Reading: 4.3 [Homework 8](homework08.html) <!-- Week 8 -->
+W 3/23 | [Counting](Count_2.pdf) | Reading: 4.2
+M 3/28 | [Probability](Prob_1.pdf) | [Homework 9](homework09.html) Reading: 4.4  <!-- Week 9 -->
+W 3/30 | [Probability](Prob_2.pdf) | Reading: 4.5
+M 4/4  | Applications of Probability | <!-- Week 10 -->
 W 4/6  | Flex day |
 M 4/11 | __Exam 2__ | <!-- Week 11 -->
 W 4/13 | Equivalence relations |
