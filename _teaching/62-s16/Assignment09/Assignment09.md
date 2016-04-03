@@ -147,7 +147,7 @@ For the design you will be submitting incomplete implementations of the classes 
 
 The Java library has many useful classes in it, and your classes may inherit from these classes. This can save you from writing a lot of code! Additionally, eclipse can auto-generate a lot of code for you! Look under the source menu. In this project I would like to encourage you to use both of these facilities.
 
-You will submit your exported Eclipse project using the the usual method with the usual naming convention. Remember to include a JSON file for your project. For the design prefix your directory with `_design`.
+You will submit your exported Eclipse project using the the usual method with the usual naming convention. Remember to include a JSON file for your project. For the design postfix your directory with `_design`.
 
 ## Rubric
 
