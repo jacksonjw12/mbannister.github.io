@@ -129,7 +129,7 @@ M 3/28 | [Concurrency 2](Lecture24/Lecture24.pdf) ([code](https://github.com/mba
 W 3/30 | [Concurrency 3](Lecture25/Lecture25.pdf) ([code](https://github.com/mbannister/mbannister.github.io/tree/master/_teaching/62-s16/Lecture22/code))| | | [Laboratory 9](Lab09/Lab09.html)
 F 4/1  | [C 1](Lecture26/Lecture26.pdf) |
 M 4/4  | C 2 | | | <!-- Week 10 -->
-W 4/6  | C 3 | | | Laboratory 10
+W 4/6  | C 3 | | | [Laboratory 10](Lab10/Lab10.html)
 F 4/8  | C 4 |
 M 4/11 | C 5 | | | Assignment 10 <!-- Week 11 -->
 W 4/13 | C 6 | | | Laboratory 11
