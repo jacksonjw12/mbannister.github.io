@@ -4,8 +4,6 @@ title: "CS 62: Lab 10"
 mathjax: true
 ---
 
-<h1 style="background: red">This is a draft version of the lab please do not enter any of the terminal commands.</h1>
-
 # CS 62: Lab 09
 
 # Wednesday April 6, 2016
@@ -29,13 +27,13 @@ First we will download Atom from GitHub's webpage (into your `Downloads` folder)
 
 ```
 cd ~/Downloads
-curl -L https://github.com/atom/atom/releases/download/v1.6.2/atom-mac.zip
-tar xf atom-mac.zip
+curl -LO https://github.com/atom/atom/releases/download/v1.6.2/atom-mac.zip
+unzip atom-mac.zip
 ```
 
 ### Moving the Atom application to its new home
 
-Leaving the Atom application in the Downloads folder is just unprofessional, so we will move it to a more appropriate location. On OS X user installed (as opposed to Administrator installed) applications go in the folder `~/Applications`. This folder may not already exist on your computer, but the following commands will create the folder and copy Atom over to its new home.
+Leaving the Atom application in the Downloads folder is just unprofessional, so we will move it to a more appropriate location. On OS X user installed (as opposed to Administrator installed) applications go in the folder `~/Applications`. This folder may not already exist on your computer, but the following commands will create the folder and copy Atom over to its new home. The first line will give you an error if the directory already exists.
 
 ```
 mkdir ~/Applications
