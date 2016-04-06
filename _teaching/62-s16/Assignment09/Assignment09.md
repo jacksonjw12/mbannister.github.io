@@ -157,6 +157,15 @@ For a small amount of extra credit you may implement the following extra command
 
 The `COPY` command is substantially more difficult and will be awarded more points.
 
+## Report
+
+For this project you will also be submitting a report of roughly two pages. In this report I would like you to discuss the following prompts.
+
+1. Summarize your original assignment design. Emphasize how different objects in your design interact with each other. What changes did you make to your design before submitting your final projects? Why did you make these changes? If it helps, you should use an illustration depicting the object interaction in your project.
+2. How did you handle locking of resources in your assignment? For example, did you just use synchronized methods or did you also use synchronized blocks? Explain how you handle the problem of locking both the file and the printer while printing.
+3. Was this your first assignment without "starter code"? Did you feel prepared for coding a large project from scratch? Did working on the design first help?
+4. If you implemented any extra credit, explain what you implemented and how.
+
 ## Rubric
 
 |Criterion|Points|
