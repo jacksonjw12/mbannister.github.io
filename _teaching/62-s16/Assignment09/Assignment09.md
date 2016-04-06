@@ -149,9 +149,31 @@ The Java library has many useful classes in it, and your classes may inherit fro
 
 You will submit your exported Eclipse project using the the usual method with the usual naming convention. Remember to include a JSON file for your project. For the design postfix your directory with `_design`.
 
+## Extra credit
+For a small amount of extra credit you may implement the following extra commands.
+
+- `COPY filename1 offset1 filename2 offset2`: Copies the character in the file `filename1` at offset `offset1` to the offset `offset2` in the file `filename2`. During the copy both files should be locked. You should simulate the work done with copying by sleeping for a given amount of time; the exact amount of time is up to you. Make sure you copy command avoids deadlock!
+- `WRITES filename offsets string`: Writes the string `string` into the file `filename` starting at offset `offset`. The `WRITES` command should fail silently if the entire string sill not fit without overrunning the end of the file. The file should remain locked until the entire string has been written. You should simulate the work done with copying by sleeping for a given amount of time; the exact amount of time is up to you, but it should grow with the length of the file.
+
+The `COPY` command is substantially more difficult and will be awarded more points.
+
 ## Rubric
 
-Coming soon. Ask me if you have any questions.
+|Criterion|Points|
+|---------|------|
+| Thoughtful design | 5 |
+| Report | 10 |
+| Parsing of input files | 2 |
+| BooOS file objects | 1 |
+| BooOS file system | 1 |
+| BooOS Printing | 1 |
+| BooOS Programs | 2 |
+| Parallelism and concurrency | 4 |
+| Appropriate comments | 2 |
+| Style and formatting | 2 |
+| Extra credit | 3 |
+|Total| 30 |
+{: style="width:400px;"}
 
 ## Acknowledgements
 
