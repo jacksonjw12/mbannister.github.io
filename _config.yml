@@ -9,9 +9,9 @@ encoding: UTF-8
 kramdown:
   input: GFM
   syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    inline_theme: github # Inlines the syntax colors
-    css_class: null
+  # syntax_highlighter_opts:
+    #inline_theme: github # Inlines the syntax colors
+    #css_class: null
   hard_wrap: false
 
 # Collections

@@ -182,7 +182,6 @@ For this project you will also be submitting a report of roughly two pages. In t
 | Style and formatting | 2 |
 | Extra credit | 3 |
 |Total| 30 |
-{: style="width:400px;"}
 
 ## Acknowledgements
 

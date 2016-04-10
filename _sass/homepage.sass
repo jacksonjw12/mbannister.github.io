@@ -1,71 +1,59 @@
+@import default
+
 li
   list-style-type: none
   margin: 0
 
 //==== Header ==================================================================
+
 header
-  margin-bottom: 1.5rem
-  h1, h2
-    margin: 0
+  margin: 0 0 $base-spacing 0
+  display: flex
+  align-items: center
   img
-    display: block
-    margin: 0 auto
-    width: 36%
-    min-width: 150px
-
+    +size(200px, 240px)
+    border-radius: $base-border-radius
 #letterhead
-  margin-top: 1.5em
-  text-align: center
-
+  margin: 0 0 0 2 * $base-spacing
+  flex-direction: column
+#name
+  h1,h2
+    margin: 0
+  margin: 0 0 $base-spacing 0
+#information
+  display: flex
+  justify-content: space-between
 #contacts, #profiles
-  display: block
-  line-height: 2
   margin: 0
 
-#contacts
-  margin-top: 0.75rem
-
-#profiles
-  margin-bottom: 0.75rem
-
-@media (min-width: 400px)
-  #contacts, #profiles
-    line-height: 1.5
-
-@media (min-width: 550px)
-  header img
-    display: inline-block
-    width: 200px
-  
+@media (max-width: 700px)
+  header
+    img
+      +size(0.85 * 200px, 0.85 * 240px)
+@media (max-width: 600px)
+  header
+    img
+      +size(0.75 * 200px, 0.75 * 240px)
+@media (max-width: 550px)
+  header
+    flex-direction: column
   #letterhead
-    display: inline-block
-    text-align: left
-    vertical-align: top
     margin: 0
-    margin-left: 1.5rem
-
-@media (min-width: 750px)
-  #letterhead
-    margin-left: 3.0rem
-  #contacts, #profiles
-    display: inline-block
-    vertical-align: top
-    margin: 0.75rem 0rem 0rem 0rem
-  #contacts
-    margin-right: 3rem
+  #name
+    text-align: center
 
 //==== Sections ================================================================
 section h2
   border-bottom-style: solid
   border-width: 2px
-
-@media (min-width: 550px)
-  #about h2
-    display: none
+#about h2
+  display: none
 
 //==== Research ================================================================
-.inproceedings h4
-  margin: 0
+.inproceedings
+  margin: 0 0 $small-spacing 0
+  h4
+    margin: 0
 
 .authors
   margin: 0
@@ -79,7 +67,7 @@ section h2
       content: " and "
     &:last-child::after
       content: "."
- 
+
 .venues
   margin: 0
   li

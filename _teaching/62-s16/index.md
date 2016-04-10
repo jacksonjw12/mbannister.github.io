@@ -94,11 +94,11 @@ There will be two in-class exams and a scheduled comprehensive exam during final
 
 ## Schedule
 
-Date|Lecture|Reading|Homework|Assignments
+Date| Lecture |Reading|Homework|Assignments
 ----|-------|-------|--------|-----------
 W 1/20 | [Introduction & Overview](Lecture01/Lecture01.pdf) ([code](https://github.com/mbannister/mbannister.github.io/tree/master/_teaching/62-s16/Lecture01/code)) | Ch 0 & 1, Appendix B.3.2 |	1.1, 1.3 <!-- Week 0 -->
 F 1/22 | [Pre- and Post-Conditions](Lecture02/Lecture02.pdf) ([code](https://github.com/mbannister/mbannister.github.io/tree/master/_teaching/62-s16/Lecture02/code)) | Ch 2 | 2.1, 2.3
-M 1/25 | [Java Graphics](Lecture03/Lecture03.pdf) ([code](https://github.com/mbannister/mbannister.github.io/tree/master/_teaching/62-s16/Lecture03/code)) |[Standard Java Graphics](http://www.cs.pomona.edu/~kim/CSC062F15/handouts/StdGraphics/StdJavaGraphics.html), [Programming With Assertions](http://docs.oracle.com/javase/8/docs/technotes/guides/language/assert.html) | | [Assignment 1](Assignment01/Assignment01.pdf) <!-- Week 1 -->
+M 1/25 | [Java Graphics](Lecture03/Lecture03.pdf) ([code](https://github.com/mbannister/mbannister.github.io/tree/master/_teaching/62-s16/Lecture03/code)) |[Standard Java Graphics](http://www.cs.pomona.edu/~kim/CSC062F15/handouts/StdGraphics/StdJavaGraphics.html), <br/> [Programming With Assertions](http://docs.oracle.com/javase/8/docs/technotes/guides/language/assert.html) | | [Assignment 1](Assignment01/Assignment01.pdf) <!-- Week 1 -->
 W 1/27 | [Events & ArrayLists](Lecture04/Lecture04.pdf) |  	Ch 3 & 4 | 3.7 | [Laboratory 1](Lab01/lab01.pdf)
 F 1/29 | [ArrayList Implementation](Lecture05/Lecture5.pdf)([code](https://github.com/mbannister/mbannister.github.io/tree/master/_teaching/62-s16/Lecture05/code)) | Ch 3 & 4  | 3.5, 3.7
 M 2/1  | [Analysis of Algorithms](Lecture06/Lecture6.pdf) | Ch 5.1  | 5.5, 5.9, 5.11 | [Assignment 2](Assignment02/Assignment02.pdf) <!-- Week 2 -->

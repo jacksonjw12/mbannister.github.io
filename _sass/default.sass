@@ -1,0 +1,96 @@
+@import bourbon/bourbon
+@import normalize
+@import base/base
+@import rouge
+
+html
+  font-size: 100%
+
+body
+  max-width: 960px
+  margin: 0 auto
+  padding: $base-spacing
+
+
+del
+  color: #F00
+
+ins
+  color: #1565c0
+  text-decoration: none
+  font-weight: bold
+
+@for $i from 1 through 4
+  h#{$i}
+    font-size: modular-scale(4 - $i)
+
+ul, ol
+  margin: 0 0 $small-spacing 0
+  ul, ol
+    margin-left: $base-spacing
+ul
+  list-style: circle inside
+ol
+  list-style: decimal inside
+li
+  margin: 0 0 $small-spacing 0
+
+dl
+  dd
+    margin-left: $base-spacing
+
+code
+  padding: $small-spacing/4 $small-spacing/2
+  font-size: 85%
+  white-space: nowrap
+  background: $secondary-background-color
+  border: 1px solid darken($secondary-background-color, 10%)
+  border-radius: $base-border-radius
+pre > code
+  background: $secondary-background-color
+  border: 1px solid darken($secondary-background-color, 10%)
+  display: block
+  padding: $base-spacing
+  white-space: pre
+  overflow: auto
+
+table
+  table-layout: auto
+th, td
+  border-style: none
+  padding: $small-spacing
+th
+  background-color: $medium-gray
+td
+  white-space: nowrap
+tbody tr:nth-child(2n+0)
+  background-color: $light-gray
+thead th:nth-child(2)
+  width: 100%
+
+// Hack for firefox
+abbr[title]
+  text-decoration: none
+
+// tbody tr:nth-child(3n+0)
+//   background-color: lighten($medium-gray, 40%)
+// tbody tr:nth-child(3n+1)
+//   background-color: lighten($medium-gray, 35%)
+// tbody tr:nth-child(3n+2)
+//   background-color: lighten($medium-gray, 30%)
+
+// TODO: Add warning tags
+
+// .geocities
+//   text-align: center
+//   padding: 2rem 0rem
+//   font-size: 3rem
+//   color: yellow
+//   background-color: black
+
+@media (max-width: 700px)
+  body
+    font-size: 85%
+@media (max-width: 600px)
+  body
+    font-size: 75%

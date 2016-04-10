@@ -7,23 +7,26 @@ description: The home page of Michael J. Bannister.
 current_terms: [["Spring", 2016], ["Fall", 2015], ["Summer", 2014]]
 ---
 
-
 <header>
   <img alt="{{ site.name }}" src="{{ site.img }}"/>
   <div id="letterhead">
-    <h1>{{ site.name }}</h1>
-    <h2>{{ site.department }}</h2>
-    <h2>{{ site.school }}</h2>
-    <ul id="contacts">
-      {% for contact in site.contacts %}
-      <li>{% if contact.link %}<a href="{{ contact.link }}">{{ contact.name }}</a>{% else %}{{ contact.name }}{% endif %}</li>
-      {% endfor %}
-    </ul>
-    <ul id="profiles">
-      {% for profile in site.profiles %}
-      <li>{% if profile.link %}<a href="{{ profile.link }}">{{ profile.name }}</a>{% else %}{{ profile.name }}{% endif %}</li>
-      {% endfor %}
-    </ul>
+      <div id="name">
+        <h1>{{ site.name }}</h1>
+        <h2>{{ site.department }}</h2>
+        <h2>{{ site.school }}</h2>
+      </div>
+      <div id="information">
+          <ul id="contacts">
+            {% for contact in site.contacts %}
+            <li>{% if contact.link %}<a href="{{ contact.link }}">{{ contact.name }}</a>{% else %}{{ contact.name }}{% endif %}</li>
+            {% endfor %}
+          </ul>
+          <ul id="profiles">
+            {% for profile in site.profiles %}
+            <li>{% if profile.link %}<a href="{{ profile.link }}">{{ profile.name }}</a>{% else %}{{ profile.name }}{% endif %}</li>
+            {% endfor %}
+          </ul>
+      </div>
   </div>
 </header>
 
