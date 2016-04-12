@@ -131,13 +131,13 @@ F 4/1  | [C 1](Lecture26/Lecture26.pdf) |
 M 4/4  | [C 2](Lecture27/Lecture27.pdf) | | | <!-- Week 10 -->
 W 4/6  | [C 3](Lecture28/Lecture28.pdf) | | | [Laboratory 10](Lab10/Lab10.html)
 F 4/8  | [C 4](Lecture29/Lecture29.pdf) |
-M 4/11 | [C 5](Lecture30/Lecture30.pdf) | | | Assignment 10 <!-- Week 11 -->
-W 4/13 | C 6 | | | Laboratory 11
+M 4/11 | [C 5](Lecture30/Lecture30.pdf) | | | [Assignment 10](Assignment10/Assignment10.html) <!-- Week 11 -->
+W 4/13 | C 6 | | | [Laboratory 11](Lab11/Lab11.html)
 F 4/15 | C 7 & Review | <!-- Lecture 15 + 17 = 32 -->
-M 4/18 | __Exam 2__ | | | Assignment 11 <!-- Week 12 -->
+M 4/18 | __Exam 2__ | | |  <!-- Week 12 -->
 W 4/20 | Hash Tables 1 | | | Laboratory 12
 F 4/22 | Hash Tables 2 |
-M 4/25 | Graph Algorithms | | | Assignment 12 <!-- Week 13 -->
+M 4/25 | Graph Algorithms | | |  <!-- Week 13 -->
 W 4/27 | Graph Algorithms | | | Laboratory 13
 F 4/29 | Graph Algorithms |
 M 5/2  | Graph Algorithms | <!-- Week 14 -->
