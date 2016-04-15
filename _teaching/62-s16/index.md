@@ -38,11 +38,11 @@ A pdf of this book is freely available online ([link](http://www.cs.williams.edu
 
 __A Sophomoric Introduction to Shared-Memory Parallelism and Concurrency__ by Dan Grossman  
 A pdf of these notes is freely available online ([link](http://homes.cs.washington.edu/~djg/teachingMaterials/spac/)).
-
+<!--
 __A rapid introduction to C__ by Michael J. Bannister  
 A pdf of these notes _will_ be freely available online.
-
-__Essential C__ and __Pointers and Memory__ by Nick Parlante  
+-->
+__Essential C (EC)__ and __Pointers and Memory (PM)__ by Nick Parlante  
 A pdf pf these notes are freely available online ([link](http://cslibrary.stanford.edu/101/)).
 
 ## Online resources
@@ -128,12 +128,12 @@ F 3/25 | __César Chávez Day__ |
 M 3/28 | [Concurrency 2](Lecture24/Lecture24.pdf) ([code](https://github.com/mbannister/mbannister.github.io/tree/master/_teaching/62-s16/Lecture22/code))| | | [Assignment 9](Assignment09/Assignment09.html) <!-- Week 9 -->
 W 3/30 | [Concurrency 3](Lecture25/Lecture25.pdf) ([code](https://github.com/mbannister/mbannister.github.io/tree/master/_teaching/62-s16/Lecture22/code))| | | [Laboratory 9](Lab09/Lab09.html)
 F 4/1  | [C 1](Lecture26/Lecture26.pdf) ([all C code](https://github.com/mbannister/CExamples)) |
-M 4/4  | [C 2](Lecture27/Lecture27.pdf) | | | <!-- Week 10 -->
-W 4/6  | [C 3](Lecture28/Lecture28.pdf) | | | [Laboratory 10](Lab10/Lab10.html)
-F 4/8  | [C 4](Lecture29/Lecture29.pdf) |
-M 4/11 | [C 5](Lecture30/Lecture30.pdf) | | | [Assignment 10](Assignment10/Assignment10.html) <!-- Week 11 -->
-W 4/13 | C 6 | | | [Laboratory 11](Lab11/Lab11.html)
-F 4/15 | C 7 & Review | <!-- Lecture 15 + 17 = 32 -->
+M 4/4  | [C 2](Lecture27/Lecture27.pdf) | EC | | <!-- Week 10 -->
+W 4/6  | [C 3](Lecture28/Lecture28.pdf) | EC | | [Laboratory 10](Lab10/Lab10.html)
+F 4/8  | [C 4](Lecture29/Lecture29.pdf) | EC
+M 4/11 | [C 5](Lecture30/Lecture30.pdf) | EC & PM | | [Assignment 10](Assignment10/Assignment10.html) <!-- Week 11 -->
+W 4/13 | [C 6](Lecture31/Lecture31.pdf) | PM | | [Laboratory 11](Lab11/Lab11.html)
+F 4/15 | Review | <!-- Lecture 15 + 17 = 32 -->
 M 4/18 | __Exam 2__ | | |  <!-- Week 12 -->
 W 4/20 | Hash Tables 1 | | | Laboratory 12
 F 4/22 | Hash Tables 2 |
