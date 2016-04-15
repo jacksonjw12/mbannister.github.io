@@ -9,9 +9,8 @@ This list of topics is based on the review lecture held on 4/15 and is not meant
 
 1. Priority queues and Heaps
 2. Binary search trees
-3. Balanced binary search trees
-4. Sorting and search lower Bounds
-5. Parallelism
-6. Concurrency
-7. The C programming language
-8. Memory management in C
+3. Sorting and search lower Bounds
+4. Parallelism
+5. Concurrency
+6. The C programming language
+7. Memory management in C
