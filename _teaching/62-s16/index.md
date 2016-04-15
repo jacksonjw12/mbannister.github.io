@@ -133,7 +133,7 @@ W 4/6  | [C 3](Lecture28/Lecture28.pdf) | EC | | [Laboratory 10](Lab10/Lab10.htm
 F 4/8  | [C 4](Lecture29/Lecture29.pdf) | EC
 M 4/11 | [C 5](Lecture30/Lecture30.pdf) | EC & PM | | [Assignment 10](Assignment10/Assignment10.html) <!-- Week 11 -->
 W 4/13 | [C 6](Lecture31/Lecture31.pdf) | PM | | [Laboratory 11](Lab11/Lab11.html)
-F 4/15 | Review | <!-- Lecture 15 + 17 = 32 -->
+F 4/15 | [Review](midterm2.html) | <!-- Lecture 15 + 17 = 32 -->
 M 4/18 | __Exam 2__ | | |  <!-- Week 12 -->
 W 4/20 | Hash Tables 1 | | | Laboratory 12
 F 4/22 | Hash Tables 2 |
