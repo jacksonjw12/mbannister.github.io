@@ -41,7 +41,7 @@ Define $$(a,b) \sim (c,d)$$ where $$a,b,c,d \in \mathbf{Z}$$, if $$ac = bd$$. Sh
 
 ### Problem 5
 
-Define $$(a,b) \sim (c,d)$$ where $$a,b,c,d \in \mathbf{N}$$, if $$a+d = b+c$$.
+Define $$(a,b) \sim (c,d)$$ where $$a,b,c,d \in \mathbf{N}$$ $$<ins>with b,d \neq 0</ins>$$, if $$a+d = b+c$$.
 
 __(a)__ Show that $$\sim$$ is an equivalence relation.  
 __(b)__ Describe the equivalence classes of $$(2, 0)$$ and $$(0, 2)$$ using set notation.  
