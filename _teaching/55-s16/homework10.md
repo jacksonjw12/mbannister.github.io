@@ -29,7 +29,7 @@ Let $$f:\mathbf{N} \rightarrow \mathbf{N}$$ and $$g:\mathbf{N} \rightarrow \math
 Let $$A$$ and $$B$$ be two sets and define $$A \sim B$$ to mean that there exists a bijection from $$A$$ to $$B$$. Show that $$\sim$$ is an equivalence relation.
 
 ### Problem 3
-Define $$(a,b) \sim (c,d)$$ where $$a,b,c,d \in \mathbf{Z}$$, if $$ad = bc$$.
+Define $$(a,b) \sim (c,d)$$ where $$a,b,c,d \in \mathbf{Z}$$ <ins>with $$b,d \neq 0$$</ins>, if $$ad = bc$$.
 
 __(a)__ Show that $$\sim$$ is an equivalence relation.  
 __(b)__ Describe the equivalence class of $$(4, 6)$$ using set notation.  
@@ -41,7 +41,7 @@ Define $$(a,b) \sim (c,d)$$ where $$a,b,c,d \in \mathbf{Z}$$, if $$ac = bd$$. Sh
 
 ### Problem 5
 
-Define $$(a,b) \sim (c,d)$$ where $$a,b,c,d \in \mathbf{N}$$ <ins>with $$b,d \neq 0$$</ins>, if $$a+d = b+c$$.
+Define $$(a,b) \sim (c,d)$$ where $$a,b,c,d \in \mathbf{N}$$, if $$a+d = b+c$$.
 
 __(a)__ Show that $$\sim$$ is an equivalence relation.  
 __(b)__ Describe the equivalence classes of $$(2, 0)$$ and $$(0, 2)$$ using set notation.  
