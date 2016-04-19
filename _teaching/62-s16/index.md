@@ -135,12 +135,12 @@ M 4/11 | [C 5](Lecture30/Lecture30.pdf) | EC & PM | | [Assignment 10](Assignment
 W 4/13 | [C 6](Lecture31/Lecture31.pdf) | PM | | [Laboratory 11](Lab11/Lab11.html)
 F 4/15 | [Review](midterm2.html) | <!-- Lecture 15 + 17 = 32 -->
 M 4/18 | __Exam 2__ | | |  <!-- Week 12 -->
-W 4/20 | Hash Tables 1 | | | [Laboratory 12](Lab12/Lab12.html)
-F 4/22 | Hash Tables 2 |
+W 4/20 | C Strings | | | [Laboratory 12](Lab12/Lab12.html)
+F 4/22 | Graph Algorithms |
 M 4/25 | Graph Algorithms | | |  <!-- Week 13 -->
 W 4/27 | Graph Algorithms | | | Laboratory 13
 F 4/29 | Graph Algorithms |
-M 5/2  | Graph Algorithms | <!-- Week 14 -->
+M 5/2  | Hash Tables | <!-- Week 14 -->
 W 5/4  | Review | <!-- Lecture 32 + 7 = 39 -->
 W 5/11 | __Final Exam__ |
 
