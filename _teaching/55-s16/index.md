@@ -105,10 +105,10 @@ W 4/6  | Flex day |
 M 4/11 | __Exam 2__ | <!-- Week 11 -->
 W 4/13 | [Equivalence relations](Equiv.pdf) | [Homework 10](homework10.html)
 M 4/18 | [Graphs](Graphs.pdf) | <!-- Week 12 -->
-W 4/20 | Graphs |
-M 4/25 | Graphs | <!-- Week 13 -->
-W 4/27 | Graphs |
-M 5/2  | Graphs | <!-- Week 14 -->
+W 4/20 | Intro to Graphs | Reading: 7.1, 7.2
+M 4/25 | Graphs: Isomorphism and Connectivity | Reading: 7.3, 7.4 <!-- Week 13 -->
+W 4/27 | Graphs: Special Paths and Planarity | Reading: 7.5, 7.7
+M 5/2  | Graphs: Coloring, Degeneracy and Social Cohesion | Reading: 7.8 <!-- Week 14 -->
 W 5/4  | Flex day |
 Th 5/12 | __Final Exam (9:00am)__ |
 
