@@ -14,6 +14,10 @@ mathjax: true
 
 ---
 
+<div class="warning" markdown="1">
+## Warning: `make memcheck` only seems to work on the lab computers in 229
+</div>
+
 ## Objectives
 
 While working on this assignment, you will:

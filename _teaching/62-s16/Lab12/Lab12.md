@@ -10,6 +10,10 @@ mathjax: true
 
 ---
 
+<div class="warning" markdown="1">
+## Warning: `make memcheck` only seems to work on the lab computers in 229
+</div>
+
 In this lab, you will be writing part of a [markdown](https://en.wikipedia.org/wiki/Markdown) to [html](https://en.wikipedia.org/wiki/HTML) converter. A popular markdown to html converter is [kramdown](http://kramdown.gettalong.org/) and much of this write up is based on their documentation. Unlike the last lab, this lab is conceptually easy, but the cumbersome nature of working with strings in C will add quite a bit of extra difficulty. The goals of this lab are to gain more experience with reading runtime error messages, using `memcheck` and with the C string library. All of these skills will be needed in the current assignment. While working on this lab you should make use of the POSIX standard functions [`getline`](http://man7.org/linux/man-pages/man3/getline.3.html) and [`asprintf`](http://man7.org/linux/man-pages/man3/asprintf.3.html). Also, make sure you look at the example code from class today.
 
 ## Reading a file line-by-line
