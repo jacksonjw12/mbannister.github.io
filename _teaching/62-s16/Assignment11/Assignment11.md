@@ -83,7 +83,7 @@ The file `binary_tree_io.c` provides functions to read and write a data file nam
 
 This file will be the shortest and simplest. The header file specifies two functions: `binary_tree_read` and `binary_tree_write`. Both of these functions take a file stream, and call a recursive function to do the work. You can use `binary_tree_write` to print the tree while debugging by setting the stream to `stdout`. The equivalent Java methods are in the class `AnimalTree`.
 
-The function `binary_tree_read` should return `NULL` if,
+The function `binary_tree_create_f` should return `NULL` if,
 
 - The input stream does not represent a pre-order traversal of a binary tree
 - There is a line in the input file that does not begin with `Q` or `A`
