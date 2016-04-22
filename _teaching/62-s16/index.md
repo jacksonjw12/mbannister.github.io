@@ -135,7 +135,7 @@ M 4/11 | [C 5](Lecture30/Lecture30.pdf) | EC & PM | | [Assignment 10](Assignment
 W 4/13 | [C 6](Lecture31/Lecture31.pdf) | PM | | [Laboratory 11](Lab11/Lab11.html)
 F 4/15 | [Review](midterm2.html) | <!-- Lecture 15 + 17 = 32 -->
 M 4/18 | __Exam 2__ | | |  <!-- Week 12 -->
-W 4/20 | C Strings | | | [Assignment 11](Assignment11/Assignment11.html) <br/> [Laboratory 12](Lab12/Lab12.html)
+W 4/20 | [C Strings](Lecture32/Lecture32.pdf) | | | [Assignment 11](Assignment11/Assignment11.html) <br/> [Laboratory 12](Lab12/Lab12.html)
 F 4/22 | Graph Algorithms |
 M 4/25 | Graph Algorithms | | |  <!-- Week 13 -->
 W 4/27 | Graph Algorithms | | | Laboratory 13
