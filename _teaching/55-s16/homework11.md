@@ -5,6 +5,22 @@ mathjax: true
 
 ---
 
+# Homework 11
+
+---
+
+Due date: Wednesday 4/27/2016 in class  
+Instructions: please turn in each part stapled separately. Label each part with
+
+* your name,
+* homework number,
+* part and
+* instructor name.
+
+Please do not use paper torn off of a notebook.
+
+---
+
 ## Part 1
 
 ### Problem 1
@@ -39,6 +55,10 @@ Remark: the equivalence classes defined by $$\leftrightarrows$$ are called the _
 Find the strongly connected components of the following graph.
 
 ![a digraph](digraph.svg){: style="width: 4in;"}
+
+---
+
+## Part 2
 
 ### Problem 5
 
