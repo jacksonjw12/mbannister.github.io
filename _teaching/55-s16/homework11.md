@@ -70,7 +70,7 @@ $$ \begin{pmatrix} 0 & 1 & 1 & 0 \\ 1 & 0 & 0 & 0 \\ 0 & 1 & 0 & 1 \\ 1 & 0 & 1 
 
 Use circles for vertices and arrows for edges.
 
-__b)__ Recall that an undirected edge can be thought of as two directed edges, one in each direction. Find the adjacency matrix of <rem>$$Q_4$$</rem> <ins>$$Q_2$$</ins> (for a definition, see example 7, page 448, of the textbook).
+__b)__ Recall that an undirected edge can be thought of as two directed edges, one in each direction. Find the adjacency matrix of <del>$$Q_4$$</del> <ins>$$Q_2$$</ins> (for a definition, see example 7, page 448, of the textbook).
 
 __c)__ Describe a method for constructing the adjacency matrix of $$Q_n$$ from copies of the adjacency matrix of $$Q_{n-1}$$.
 
