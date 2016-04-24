@@ -81,7 +81,7 @@ In general, all the nodes/trees will be created with `malloc` and all the variab
 
 The file `binary_tree_io.c` provides functions to read and write a data file named `animals.tree` which stores the binary tree between runs of the program. The function declarations are provided in the file `binary_tree_io.h`.
 
-This file will be the shortest and simplest. The header file specifies two functions: `binary_tree_read` and `binary_tree_write`. Both of these functions take a file stream, and call a recursive function to do the work. You can use `binary_tree_write` to print the tree while debugging by setting the stream to `stdout`. The equivalent Java methods are in the class `AnimalTree`.
+This file will be the shortest and simplest. The header file specifies two functions: `binary_tree_create_f` and `binary_tree_write`. Both of these functions take a file stream, and call a recursive function to do the work. You can use `binary_tree_write` to print the tree while debugging by setting the stream to `stdout`. The equivalent Java methods are in the class `AnimalTree`.
 
 The function `binary_tree_create_f` should return `NULL` if,
 
