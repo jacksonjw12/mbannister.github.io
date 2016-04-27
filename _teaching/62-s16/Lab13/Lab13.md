@@ -1,10 +1,10 @@
 ---
 layout: default
-title: "CS 62: Lab 12"
+title: "CS 62: Lab 13"
 mathjax: true
 ---
 
-# CS 62: Lab 12
+# CS 62: Lab 13
 
 # Wednesday April 20, 2016
 
