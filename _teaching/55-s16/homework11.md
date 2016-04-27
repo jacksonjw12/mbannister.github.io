@@ -95,4 +95,4 @@ __b)__ Find a graph with four vertices that is isomorphic to its complement. Exp
 
 Let $$k$$ be a fixed positive integer. Show that a graph on $$n$$ vertices and $$m = n + k$$ edges can have at most $$2k + a$$ vertices of degree 3 or greater, where $$a$$ is the number of vertices of degree 1.
 
-Hint: <hint>use the handshake/double-counting theorem.</hint>
+Hint: <span class="hint">use the handshake/double-counting theorem.</span>
