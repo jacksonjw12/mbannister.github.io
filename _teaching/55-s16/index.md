@@ -106,9 +106,9 @@ M 4/11 | __Exam 2__ | <!-- Week 11 -->
 W 4/13 | [Equivalence relations](Equiv.pdf) | [Homework 10](homework10.html)
 M 4/18 | [Graphs](Graphs.pdf) | Reading: 7.1 <!-- Week 12 -->
 W 4/20 | Special Graphs and Representations | [Homework 11](homework11.html) Reading: 7.2
-M 4/25 | Graphs: Isomorphism and Connectivity | Reading: 7.3, 7.4 <!-- Week 13 -->
-W 4/27 | Graphs: Special Paths and Planarity | [Homework12](homework12.html) [Quiz 6](Quiz_06.pdf) Reading: 7.5, 7.7
-M 5/2  | Graphs: Coloring, Degeneracy and Social Cohesion | Reading: 7.8 <!-- Week 14 -->
+M 4/25 | [Graphs: Isomorphism and Connectivity](Graphs_3.pdf) | Reading: 7.3, 7.4 <!-- Week 13 -->
+W 4/27 | [Graphs: Special Paths and Planarity](Graphs_4.pdf) | [Homework12](homework12.html) [Quiz 6](Quiz_06.pdf) Reading: 7.5, 7.7
+M 5/2  | [Graphs: Coloring, Degeneracy and Social Cohesion](Graphs_5.pdf) | Reading: 7.8 <!-- Week 14 -->
 W 5/4  | Flex day |
 Th 5/12 | __Final Exam (9:00am)__ |
 
