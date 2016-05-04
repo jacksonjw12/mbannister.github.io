@@ -142,7 +142,7 @@ W 4/27 | [Graph Algorithms](Lecture35/Lecture35.pdf) | Ch 16 | | [Laboratory 13]
 F 4/29 | [Graph Algorithms](Lecture36/Lecture36.pdf) | Ch 16
 M 5/2  | [Graph Algorithms](Lecture37/Lecture37.pdf) | <!-- Week 14 -->
 W 5/4  | Review | | | [Laboratory 14](Lab14/Lab14.html) <!-- Lecture 32 + 7 = 39 -->
-W 5/11 | __Final Exam @ 9:am__ |
+W 5/11 | __Final Exam @ 9:am__ | | | [Assignment12](Assignment12/Assignment12.pdf)
 
 ## Collaboration and Academic Honesty Policy
 
