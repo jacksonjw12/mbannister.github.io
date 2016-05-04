@@ -22,7 +22,7 @@ through the exercises, but this is not necessary.
 ## The actual lab
 
 Solve as many exercise in the following two links as you can:
-[Recursion 1](http://codingbat.com/java/Recursion-1) and [Recursion 2](http://codingbat.com/java/Recursion-1).
+[Recursion 1](http://codingbat.com/java/Recursion-1) and [Recursion 2](http://codingbat.com/java/Recursion-2).
 
 Keep your solutions recursive! You should not need to use loops at all.
 
