@@ -1,4 +1,4 @@
-3---
+---
 layout: default
 title: "CS 62: Data structures and advanced programming"
 term: "Spring"
