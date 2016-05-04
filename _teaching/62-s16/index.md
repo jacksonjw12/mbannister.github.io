@@ -1,4 +1,4 @@
----
+3---
 layout: default
 title: "CS 62: Data structures and advanced programming"
 term: "Spring"
@@ -140,7 +140,7 @@ F 4/22 | [Graph Algorithms](Lecture33/Lecture33.pdf) | Ch 16
 M 4/25 | [Graph Algorithms](Lecture34/Lecture34.pdf) | Ch 16 | |  <!-- Week 13 -->
 W 4/27 | [Graph Algorithms](Lecture35/Lecture35.pdf) | Ch 16 | | [Laboratory 13](Lab13/Lab13.html)
 F 4/29 | [Graph Algorithms](Lecture36/Lecture36.pdf) | Ch 16
-M 5/2  | Hash Tables | <!-- Week 14 -->
+M 5/2  | [Graph Algorithms](Lecture37/Lecture37.pdf) | <!-- Week 14 -->
 W 5/4  | Review | <!-- Lecture 32 + 7 = 39 -->
 W 5/11 | __Final Exam @ 9:am__ |
 
