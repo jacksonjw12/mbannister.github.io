@@ -110,7 +110,7 @@ M 4/25 | [Graphs: Isomorphism and Connectivity](Graphs_3.pdf) | Reading: 7.3, 7.
 W 4/27 | [Graphs: Special Paths and Planarity](Graphs_4.pdf) | [Homework12](homework12.html) [Quiz 6](Quiz_06.pdf) Reading: 7.5, 7.7
 M 5/2  | [Graphs: Coloring, Degeneracy and Social Cohesion](Graphs_5.pdf) | Reading: 7.8 <!-- Week 14 -->
 W 5/4  | Flex day |
-Th 5/12 | __Final Exam (9:00am)__ |
+Th 5/12 | __Final Exam @ 9:00am__ |
 
 ## Collaboration and Academic Honesty Policy
 
