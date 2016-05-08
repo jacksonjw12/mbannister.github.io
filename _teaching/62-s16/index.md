@@ -72,12 +72,7 @@ The conversion from numeric score to letter grades will be determined at the end
 
 ### Old Quizzes
 
-- [Quiz 2](Quizzes/Quiz_02.pdf)
-- [Quiz 3](Quizzes/Quiz_03.pdf)
-- [Quiz 5](Quizzes/Quiz_05.pdf)
-- [Quiz 6](Quizzes/Quiz_06.pdf)
-- [Quiz 7](Quizzes/Quiz_07.pdf)
-- [Quiz 8](Quizzes/Quiz_08.pdf)
+[Quiz 2](Quizzes/Quiz_02.pdf), [Quiz 3](Quizzes/Quiz_03.pdf), [Quiz 5](Quizzes/Quiz_05.pdf), [Quiz 6](Quizzes/Quiz_06.pdf), [Quiz 7](Quizzes/Quiz_07.pdf), [Quiz 8](Quizzes/Quiz_08.pdf)
 
 
 ## Labs
