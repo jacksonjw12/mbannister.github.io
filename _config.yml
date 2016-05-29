@@ -29,16 +29,12 @@ sass:
 
 # About me!
 name: Michael J. Bannister
-title: Visiting Assistant Professor
-department: Department of Computer Science
-school: Pomona College
+title: Assistant Professor
+department: Department of Mathematics and Computer Science
+school: Santa Clara University
 img: assets/img/me_rec_web_50.jpg
 
 contacts:
-    - name: Edmunds Hall 230
-      link: http://www.pomona.edu/map/?id=523&amp;mrkIid=54434
-    - name: (909) 607-0969
-      link:
     - name: mbannister@fastmail.fm
       link: mailto:mbannister@fastmail.fm
     - name: PGP public key
@@ -50,9 +46,9 @@ profiles:
       link: assets/pdf/cv.pdf
 
 description: >
-    I am a Visiting Assistant Professor in the
-    <a href="http://www.pomona.edu/academics/departments/computer-science/">
-    Department of Computer Science</a>
-    at <a href="http://www.pomona.edu/">Pomona College</a>. My research
-    interests are in the design and analysis of geometric and graph algorithms,
-    particularly algorithms for graph drawing and network visualization.
+    In Fall 2016 I will be starting as an Assistant Professor in the
+    <a href="//scu.edu/mathcs">Department of Mathematics and Computer Science</a>
+    at <a href="//www.scu.edu">Santa Clara University</a>.
+    My research interests are in the design and analysis of geometric and graph
+    algorithms, particularly algorithms for graph drawing and network visualization.
+
