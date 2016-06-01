@@ -18,16 +18,14 @@
   <li>Presented at <a href="{{ link }}">{{ include.page.conference }}</a>.</li>
 
   {% if include.page.fullversion %}
-  {% assign fullversion = (site.research | where: 'id', include.page.fullversion | first) %}
+  {% assign fullversion = (site.research | where: 'cv-id', include.page.fullversion | first) %}
   {% if fullversion.volume %}
     {% assign volnum = (fullversion.volume | append: '(' | append: fullversion.number | append: ')') %}
   {% else %}
     {% assign volnum = '(to appear)' %}
   {% endif %}
 
-  <!--
   <li>Published in <a href="http://doi.org/{{ fullversion.doi }}">{{ fullversion.journal }} {{ volnum }}</a>.</li>
-  -->
   {% endif %}
 
   {% if include.page.eprint %}
