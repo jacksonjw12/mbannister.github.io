@@ -58,5 +58,15 @@
     {
         "link": null,
         "shortname": "D A Brown"
+    },
+    "Vida Dujmović":
+    {
+        "link": "http://cglab.ca/~vida/",
+        "shortname": "V Dujmović"
+    },
+    "David R. Wood":
+    {
+        "link": "http://users.monash.edu.au/~davidwo/",
+        "shortname": "D R Wood"
     }
 }

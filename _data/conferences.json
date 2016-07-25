@@ -1,6 +1,12 @@
 
 
 {
+    "GD 2016":
+    {
+        "name": "23nd International Symposium on Graph Drawing",
+        "location": "Athens, Greece",
+        "link": "http://algo.math.ntua.gr/~gd2016/"
+    },
     "GD 2015":
     {
         "name": "22nd International Symposium on Graph Drawing",
