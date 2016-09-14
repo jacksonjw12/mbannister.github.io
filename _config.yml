@@ -32,13 +32,15 @@ name: Michael J. Bannister
 title: Assistant Professor
 department: Department of Mathematics and Computer Science
 school: Santa Clara University
-img: assets/img/me_rec_web_50.jpg
+img: assets/img/me-200x300.jpg
 
 contacts:
     - name: mbannister@fastmail.fm
       link: mailto:mbannister@fastmail.fm
     - name: PGP public key
       link: assets/asc/public_key.asc
+    - name: O'Connor Hall, Room 17
+    - name: (408) 551-3592
 profiles:
     - name: Google Scholar
       link: http://scholar.google.com/citations?user=vwc4KwwAAAAJ
@@ -46,9 +48,8 @@ profiles:
       link: assets/pdf/cv.pdf
 
 description: >
-    In Fall 2016 I will be starting as an Assistant Professor in the
+    I am an Assistant Professor of Computer Science in the
     <a href="//scu.edu/mathcs">Department of Mathematics and Computer Science</a>
     at <a href="//www.scu.edu">Santa Clara University</a>.
     My research interests are in the design and analysis of geometric and graph
     algorithms, particularly algorithms for graph drawing and network visualization.
-
