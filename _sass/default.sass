@@ -66,14 +66,14 @@ table
 th, td
   border-style: none
   padding: $small-spacing
-th
-  background-color: $medium-gray
 td
   white-space: nowrap
-tbody tr:nth-child(2n+0)
-  background-color: $light-gray
-thead th:nth-child(2)
-  width: 100%
+
+.schedule-mwf
+  tbody tr:nth-child(3n+2)
+    background-color: lighten($light-gray, 7%)
+  tbody tr:nth-child(3n+0)
+    background-color: $light-gray
 
 // Hack for firefox
 abbr[title]
