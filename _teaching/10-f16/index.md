@@ -113,7 +113,7 @@ All exams will be closed-note, closed-book, closed-computer, closed-calculator a
 ## Tentative Schedule
 
 09/19 | Introductions, pre-history of computing and number systems ([slides](Slides/Lecture01.pdf)) <br/> Read: Syllabus, [Abacus](//en.wikipedia.org/wiki/Abacus), [Slide rule](//en.wikipedia.org/wiki/Abacus), [Jacquard loom](//en.wikipedia.org/wiki/Jacquard_loom), [Analytic engine](//en.wikipedia.org/wiki/Analytical_Engine) <br/> Skim: [Leibniz](//en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz),  [Shannon](//en.wikipedia.org/wiki/Claude_Shannon),  [Babbage](//en.wikipedia.org/wiki/Claude_Shannon)  | <!-- Week 1; Lab: Install-->
-09/21 | History of computing and anatomy of modern computers | Homework 1
+09/21 | [History of computing and anatomy of modern computers](Slides/Lecture01.pdf) | Homework 1
 09/23 | Types, variables, arithmetic and IO|
 09/26 | Conditional execution | <!-- Week 2; Lab: Var, IO, Conditionals -->
 09/28 | Loops | Homework 2 <!-- Mass of the Holy Spirit -->
