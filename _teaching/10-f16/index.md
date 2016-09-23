@@ -99,7 +99,7 @@ In the lab for this course you will work on small programming assignments, which
 
 As part of the lab portion of this course you will be assigned online programming problems through MyProgrammingLab. These assignments are to be complete __before__ coming to lab.
 
-The webpage for the lab section can be found here: [math.scu.edu/~linnell/labf16/index.html](math.scu.edu/~linnell/labf16/index.html).
+The webpage for the lab section can be found here: [math.scu.edu/~linnell/labf16/index.html](//math.scu.edu/~linnell/labf16/index.html).
 
 __You will be using your personal computers during lab.__
 
