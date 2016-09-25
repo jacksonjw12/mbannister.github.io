@@ -116,8 +116,8 @@ All exams will be closed-note, closed-book, closed-computer, closed-calculator a
 09/21 | History of computing and anatomy of modern computers ([slides](Slides/Lecture02.pdf)) <br/> Read: 1.1 and 1.2 | [Homework 1](Homework/Homework01.html)
 09/23 | Types, variables, arithmetic and IO ([slides](Slides/Lecture03.pdf), [Example01](//github.com/mbannister/mbannister.github.io/blob/master/_teaching/10-f16/Code/Example01.cpp)) <br/> Read: 1.4, 2.1, 2.2, 2.3 |
 09/26 | Conditional execution <br/> Read: 2.4, 3.1, 3.2 | <!-- Week 2; Lab: Var, IO, Conditionals -->
-09/28 | Loops <br/> Read: 3.3 | Homework 2 <!-- Mass of the Holy Spirit -->
-09/30 | Problem solving with C++ <br/> Read: 3.4|
+09/28 | Loops <br/> Read: 3.3, 3.4 | Homework 2 <!-- Mass of the Holy Spirit -->
+09/30 | Problem solving with C++ <br/> Read: 4.1|
 10/03 | Functions <br/> Read: 4.2, 4.3 | <!-- Week 3; Lab: Loops -->
 10/05 | Scoping <br/> Read: 4.5 | Homework 3
 10/07 | Review |
