@@ -115,7 +115,7 @@ All exams will be closed-note, closed-book, closed-computer, closed-calculator a
 09/19 | Introductions, pre-history of computing and number systems ([slides](Slides/Lecture01.pdf)) <br/> Read: Syllabus, [Abacus](//en.wikipedia.org/wiki/Abacus), [Slide rule](//en.wikipedia.org/wiki/Abacus), [Jacquard loom](//en.wikipedia.org/wiki/Jacquard_loom), [Analytic engine](//en.wikipedia.org/wiki/Analytical_Engine) <br/> Skim: [Leibniz](//en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz),  [Shannon](//en.wikipedia.org/wiki/Claude_Shannon),  [Babbage](//en.wikipedia.org/wiki/Claude_Shannon)  | <!-- Week 1; Lab: Install-->
 09/21 | History of computing and anatomy of modern computers ([slides](Slides/Lecture02.pdf)) <br/> Read: 1.1 and 1.2 | [Homework 1](Homework/Homework01.html)
 09/23 | Types, variables, arithmetic and IO ([slides](Slides/Lecture03.pdf), [Example01](//github.com/mbannister/mbannister.github.io/blob/master/_teaching/10-f16/Code/Example01.cpp)) <br/> Read: 1.4, 2.1, 2.2, 2.3 |
-09/26 | Conditional execution ([slides](Slides/Lecture04.pdf) <br/> Read: 2.4, 3.1, 3.2 | <!-- Week 2; Lab: Var, IO, Conditionals -->
+09/26 | Conditional execution ([slides](Slides/Lecture04.pdf)) <br/> Read: 2.4, 3.1, 3.2 | <!-- Week 2; Lab: Var, IO, Conditionals -->
 09/28 | Loops <br/> Read: 3.3, 3.4 | Homework 2 <!-- Mass of the Holy Spirit -->
 09/30 | Problem solving with C++ <br/> Read: 4.1|
 10/03 | Functions <br/> Read: 4.2, 4.3 | <!-- Week 3; Lab: Loops -->
