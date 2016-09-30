@@ -117,7 +117,7 @@ All exams will be closed-note, closed-book, closed-computer, closed-calculator a
 09/23 | Types, variables, arithmetic and IO ([slides](Slides/Lecture03.pdf), [Example01](//github.com/mbannister/mbannister.github.io/blob/master/_teaching/10-f16/Code/Example01.cpp)) <br/> Read: 1.4, 2.1, 2.2, 2.3 |
 09/26 | Conditional execution ([slides](Slides/Lecture04.pdf), [Example02](//github.com/mbannister/mbannister.github.io/blob/master/_teaching/10-f16/Code/Example02.cpp), [Example03](//github.com/mbannister/mbannister.github.io/blob/master/_teaching/10-f16/Code/Example03.cpp)) <br/> Read: 2.4, 3.1, 3.2 | <!-- Week 2; Lab: Var, IO, Conditionals -->
 09/28 | Loops ([slides](Slides/Lecture05.pdf),  [Example04](//github.com/mbannister/mbannister.github.io/blob/master/_teaching/10-f16/Code/Example04.cpp),  [Example05](//github.com/mbannister/mbannister.github.io/blob/master/_teaching/10-f16/Code/Example05.cpp),  [Example06](//github.com/mbannister/mbannister.github.io/blob/master/_teaching/10-f16/Code/Example06.cpp), [Example07](//github.com/mbannister/mbannister.github.io/blob/master/_teaching/10-f16/Code/Example07.cpp)) <br/> Read: 3.3, 3.4 | [Homework 2](Homework/Homework02.html) <!-- Mass of the Holy Spirit -->
-09/30 | Problem solving with C++ <br/> Read: 4.1|
+09/30 | Problem solving with C++ ([slides](Slides/Lecture06.pdf)) <br/> Read: 4.1|
 10/03 | Functions <br/> Read: 4.2, 4.3 | <!-- Week 3; Lab: Loops -->
 10/05 | Scoping <br/> Read: 4.5 | Homework 3
 10/07 | Review |
