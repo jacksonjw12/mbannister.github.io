@@ -10,7 +10,18 @@ mathjax: true
 
 ---
 
-__Submission instructions:__ To be announces soon!
+__Submission instructions:__ You will be submitting __two__ copies of your
+homework: an electronic copy using Google Forms, and a physical copy in class.
+Both copies are due at 10:30am, i.e., the start of class.
+
+The procedure for copying and pasting your code into the form will be demonstrated
+in class on Monday (10/3).
+
+After submitting your solutions on Google Forms, you will receive an email with
+a copy of your submitted answer. If you notice an error, resubmit your solutions.
+Only your most recent submission before the due date will be graded.
+
+[Google Forms link](//docs.google.com/a/scu.edu/forms/d/e/1FAIpQLScqacVldQD_wrVxZXwNTRDc_A9wTM4VGZ6bsKfotPYAvreUSw/viewform)
 
 ---
 
