@@ -22,4 +22,6 @@ int main() {
         n /= 2;
     }
     cout << "\n";
+
+    return 0;
 }
