@@ -63,6 +63,8 @@ int main() {
 }
 ```
 
+---
+
 __Problem 2:__ For this problem you will be writing a program that computes a
 student's average quiz grade. The program will
 first ask the user for the total number of quiz scores. Then it will
@@ -102,6 +104,8 @@ What was the score for Quiz 1? 8
 The average quiz score is 4.5.
 Program ended with exit code: 0
 ```
+
+---
 
 __Problem 3:__ For this problem you will be writing a program that prints a
 rectangle of `X`s like we did in class, but with a little twist---you will also
@@ -150,3 +154,5 @@ What is the height? 4
 Both width and height must be greater than 0!
 Program ended with exit code: 0
 ```
+
+---
