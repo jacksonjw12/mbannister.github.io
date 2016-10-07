@@ -120,7 +120,7 @@ All exams will be closed-note, closed-book, closed-computer, closed-calculator a
 09/30 | Problem solving with C++ ([slides](Slides/Lecture06.pdf), [Problem 01](//github.com/mbannister/mbannister.github.io/blob/master/_teaching/10-f16/Code/Problem01.cpp), [Problem 02](//github.com/mbannister/mbannister.github.io/blob/master/_teaching/10-f16/Code/Problem02.cpp), [Problem 03](//github.com/mbannister/mbannister.github.io/blob/master/_teaching/10-f16/Code/Problem03.cpp), [Problem 04](//github.com/mbannister/mbannister.github.io/blob/master/_teaching/10-f16/Code/Problem04.cpp)) ) <br/> Read: 4.1|
 10/03 | Functions ([slides](Slides/Lecture07.pdf), [Example08](//github.com/mbannister/mbannister.github.io/blob/master/_teaching/10-f16/Code/Example08.cpp), [Example09](//github.com/mbannister/mbannister.github.io/blob/master/_teaching/10-f16/Code/Example09.cpp), [Example10](//github.com/mbannister/mbannister.github.io/blob/master/_teaching/10-f16/Code/Example10.cpp)) <br/> Read: 4.2, 4.3 | <!-- Week 3; Lab: Loops -->
 10/05 | <del>Scoping</del> <ins>More functions</ins> ([slides](Slides/Lecture08.pdf), [Example11](//github.com/mbannister/mbannister.github.io/blob/master/_teaching/10-f16/Code/Example11.cpp), [Example12](//github.com/mbannister/mbannister.github.io/blob/master/_teaching/10-f16/Code/Example12.cpp)) <br/> Read: <del>4.5</del> <ins>4.4</ins> | [Homework 3](Homework/Homework03.html)
-10/07 | Review |
+10/07 | Review ([slides](Slides/Lecture09.pdf))|
 10/10 | __Midterm Exam 1__ | <!-- Week 4; Lab: Functions -->
 10/12 | Call by reference | Homework 4
 10/14 | _The internet and social networks_ | <!-- Last day to drop without W -->
