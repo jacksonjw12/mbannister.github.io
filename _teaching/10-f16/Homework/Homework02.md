@@ -163,6 +163,40 @@ __Problem 2 Solution:__
 using namespace std;
 
 int main() {
+    int wavelength = 0;
+    cout << "Please enter a wavelength: ";
+    cin >> wavelength;
+
+    if (750 < wavelength) {
+        cout << "Error: not visible!\n";
+    } else if (620 < wavelength) {
+        cout << "Red\n";
+    } else if (590 < wavelength) {
+        cout << "Orange\n";
+    } else if (570 < wavelength) {
+        cout << "Yellow\n";
+    } else if (495 < wavelength) {
+        cout << "Green\n";
+    } else if (450 < wavelength) {
+        cout << "Blue\n";
+    } else if (380 < wavelength) {
+        cout << "Violet\n";
+    } else {
+        cout << "Error: not visible!\n";
+    }
+
+    return 0;
+}
+```
+
+__Problem 3 Solution:__
+
+```cpp
+#include <iostream>
+
+using namespace std;
+
+int main() {
 
     int seconds = 0;
     int minutes = 0;
@@ -226,40 +260,6 @@ int main() {
     }
 
     cout << "\n";
-
-    return 0;
-}
-```
-
-__Problem 3 Solution:__
-
-```cpp
-#include <iostream>
-
-using namespace std;
-
-int main() {
-    int wavelength = 0;
-    cout << "Please enter a wavelength: ";
-    cin >> wavelength;
-
-    if (750 < wavelength) {
-        cout << "Error: not visible!\n";
-    } else if (620 < wavelength) {
-        cout << "Red\n";
-    } else if (590 < wavelength) {
-        cout << "Orange\n";
-    } else if (570 < wavelength) {
-        cout << "Yellow\n";
-    } else if (495 < wavelength) {
-        cout << "Green\n";
-    } else if (450 < wavelength) {
-        cout << "Blue\n";
-    } else if (380 < wavelength) {
-        cout << "Violet\n";
-    } else {
-        cout << "Error: not visible!\n";
-    }
 
     return 0;
 }
