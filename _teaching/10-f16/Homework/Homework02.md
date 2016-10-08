@@ -139,3 +139,128 @@ Program ended with exit code: 0
 ```
 
 ---
+
+---
+
+__Problem 1 Solution:__
+
+```
+TRUE!!!
+3
+24
+5
+5
+2
+3
+```
+
+
+__Problem 2 Solution:__
+
+```cpp
+#include <iostream>
+
+using namespace std;
+
+int main() {
+
+    int seconds = 0;
+    int minutes = 0;
+    int hours = 0;
+    int days = 0;
+    int years = 0;
+
+    cout << "Please enter time in seconds: ";
+    cin >> seconds;
+
+    minutes = seconds / 60;
+    seconds = seconds % 60;
+
+    hours = minutes / 60;
+    minutes = minutes % 60;
+
+    days = hours / 24;
+    hours = hours % 24;
+
+    years = days / 365;
+    days = days % 365;
+
+    if (years != 0) {
+        cout << years << " year";
+        if (years > 1) {
+            cout << "s";
+        }
+        cout << " ";
+    }
+
+    if (days != 0) {
+        cout << days << " day";
+        if (days > 1) {
+            cout << "s";
+        }
+        cout << " ";
+    }
+
+    if (hours != 0) {
+        cout << hours << " hour";
+        if (hours > 1) {
+            cout << "s";
+        }
+        cout << " ";
+    }
+
+    if (minutes != 0) {
+        cout << minutes << " minute";
+        if (minutes > 1) {
+            cout << "s";
+        }
+        cout << " ";
+    }
+
+    if (seconds != 0) {
+        cout << seconds << " second";
+        if (seconds > 1) {
+            cout << "s";
+        }
+        cout << " ";
+    }
+
+    cout << "\n";
+
+    return 0;
+}
+```
+
+__Problem 3 Solution:__
+
+```cpp
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int wavelength = 0;
+    cout << "Please enter a wavelength: ";
+    cin >> wavelength;
+
+    if (750 < wavelength) {
+        cout << "Error: not visible!\n";
+    } else if (620 < wavelength) {
+        cout << "Red\n";
+    } else if (590 < wavelength) {
+        cout << "Orange\n";
+    } else if (570 < wavelength) {
+        cout << "Yellow\n";
+    } else if (495 < wavelength) {
+        cout << "Green\n";
+    } else if (450 < wavelength) {
+        cout << "Blue\n";
+    } else if (380 < wavelength) {
+        cout << "Violet\n";
+    } else {
+        cout << "Error: not visible!\n";
+    }
+
+    return 0;
+}
+```
