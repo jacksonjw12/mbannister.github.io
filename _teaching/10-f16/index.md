@@ -122,15 +122,15 @@ All exams will be closed-note, closed-book, closed-computer, closed-calculator a
 10/05 | <del>Scoping</del> <ins>More functions</ins> ([slides](Slides/Lecture08.pdf), [Example11](//github.com/mbannister/mbannister.github.io/blob/master/_teaching/10-f16/Code/Example11.cpp), [Example12](//github.com/mbannister/mbannister.github.io/blob/master/_teaching/10-f16/Code/Example12.cpp)) <br/> Read: <del>4.5</del> <ins>4.4</ins> | [Homework 3](Homework/Homework03.html)
 10/07 | Review ([slides](Slides/Lecture09.pdf), [outline](Slides/midterm1.pdf))|
 10/10 | __Midterm Exam 1__ | <!-- Week 4; Lab: Functions -->
-10/12 | Call by reference | Homework 4
+10/12 | <del>Call by reference</del> <ins>Scoping</ins> <br/> <ins>Reading: 4.5</ins> | Homework 4
 10/14 | _The internet and social networks_ | <!-- Last day to drop without W -->
-10/17 | Arrays | <!-- Week 5; Lab: Functions, Scope, Reference -->
-10/19 | Algorithms on arrays | Homework 5
-10/21 | Strings |
-10/24 | _Cryptography_ | Extra Credit <!-- Week 6; Lab: Arrays -->
-10/26 | _Mass surveillance_ | Homework 6
+10/17 | <del>Arrays</del> <ins>Call-by-reference</ins> <br/> Reading: 5.1 | <!-- Week 5; Lab: Functions, Scope, Reference -->
+10/19 | Arrays and algorithms on arrays | Homework 5
+10/21 | Strings and the ASCII character encoding |
+10/24 | _Cryptography and mass surveillance_ | Extra Credit <!-- Week 6; Lab: Arrays -->
+10/26 | More with strings | Homework 6
 10/28 | Review |
-10/31 | __Midterm Exam 2__  | <!-- Week 7; Lab: String -->
+10/31 | __Midterm Exam 2__  | <!-- Week 7; Lab: Strings -->
 11/02 | Structures | Homework 7
 11/04 | _The influence of computing on science and the arts_ | <!-- Last day to drop with W -->
 11/07 | File IO | <!-- Week 8; Lab: Structures -->
