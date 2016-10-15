@@ -122,7 +122,7 @@ All exams will be closed-note, closed-book, closed-computer, closed-calculator a
 10/05 | <del>Scoping</del> <ins>More functions</ins> ([slides](Slides/Lecture08.pdf), [Example11](//github.com/mbannister/mbannister.github.io/blob/master/_teaching/10-f16/Code/Example11.cpp), [Example12](//github.com/mbannister/mbannister.github.io/blob/master/_teaching/10-f16/Code/Example12.cpp)) <br/> Read: <del>4.5</del> <ins>4.4</ins> | [Homework 3](Homework/Homework03.html)
 10/07 | Review ([slides](Slides/Lecture09.pdf), [outline](Slides/midterm1.pdf))|
 10/10 | __Midterm Exam 1__ | <!-- Week 4; Lab: Functions -->
-10/12 | <del>Call by reference</del> <ins>Scoping</ins> ([slides](Slides/Lecture10.pdf))<br/>Reading: 4.5 | Homework 4
+10/12 | <del>Call by reference</del> <ins>Scoping</ins> ([slides](Slides/Lecture10.pdf))<br/>Reading: 4.5 | [Homework 4](Homework/Homework04.html)
 10/14 | _The internet and social networks_<br/>Reading: TBA | <!-- Last day to drop without W -->
 10/17 | <del>Arrays</del> <ins>Call-by-reference</ins><br/>Reading: 5.2; Skim: 4.6, 5.1 | <!-- Week 5; Lab: Functions, Scope, Reference -->
 10/19 | Arrays and algorithms on arrays<br/>Reading: 7.1, 7.2 | Homework 5

@@ -4,9 +4,9 @@ title: "CSCI 10: Homework 4"
 mathjax: true
 ---
 
-# Homework 3
+# Homework 4
 
-## Due: Wednesday 10/19 at 10:30am
+## Due: Friday 10/21 at 10:30am
 
 ---
 
@@ -72,7 +72,9 @@ int h(int a, int b) {
 }
 ```
 
-__Problem 2:__ In this problem you will write a C++ function (`double area(double a, double b, double c);`) to compute the area
+---
+
+__Problem 2:__ In this problem you will write a C++ function, `double area(double a, double b, double c);`, to compute the area
 of a triangle with side lengths $$a$$, $$b$$ and $$c$$---the side length should
 be stored using `double`s. To do this computation you will use
 [Heron's formula](https://en.wikipedia.org/wiki/Heron%27s_formula):
@@ -80,11 +82,140 @@ be stored using `double`s. To do this computation you will use
 $$A = \sqrt{s(s-a)(s-b)(s-c)}\qquad\text{where}\qquad s = \frac{a+b+c}{2}$$
 
 If any of the quantities $$a$$, $$b$$, $$c$$ or $$s(s-a)(s-b)(s-c)$$ is negative,
-the then there is no triangle with side lengths $$a$$, $$b$$ and $$c$$. In this
-case your function should return an area of $$-1$$.
+ then there is no triangle with side lengths $$a$$, $$b$$ and $$c$$. If the
+side length do not correspond to a valid triangle, then your function should
+return an area of $$-1$$.
 
-Additionally, you will write a short main method to test your function. Your test
-program should ask the user for three side length and then return the area if
+Additionally, you must write a short main method to test your function. Your test
+program should ask the user for three side length and then print the area if
 the sides lengths are valid and an error message otherwise.
 
-__Problem 3:__ The number guessing game.
+__Sample run 1:__
+
+```
+Enter the length of side a = -1
+Enter the length of side b = 2
+Enter the length of side c = 3
+Those side lengths did not come from a triangle...
+```
+
+__Sample run 2:__
+
+```
+Enter the length of side a = 3
+Enter the length of side b = 4
+Enter the length of side c = 5
+The area of the triangle is 6.
+```
+
+__Sample run 3:__
+
+```
+Enter the length of side a = 5
+Enter the length of side b = 10
+Enter the length of side c = 13
+The area of the triangle is 22.4499.
+```
+
+---
+
+__Problem 3:__ In this problem you will write a C++ program to play the
+"Guess the Number" game. The game will be played as follows: first the program
+will pick a random number between 1 and 100, and you will be given eight chances
+to guess the number. After each guess, the program will tell you if your guess
+is too high, too low or correct. You win if you guess the number within eight
+guesses.
+
+I have included an outline of the program below, using a combination of actual
+C++ code and pseudocode comments. When implementing this program try to break your program
+down into functions as we did in Example 12, but don't worry about
+having some code in your `main` function.
+
+```cpp
+#include <iostream>
+#include <ctime>
+#include <cstdlib>
+
+using namespace std;
+
+int main() {
+    // Initialize Random Number Generator:
+    // We 'start' the random number generator with the current time and call the
+    // rand() function once. This will make it so each run of the program will
+    // generate a differ, and unpredictable, number.
+    srand(time(0));
+    rand();
+
+    // Pick a random "secret" number between 1 and 100.
+
+    // Loop 8 time or until the player has guessed correctly
+        // Prompt the user for a guess and read in their guess
+        // Check the players guess
+            // If the guess is too high/low let them know
+            // If the guess is correct let them know and end the loop
+
+    // If the player won, say so
+    // If the player lost, say so and tell them the number
+
+    return 0;
+}
+```
+
+__Sample run 1:__
+
+```
+I have picked a random number between 1 and 100!
+Can you guess the number?
+Enter a guess: 50
+Too high!
+Enter a guess: 25
+That is correct!
+You win!
+```
+
+__Sample run 2:__
+
+```
+I have picked a random number between 1 and 100!
+Can you guess the number?
+Enter a guess: 50
+Too low!
+Enter a guess: 75
+Too low!
+Enter a guess: 87
+Too high!
+Enter a guess: 81
+Too low!
+Enter a guess: 84
+Too low!
+Enter a guess: 85
+That is correct!
+You win!
+```
+
+__Sample run 3:__
+
+```
+I have picked a random number between 1 and 100!
+Can you guess the number?
+Enter a guess: 1
+Too low!
+Enter a guess: 2
+Too low!
+Enter a guess: 3
+Too low!
+Enter a guess: 4
+Too low!
+Enter a guess: 5
+Too low!
+Enter a guess: 6
+Too low!
+Enter a guess: 7
+Too low!
+Enter a guess: 8
+Too low!
+You lost!
+I was thinking of 33.
+```
+
+---
