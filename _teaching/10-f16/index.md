@@ -123,7 +123,7 @@ All exams will be closed-note, closed-book, closed-computer, closed-calculator a
 10/07 | Review ([slides](Slides/Lecture09.pdf), [outline](Slides/midterm1.pdf))|
 10/10 | __Midterm Exam 1__ | <!-- Week 4; Lab: Functions -->
 10/12 | <del>Call by reference</del> <ins>Scoping</ins> ([slides](Slides/Lecture10.pdf))<br/>Reading: 4.5 | [Homework 4](Homework/Homework04.html)
-10/14 | _The internet and social networks_<br/>Reading: TBA | <!-- Last day to drop without W -->
+10/14 | _The internet and social networks_ ([slides](Slides/Lecture11.pdf))<br/>Reading: TBA | <!-- Last day to drop without W -->
 10/17 | <del>Arrays</del> <ins>Call-by-reference</ins><br/>Reading: 5.2; Skim: 4.6, 5.1 | <!-- Week 5; Lab: Functions, Scope, Reference -->
 10/19 | Arrays and algorithms on arrays<br/>Reading: 7.1, 7.2 | Homework 5
 10/21 | Strings and the ASCII character encoding<br/>Reading: 8.1 |
