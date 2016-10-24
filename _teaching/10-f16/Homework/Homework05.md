@@ -99,4 +99,19 @@ do not return anything, i.e., they are `void` returning.
 
 __Use  of global variables will result in heavy grading penalties.__
 
-___
+---
+
+__Challenge Problem (ungraded):__ For this challenge problem you will create a
+income tax calculator. First, you should create a calulator that take the annual
+income of a single person with no children, and prints out how much the person
+must pay in taxes. An explanation on how this computation works can be found at
+the [Khan Academy](https://www.youtube.com/watch?v=DtCfOMl3qo0). Next, extend
+your program so that it can compute the taxes a married couple must pay. For the
+married couple compute the total taxes they must pay as a married couple and the
+taxes they would have paid if they were not married and taxed as individuals.
+Sometime a married couple will pay more in taxes and somtime they will pay less,
+see this [video](https://www.youtube.com/watch?v=SX_DzTb95mM). For the current
+years tax brackets see the following
+[IRS Page](https://www.irs.com/articles/projected-us-tax-rates-2016).
+
+There are limitless ways in which you can extend this program...
