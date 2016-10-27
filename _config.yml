@@ -44,8 +44,6 @@ contacts:
 profiles:
     - name: Google Scholar
       link: http://scholar.google.com/citations?user=vwc4KwwAAAAJ
-    - name: Curriculum vitae
-      link: assets/pdf/cv.pdf
 
 description: >
     I am an Assistant Professor of Computer Science in the
