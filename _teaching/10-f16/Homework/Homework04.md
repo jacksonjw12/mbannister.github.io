@@ -219,3 +219,122 @@ I was thinking of 33.
 ```
 
 ---
+
+---
+
+__Problem 1 Solution:__
+
+```
+5
+2
+3
+3
+90
+6
+```
+
+---
+
+__Problem 2 Solution:__
+
+```cpp
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+double area(double a, double b, double c);
+
+int main() {
+    double a = 0;
+    double b = 0;
+    double c = 0;
+    cout << "Enter the length of side a = ";
+    cin >> a;
+    cout << "Enter the length of side b = ";
+    cin >> b;
+    cout << "Enter the length of side c = ";
+    cin >> c;
+
+    int triangle_area = area(a, b, c);
+    if (triangle_area > -1) {
+        cout << "The area of the triangle is " << triangle_area << "." << endl;
+    } else {
+        cout << "Those side lengths did not come from a triangle..." << endl;
+    }
+
+    return 0;
+}
+
+double area(double a, double b, double c) {
+    double s = (a + b + c) / 2;
+    double r = s * (s - a) * (s - b) * (s - c);
+    if (a > 0 && b > 0 && c > 0 & r > 0) {
+        return sqrt(r);
+    } else {
+        return -1;
+    }
+}
+```
+
+---
+
+__Problem 3 Solution:__
+
+```cpp
+#include <iostream>
+#include <ctime>
+#include <cstdlib>
+
+using namespace std;
+
+int get_guess();
+bool check_guess(int guess, int secret);
+void announce_result(bool won, int secret);
+
+int main() {
+    srand(time(0));
+    rand();
+    int secret = (rand() % 100) + 1;
+    cout << "I have picked a random number between 1 and 100!" << endl;
+
+    bool won = false;
+    for(int i = 0; i < 8 && !won; i++) {
+        int guess = get_guess();
+        won = check_guess(guess, secret);
+    }
+    announce_result(won, secret);
+
+    return 0;
+}
+
+int get_guess() {
+    int guess = 0;
+    cout << "Enter a guess: ";
+    cin >> guess;
+    return guess;
+}
+
+bool check_guess(int guess, int secret) {
+    if (guess > secret) {
+        cout << "Too high!" << endl;
+        return false;
+    } else if (guess < secret) {
+        cout << "Too low!" << endl;
+        return false;
+    } else {
+        cout << "That is correct!" << endl;
+        return true;
+    }
+}
+void announce_result(bool won, int secret) {
+    if (won) {
+        cout << "You win!" << endl;
+    } else {
+        cout << "You lost!" << endl
+             << "I was thinking of " << secret << "." << endl;
+    }
+}
+```
+
+---

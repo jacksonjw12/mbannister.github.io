@@ -156,3 +156,89 @@ Program ended with exit code: 0
 ```
 
 ---
+
+---
+
+__Problem 1 Solution:__
+
+```
+4
+2
+0
+244
+224
+222
+```
+
+---
+
+__Problem 2 Solution:__
+
+```cpp
+// I this solution I started numbering the quizes at 0, but I am ok with
+// you starting the numbering at 1.
+
+#include <iostream>
+
+using namespace std;
+
+int main() {
+
+    int quiz_count = 0;
+    cout << "How many quiz scores do you have? ";
+    cin >> quiz_count;
+
+    double total = 0;
+
+    for (int i = 0; i < quiz_count; i++) {
+        double quiz_score = 0;
+        cout << "What was the score for Quiz " << i << "? ";
+        cin >> quiz_score;
+        total += quiz_score;
+    }
+
+    cout << "The average quiz score is " << total / quiz_count << ".\n";
+
+    return 0;
+}
+```
+
+---
+
+__Problem 3 Solution:__
+
+```cpp
+#include <iostream>
+
+using namespace std;
+
+int main() {
+
+    int width;
+    int height;
+
+    cout << "What is the width? ";
+    cin >> width;
+    cout << "What is the height? ";
+    cin >> height;
+
+    if (width > 0 && height > 0) {
+        for (int i = 0; i < height + 4; i++) {
+            for (int j = 0; j < width + 4; j++) {
+                if (i < 2 || height + 1 < i || j < 2 || width + 1 < j) {
+                    cout << "#";
+                } else {
+                    cout << "X";
+                }
+            }
+            cout << "\n";
+        }
+    } else {
+        cout << "Both width and height must be greater than 0!\n";
+    }
+
+    return  0;
+}
+```
+
+---
