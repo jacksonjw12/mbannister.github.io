@@ -129,7 +129,7 @@ All exams will be closed-note, closed-book, closed-computer, closed-calculator a
 10/21 | Strings and the ASCII character encoding ([slides](Slides/Lecture14.pdf), [Example26](//github.com/mbannister/mbannister.github.io/blob/master/_teaching/10-f16/Code/Example26.cpp), [Example27](//github.com/mbannister/mbannister.github.io/blob/master/_teaching/10-f16/Code/Example27.cpp))<br/>Reading: 8.1 |
 10/24 | More with strings ([slides](Slides/Lecture15.pdf), [Example28](//github.com/mbannister/mbannister.github.io/blob/master/_teaching/10-f16/Code/Example28.cpp), [Example29](//github.com/mbannister/mbannister.github.io/blob/master/_teaching/10-f16/Code/Example29.cpp),  [Example30](//github.com/mbannister/mbannister.github.io/blob/master/_teaching/10-f16/Code/Example30.cpp))<br/>Reading: 8.2 |  <!-- Week 6; Lab: Arrays -->
 10/26 | _Cryptography and mass surveillance_ ([slides](Slides/Lecture16.pdf))<br/>Reading: TBA | [Homework 6](Homework/Homework06.html)<br/>Extra Credit
-10/28 | Review ([outline](Slides/midterm2.pdf))|
+10/28 | Review ([outline](Slides/midterm2.pdf), [problems](Slides/Lecture17.html))|
 10/31 | __Midterm Exam 2__  | <!-- Week 7; Lab: Strings -->
 11/02 | Structures | Homework 7
 11/04 | _The influence of computing on science and the arts_ | <!-- Last day to drop with W -->
