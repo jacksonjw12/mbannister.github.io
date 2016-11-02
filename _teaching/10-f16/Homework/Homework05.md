@@ -115,3 +115,117 @@ years tax brackets see the following
 [IRS Page](https://www.irs.com/articles/projected-us-tax-rates-2016).
 
 There are limitless ways in which you can extend this program...
+
+
+---
+
+---
+
+__Problem 1 Solution:__
+
+```
+x = 3, y = 11, z = 7
+x = 11, y = 7, z = 3
+x = 11, y = 22, z = 3
+x = 11, y = 22, z = 3
+x = 11, y = 22, z = 6
+```
+
+---
+
+__Problem 2 Solution:__
+
+```cpp
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+bool area_perimeter(double a, double b, double c, double &area, double &perimeter);
+
+int main() {
+    double a = 0;
+    double b = 0;
+    double c = 0;
+    cout << "Enter the length of side a = ";
+    cin >> a;
+    cout << "Enter the length of side b = ";
+    cin >> b;
+    cout << "Enter the length of side c = ";
+    cin >> c;
+
+    double area = 0;
+    double perimeter = 0;
+    bool triangle = area_perimeter(a, b, c, area, perimeter);
+    if (triangle) {
+        cout << "The area of the triangle is " <<area << " and "
+             << "the perimeter is " << perimeter << "." << endl;
+    } else {
+        cout << "Those side lengths did not come from a triangle..." << endl;
+    }
+
+    return 0;
+}
+
+bool area_perimeter(double a, double b, double c, double &area, double &perimeter) {
+    double p = (a + b + c);
+    double s = p / 2;
+    double r = s * (s - a) * (s - b) * (s - c);
+    if (a > 0 && b > 0 && c > 0 & r > 0) {
+        area = sqrt(r);
+        perimeter = p;
+        return true;
+    } else {
+        return false;
+    }
+}
+
+```
+
+---
+
+__Problem 3 Solution:__
+
+```cpp
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+void get_input(double &feet, double &inches);
+void calculate_conversion(double feet, double inches, double &meters, double &centimeters);
+void display_results(double meters, double centimeters);
+
+int main() {
+    double feet = 0;
+    double inches = 0;
+    get_input(feet, inches);
+    double meters = 0;
+    double centimeters = 0;
+    calculate_conversion(feet, inches, meters, centimeters);
+    display_results(meters, centimeters);
+    return 0;
+}
+
+
+void get_input(double &feet, double &inches) {
+    cout << "Please enter the number of feet: ";
+    cin >> feet;
+    cout << "Please enter the number of inches: ";
+    cin >> inches;
+}
+
+void calculate_conversion(double feet, double inches, double &meters, double &centimeters) {
+    feet += inches / 12;
+    meters = feet * 0.3048;
+    centimeters = (meters - floor(meters)) * 100;
+    meters = floor(meters);
+}
+
+void display_results(double meters, double centimeters) {
+    cout << "Your distance is " << meters << " and "
+         << centimeters << " centimeters." << endl;
+}
+```
+
+---
