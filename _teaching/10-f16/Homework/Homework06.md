@@ -67,7 +67,7 @@ __Sample input and outputs__
 
 ```
 1, 2, 3, 4, 5, 6, 7, 8, 9    has average of 5 and standard deviation of 2.582
-7, 11, 7, 22, 82, 84         has average 35.5 and a standard deviation of 3.964
+7, 11, 7, 22, 82, 84         has average 35.5 and a standard deviation of 33.964
 7, 909, 3, 4, 99, 22         has average 174 and a standard deviation of 330.400
 ```
 
