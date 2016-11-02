@@ -25,7 +25,7 @@ Only your most recent submission before the due date will be graded.
 __Problem 1:__
 
 Write a function named `int find_value(int A[], int sz, int value)` that takes as input an array of integers `A`, the size of `A`
-and an integer `value` that returns the index of the first entry in `A` that is
+and an integer `value`, such that the function returns the index of the first entry in `A` that is
 equal to `value`. If no entry in `A` is equal to `value`, then your function
 should return the size of `A`.
 
@@ -55,7 +55,7 @@ $$\bar{x} = \frac{x_1 + x_2 + \cdots x_n}{n}$$
 Next, write a function `double deviation(double A[], int sz)` that computes and returns the standard deviation
 of an array. Recall, that the standard deviation is computed with the formula:
 
-$$S = \sqrt{\frac{(x_1 - \bar{x})^2 + (x_2 - \bar{x})^2 + \cdots + (x_n - \bar{x})}{n}}$$
+$$S = \sqrt{\frac{(x_1 - \bar{x})^2 + (x_2 - \bar{x})^2 + \cdots + (x_n - \bar{x})^2}{n}}$$
 
 Your `deviation` functions should not compute the average, but instead should call
 your `average` functions.
