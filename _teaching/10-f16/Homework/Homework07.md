@@ -1,10 +1,10 @@
 ---
 layout: default
-title: "CSCI 10: Homework 6"
+title: "CSCI 10: Homework 7"
 mathjax: true
 ---
 
-# Homework 6
+# Homework 7
 
 ## Due: Friday 11/11 at 10:30am
 
