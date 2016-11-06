@@ -131,8 +131,8 @@ All exams will be closed-note, closed-book, closed-computer, closed-calculator a
 10/26 | _Cryptography and mass surveillance_ ([slides](Slides/Lecture16.pdf))<br/>Reading: TBA | [Homework 6](Homework/Homework06.html)<br/>[Extra Credit](Homework/PGP.html)
 10/28 | Review ([outline](Slides/midterm2.pdf), [problems](Slides/Lecture17.html))|
 10/31 | __Midterm Exam 2__ ([exam](Exams/midterm2.pdf)) | <!-- Week 7; Lab: Strings -->
-11/02 | Structures | Homework 7
-11/04 | _The influence of computing on science and the arts_ | <!-- Last day to drop with W -->
+11/02 | Structures([slides](Slides/Lecture18.pdf), [Example31](//github.com/mbannister/mbannister.github.io/blob/master/_teaching/10-f16/Code/Example31.cpp),  [Example32](//github.com/mbannister/mbannister.github.io/blob/master/_teaching/10-f16/Code/Example32.cpp),   [Example33](//github.com/mbannister/mbannister.github.io/blob/master/_teaching/10-f16/Code/Example33.cpp)) | [Homework 7](Homework/Homework07.html)
+11/04 | _The influence of computing on science and the arts_ ([slides](Slides/Lecture19.pdf)) | <!-- Last day to drop with W -->
 11/07 | File IO | <!-- Week 8; Lab: Structures -->
 11/09 | File IO | Homework 8
 11/11 | _Piracy and digital rights management (DRM)_ |
