@@ -134,7 +134,7 @@ All exams will be closed-note, closed-book, closed-computer, closed-calculator a
 11/02 | Structures ([slides](Slides/Lecture18.pdf), [Example31](//github.com/mbannister/mbannister.github.io/blob/master/_teaching/10-f16/Code/Example31.cpp),  [Example32](//github.com/mbannister/mbannister.github.io/blob/master/_teaching/10-f16/Code/Example32.cpp),   [Example33](//github.com/mbannister/mbannister.github.io/blob/master/_teaching/10-f16/Code/Example33.cpp))<br/>Reading: 10.1 | [Homework 7](Homework/Homework07.html)
 11/04 | _The influence of computing on science and the arts_ ([slides](Slides/Lecture19.pdf)) | <!-- Last day to drop with W -->
 11/07 | File IO<br/>Reading: 6.1 | <!-- Week 8; Lab: Structures -->
-11/09 | File IO<br/>Reading: 6.2 and 6.3 | Homework 8
+11/09 | File IO<br/>Reading: 6.2 and 6.3 | Homework 8<br/>[STS Presentation](Homework/STS.html)
 11/11 | _Piracy and digital rights management (DRM)_ |
 11/14 | _Crowdsourcing and collective intelligence_ | <!-- Week 9; Lab: File IO -->
 11/16 | _Computability and complexity_ | Homework 9
