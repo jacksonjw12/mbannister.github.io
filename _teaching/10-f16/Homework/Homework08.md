@@ -27,7 +27,7 @@ __Problem 1:__
 For this problem you will be defining four structs: `Driver`, `Car`, `License`
 and `Date`. The `Date` struct consists of three integer values: year, month and day.
 The `License` struct consists of a string value for the issuing state and a date
-value for the experation date. The `Car` struct consists of two string values for
+value for the expiration date. The `Car` struct consists of two string values for
 the make and the model of the car and an integer value for the year. Finally, the
 driver struct consists of `License` value for their driver's license, an array
 (of size 100) of `Car` values for the cars they own and an integer count of how
@@ -50,16 +50,16 @@ struct Point2D {
 };
 ```
 
-In this problem you will be writting three functions to work with `Point2D` structs.
+In this problem you will be writing three functions to work with `Point2D` structs.
 
 The first is `void print_point(Point2D p)`, which prints the point `p`. The point
 should be printed as we would write it in a math class, i.e., you should print
 `(7,11)` for the point where `p.x` is 7 and `p.y` is 11.
 
-The second function is `Point2D get_point()`, wich will as a user for an `x` and
-a `y` value and then return the coresponding point.
+The second function is `Point2D get_point()`, which will as a user for an `x` and
+a `y` value and then return the corresponding point.
 
-The third and final function is `double distance(Point2D p, Point2D q)`, wich
+The third and final function is `double distance(Point2D p, Point2D q)`, which
 will return the distance between the points `p` and `q`. Recall, that the distance
 formula is given by
 
