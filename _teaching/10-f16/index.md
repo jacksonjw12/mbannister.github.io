@@ -136,7 +136,7 @@ All exams will be closed-note, closed-book, closed-computer, closed-calculator a
 11/07 | File IO ([slides](Slides/Lecture20.pdf), [Example34](//github.com/mbannister/mbannister.github.io/tree/master/_teaching/10-f16/Code/Example34))<br/>Reading: 6.1 | <!-- Week 8; Lab: Structures -->
 11/09 | File IO ([Example35](//github.com/mbannister/mbannister.github.io/tree/master/_teaching/10-f16/Code/Example35), [Example36](//github.com/mbannister/mbannister.github.io/tree/master/_teaching/10-f16/Code/Example36), [Example37](//github.com/mbannister/mbannister.github.io/tree/master/_teaching/10-f16/Code/Example37))<br/>Reading: 6.2 and 6.3 | [Homework 8](Homework/Homework08.html)<br/>[STS Presentation](Homework/STS.html)
 11/11 | <!--_Piracy and digital rights management (DRM)_--> More File IO Examples |
-11/14 | _Crowdsourcing and collective intelligence_ | <!-- Week 9; Lab: File IO -->
+11/14 | _Piracy and digital rights management (DRM)_<!--_Crowdsourcing and collective intelligence_--> | <!-- Week 9; Lab: File IO -->
 11/16 | _Computability and complexity_ | Homework 9
 11/18 | A look toward the future: C v. C++ feature comparison |
 11/21 | __No class: Thanksgiving__ | <!-- Week Thanksgiving  -->
