@@ -18,7 +18,7 @@ After submitting your solutions on Google Forms, you will receive an email with
 a copy of your submitted answer. If you notice an error, resubmit your solutions.
 Only your most recent submission before the due date will be graded.
 
-[Google Forms link]()
+[Google Forms link](https://docs.google.com/a/scu.edu/forms/d/e/1FAIpQLSclxPRl2_HbSZLRfFcB0syPsB6nq_kuCCCLCmdqhNIp3eXPSw/viewform)
 
 ---
 
