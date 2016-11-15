@@ -1,0 +1,5 @@
+Name, Homework (20), Midterm (30), Final (50), Total, Grade
+Turanga Leela, 75, 80, 83, 80.5, B
+Homer Simpson, 99, 55, 35, 53.8, F
+Hermes Conrad, 87, 87, 87, 87, B
+Comic Book Guy, 15, 35, 97, 62, D
