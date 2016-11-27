@@ -138,7 +138,7 @@ All exams will be closed-note, closed-book, closed-computer, closed-calculator a
 11/11 | <!--_Piracy and digital rights management (DRM)_--> More File IO Examples ([Example38](//github.com/mbannister/mbannister.github.io/tree/master/_teaching/10-f16/Code/Example38)) |
 11/14 | _Piracy and digital rights management (DRM) ([slides](Slides/Lecture22.pdf), [Example39](//github.com/mbannister/mbannister.github.io/tree/master/_teaching/10-f16/Code/Example39))_<!--_Crowdsourcing and collective intelligence_--> | <!-- Week 9; Lab: File IO -->
 11/16 | _Computability and complexity_ ([slides](Slides/Lecture23.pdf)) | Homework 9
-11/18 | _Page Rank and Wrap Up_ (slides lost...) |
+11/18 | _Page Rank and Wrap Up_ ([slides](Slides/Lecture24.pdf)) |
 11/21 | __No class: Thanksgiving__ | <!-- Week Thanksgiving  -->
 11/23 | __No class: Thanksgiving__ |
 11/25 | __No class: Thanksgiving__ |
