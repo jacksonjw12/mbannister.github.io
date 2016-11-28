@@ -174,8 +174,7 @@ Matrix add(Matrix m1, Matrix m2);
 Matrix sum(Matrix mats[], int sz);
 
 int main() {
-    Matrix m = { {1,2,3}, {4,5,6}, {7,8,9} };
-    Matrix n = { {9,8,7}, {6,5,4}, {3,2,1} };
+    // TODO: Variables
     cout << "m = \n";
     printMatrix(m);
     cout << "n = \n";
