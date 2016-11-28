@@ -77,3 +77,146 @@ __Problem 3:__
 Complete Part B of Lab 8 in its entirety.
 
 ---
+
+---
+
+__Problem 1 Solution:__
+
+```cpp
+struct Date {
+    int year;
+    int month;
+    int day;
+};
+
+struct License {
+    string state;
+    Date expiration;
+};
+
+struct Car {
+    string make;
+    string model;
+};
+
+struct Driver {
+    License license;
+    int car_count;
+    Car cars[100];
+};
+```
+
+---
+
+__Problem 1 Solution:__
+
+```cpp
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+struct Point2D {
+    double x;
+    double y;
+};
+
+void print_point(Point2D p);
+Point2D get_point();
+double distance(Point2D p, Point2D q);
+
+int main() {
+    Point2D point1 = get_point();
+    Point2D point2 = get_point();
+    cout << "The distance between ";
+    print_point(point1);
+    cout << " and ";
+    print_point(point2);
+    cout << " is " << distance(point1, point2) << "." << endl;
+    return 0;
+}
+
+void print_point(Point2D p) {
+    cout << "(" << p.x << "," << p.y << ")";
+}
+
+Point2D get_point() {
+    Point2D p;
+    cout << "Enter x-value:";
+    cin >> p.x;
+    cout << "Enter y-value:";
+    cin >> p.y;
+    return p;
+}
+
+double distance(Point2D p, Point2D q) {
+    return sqrt(pow(p.x - q.x, 2) + pow(p.y-q.y, 2));
+}
+```
+
+---
+
+__Problem 3 Solution:__
+
+```cpp
+#include <iostream>
+
+using namespace std;
+
+struct Matrix {
+    int row1[3];
+    int row2[3];
+    int row3[3];
+};
+
+void printMatrix(Matrix m);
+Matrix add(Matrix m1, Matrix m2);
+Matrix sum(Matrix mats[], int sz);
+
+int main() {
+    Matrix m = {{1,2,3},{4,5,6},{7,8,9}};
+    Matrix n = {{9,8,7},{6,5,4},{3,2,1}};
+    cout << "m = \n";
+    printMatrix(m);
+    cout << "n = \n";
+    printMatrix(n);
+    cout << "m + n = \n";
+    printMatrix(add(m,n));
+    Matrix ms[3] = {m, n, m};
+    cout << "m + n + m = \n";
+    printMatrix(sum(ms,3));
+    return 0;
+}
+
+void printRow(int row[], int sz) {
+    for (int i = 0; i < sz; i++) cout << row[i] << " ";
+}
+void printMatrix(Matrix m) {
+    printRow(m.row1, 3);
+    cout << endl;
+    printRow(m.row2, 3);
+    cout << endl;
+    printRow(m.row3, 3);
+    cout << endl;
+}
+
+void addRow(int r1[], int r2[], int output[], int sz){
+    for (int i = 0; i < sz; i++) output[i] = r1[i] + r2[i];
+}
+
+Matrix add(Matrix m1, Matrix m2) {
+    Matrix output;
+    addRow(m1.row1, m2.row1, output.row1, 3);
+    addRow(m1.row2, m2.row2, output.row2, 3);
+    addRow(m1.row3, m2.row3, output.row3, 3);
+    return output;
+}
+
+Matrix sum(Matrix mats[], int sz) {
+    Matrix output = {{0,0,0},{0,0,0},{0,0,0}};
+    for (int i = 0; i < sz; i++) output = add(output, mats[i]);
+    return output;
+}
+```
+
+---
