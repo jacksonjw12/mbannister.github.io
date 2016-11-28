@@ -96,3 +96,122 @@ you have made it this far come by office hours and I will help you write an AI
 that will always win or force a draw.
 
 ---
+
+---
+
+__Problem 1 Solution:__
+
+```cpp
+#include <iostream>
+
+using namespace std;
+
+int find_value(int A[], int sz, int value);
+
+int main() {
+    int sz = 7;
+    int A[] = {2,3,4,5,6,7,8};
+
+    cout << find_value(A, sz, 9);
+
+    return 0;
+}
+
+int find_value(int A[], int sz, int value) {
+    int i = 0;
+    while (i < sz && A[i] != value) i++;
+    return i;
+}
+```
+
+---
+
+__Problem 2 Solution:__
+
+```cpp
+#include <iostream>
+#include <cmath>
+
+double sum(double A[], int sz);
+double average(double A[], int sz);
+double deviation(double A[], int sz);
+
+using namespace std;
+
+int main() {
+    const int sz = 6;
+    double D[sz] = {7, 909, 3, 4, 99, 22};
+    cout << "Avg = " << average(D, sz) << endl;
+    cout << "Std = " << deviation(D, sz) << endl;
+    return 0;
+}
+
+double sum(double A[], int sz) {
+    double sum = 0.0;
+    for (int i = 0; i < sz; i++) sum += A[i];
+    return sum;
+}
+
+double average(double A[], int sz) {
+    return sum(A, sz) / sz;
+}
+
+double deviation(double A[], int sz) {
+    double avg = average(A, sz);
+    double B[sz];
+    for (int i = 0; i < sz; i++) B[i] = (A[i] - avg) * (A[i] - avg);
+    return sqrt(average(B, sz));
+}
+```
+
+---
+
+__Problem 3 Solution:__
+
+```cpp
+#include <iostream>
+
+using namespace std;
+
+void factors(int n, int facts[]);
+bool isperfect(int n, int facts[]);
+
+int main(){
+    int a[50];
+    int test = 0;
+    cout<< "Enter a number!" << endl;
+    cin >> test;
+    if(test>=50){
+        cout << "Sorry!  Can't test numbers that high!";
+    } else {
+        factors(test, a);
+        if(isperfect(test,a))
+            cout << "Perfect!" << endl;
+        else
+            cout << "Imperfect.  :(" << endl;
+    }
+
+    return 0;
+}
+
+void factors(int n, int facts[]) {
+    for (int i = 1; i <= n; i++) {
+        if (n % i == 0) {
+            facts[i] = 1;
+        } else {
+            facts[i] = 0;
+        }
+    }
+}
+
+bool isperfect(int n, int facts[]) {
+    factors(n, facts);
+    int sum = 0;
+    for (int i = 1; i <= n; i++) {
+        if (facts[i] == 1) sum += i;
+    }
+    return (sum == 2*n);
+}
+```
+
+---
