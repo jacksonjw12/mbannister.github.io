@@ -27,6 +27,7 @@ __Problem 1:__
 For this problem you will write a program that writes a program! More specifically
 write a program that creates a file `hello.cpp`, which contains a simple "Hello World"
 program. _Note: There is no reason to get clever here, take the most direct path._
+
 ---
 
 __Problem 2:__
