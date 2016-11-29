@@ -142,7 +142,7 @@ All exams will be closed-note, closed-book, closed-computer, closed-calculator a
 11/21 | __No class: Thanksgiving__ | <!-- Week Thanksgiving  -->
 11/23 | __No class: Thanksgiving__ |
 11/25 | __No class: Thanksgiving__ |
-11/28 | Review ([outline](Slides/final.pdf))| <!-- Week 10; Lab: Wrap-up -->
+11/28 | Review ([outline](Slides/final.pdf)), [review questions](Slides/final_qs.html)| <!-- Week 10; Lab: Wrap-up -->
 11/30 | _Student STS presentations: Day 1_ ([schedule](Slides/sts1.html)) |
 12/02 | _Student STS presentations: Day 2_ ([schedule](Slides/sts2.html)) |
 12/9 | Final Exam @ 9:10am--12:10pm |
