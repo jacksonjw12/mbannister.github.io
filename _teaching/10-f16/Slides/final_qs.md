@@ -20,6 +20,12 @@ Chapter 6 Programming Projects (starting at page 370): 4, 5, 9
 
 Chapter 10 Programming Project (starting at page 612): 1
 
+### Arrays
+
+__Problem 1:__ Write a function `void sort(int nums[], int sz)` that sorts the
+array `nums`. _Hint: We have discussed how to find the maximum element in an array!_ If you get totally stuck, the name of the sorting algorithm you should
+look up is: _selection sort_.
+
 ### More...
 
 Coming soon
