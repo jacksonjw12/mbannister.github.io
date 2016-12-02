@@ -40,6 +40,35 @@ characters are `//`. Your are not required to remove comments when `//` characte
 are after non-whitespace characters, and you are not required to handle C-style
 comments: `/* C-Style comment */`.
 
+__Sample input and output:__
+
+Given `input.txt`:
+
+```
+Hello World
+// My first comment!
+/ This is not really a comment
+
+    // This comment is indented!
+
+ABC // This is a comment you do not need to handle
+1 / 2 <- Just a fraction!
+//
+/
+```
+
+Your program produces `output.txt`:
+
+```
+Hello World
+/ This is not really a comment
+
+
+ABC // This is a comment you do not need to handle
+1 / 2 <- Just a fraction!
+/
+```
+
 ---
 
 __Problem 3:__
@@ -49,5 +78,27 @@ given an input file (`input.txt`) your program will reverse every line in the
 input. This program does not have an output file, as it modifies the input file
 directly. You may assume that your input file has 1000 lines or less, if this
 helps. _Note: If you get stuck on how to solve this problem, please ask for help._
+
+__Sample input and output:__
+
+Before your program runs `input.txt`:
+
+```
+Hello World!
+Santa Clara University
+C++
+
+Computer Science
+```
+
+After your program runs `input.txt`:
+
+```
+!dlroW olleH
+ytisrevinU aralC atnaS
+++C
+
+ecneicS retupmoC
+```
 
 ---
