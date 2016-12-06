@@ -102,3 +102,96 @@ ecneicS retupmoC
 ```
 
 ---
+
+---
+
+__Problem 1 Solution:__
+
+```cpp
+#include <fstream>
+
+using namespace std;
+
+int main() {
+    ofstream out_file;
+    out_file.open("hello.cpp");
+    out_file << "#include <iostream>" << endl
+             << "using namespace std;" << endl
+             << "int main() {" << endl
+             << "    cout << \"Hello World!!!\" << endl;" << endl
+             << "    return 0;" << endl
+             << "}" << endl;
+    return 0;
+}
+```
+
+---
+
+__Problem 2 Solution:__
+
+```cpp
+#include <fstream>
+#include <string>
+#include <cctype>   
+
+using namespace std;     
+
+bool is_comment(string s);     
+
+int main() {     
+    ifstream in_file;     
+    in_file.open("input.txt");     
+    ofstream out_file;     
+    out_file.open("output.txt");     
+
+    for (string line; getline(in_file, line); ) {     
+        if (!is_comment(line)) out_file << line << endl;     
+    }     
+    in_file.close();     
+    out_file.close();     
+
+    return 0;     
+}     
+
+bool is_comment(string s) {     
+    int i = 0;     
+    while (i < s.length() && isspace(s.at(i))) i++;     
+    return (i + 1 < s.length()) && (s.at(i) == '/') && (s.at(i+1) == '/');     
+}
+```
+
+---
+
+__Problem 3 Solution:__
+
+```cpp
+#include <iostream>
+#include <fstream>
+
+using namespace std;
+
+string reverse(string s);
+
+int main() {
+    string lines[1000];
+    ifstream in_file;
+    in_file.open("input.txt");
+    int i = 0;
+    for (string line; getline(in_file, line); i++) lines[i] = reverse(line);
+    in_file.close();
+    ofstream out_file;
+    out_file.open("input.txt");
+    for (int k = 0; k < i; k++) out_file << lines[k] << endl;
+    out_file.close();
+
+    return 0;
+}
+
+string reverse(string s) {
+    string out;
+    for (int i = 0; i < s.length(); i++) out += s.at(s.length() - 1 - i);
+    return out;
+}
+```
+
+---
