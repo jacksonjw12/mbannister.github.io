@@ -41,6 +41,8 @@ _Data Structures and Other Objects Using C++, 4th_ by Michael Main and Walter Sa
 
 Example code shown in class can be found on [GitHub](//github.com/mbannister/SCU-CSCI-60-Examples).
 
+For the most part code show in class will follow the [Google C++ Style Guide](//google.github.io/styleguide/cppguide.html).
+
 _Additional readings will be made available through this web page._
 
 ## Software
