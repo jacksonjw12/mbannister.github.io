@@ -26,7 +26,7 @@ Office hours: MWF from 2:30pm--3:30pm or by appointment
 
 Object-oriented programming techniques using C++: abstract data types and objects; encapsulation; inheritance; polymorphism; the Standard Template Library; the five phases of software development (specification, design, implementation, analysis, and testing). Includes weekly lab.
 
-Prerequisite: A grade of C- or better in CSCI 10 or equivalent.
+Prerequisite: A grade of C- or better in CSCI 10 or equivalent.  
 Corequisite: CSCI 60L  
 
 The department learning objectives for this course can be found here: [http://math.scu.edu/deptgoals.html#cs60](link).
@@ -37,7 +37,8 @@ Keep electronic copies of all your work from this course for your _Digital Age/D
 
 ## Textbook(s) and other resources
 
-_Data Structures and Other Objects Using C++, 4th_ by Michael Main and Walter Savitch; Pearson, 201r04.  
+_Data Structures and Other Objects Using C++, 4th_ by Michael Main and Walter Savitch; Pearson, 2014.
+
 Example code shown in class can be found on [GitHub](//github.com/mbannister/SCU-CSCI-60-Examples).
 
 _Additional readings will be made available through this web page._
@@ -54,7 +55,6 @@ You may at your discretion use a different development environment, but you must
 
 Your grade in the course is a weighted average of your grades on homework, quizzes and exams, computed as follows:
 
-- Presentation and Report on Societal Impact of Computing: 10%
 - Homework, Lab and Participation: 20%
 - Midterm Exam 1: 25%
 - Midterm Exam 2: 25%
@@ -117,9 +117,7 @@ All exams will be closed-note, closed-book, closed-computer, closed-calculator a
 03/15 | Graphical user interfaces
 03/17 | Review
 03/24 | __Exam: Final__ from 1:30pm to 4:30pm
-
 {:.schedule-mwf}
-
 
 ## Collaboration and Academic Honesty Policy
 
