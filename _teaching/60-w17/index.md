@@ -89,7 +89,7 @@ All exams will be closed-note, closed-book, closed-computer, closed-calculator a
 ## Tentative Schedule
 
 01/09 | Classes and objects <br /> Read: 2.2,2.3 <!-- Week 1; install -->
-01/11 | Operator overloading <br /> Read: 2.1
+01/11 | Operator overloading <br /> Read: 2.1 | [Homework01](Homework/Homework01.html)
 01/13 | Template functions <br /> Read: 6.1
 01/16 | __No class: Martin Luther King, Jr. Day__ <!-- Week 2; vars, IO, conditional -->
 01/18 | Template classes <br /> Read: 6.2
