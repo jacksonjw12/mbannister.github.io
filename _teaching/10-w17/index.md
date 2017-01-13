@@ -98,7 +98,7 @@ All exams will be closed-note, closed-book, closed-computer, closed-calculator a
 
 01/09 | [Introductions, _brief history of computing_](Slides/Lecture01.pdf) <br /> Read: 1.1 and 1.2 <!-- Week 1; install -->
 01/11 | Types, variables, arithmetic and IO <br /> Read: 1.4, 2.1, 2.2, 2.3
-01/13 | Conditional execution <br /> Read: 2.4, 3.1, 3.2
+01/13 | Conditional execution <br /> Read: 2.4, 3.1, 3.2 Watch: [Binary 1](//www.youtube.com/watch?v=ku4KOFQ-bB4), [Binary 2](https://www.youtube.com/watch?v=H4BstqvgBow)
 01/16 | __No class: Martin Luther King, Jr. Day__ <!-- Week 2; vars, IO, conditional -->
 01/18 | Loops <br /> Read: 3.3, 3.4
 01/20 | Problem solving with C++ <br /> Read: 4.1
