@@ -1,7 +1,7 @@
 ---
 {
 "layout": "default",
-"title": "Qt Creator Fix",
+"title": "Qt Creator Fix"
 }
 ---
 
