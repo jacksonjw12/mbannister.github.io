@@ -101,7 +101,7 @@ All exams will be closed-note, closed-book, closed-computer, closed-calculator a
 01/13 | Conditional execution <br /> Read: 2.4, 3.1, 3.2 Watch: [Binary 1](//www.youtube.com/watch?v=ku4KOFQ-bB4), [Binary 2](https://www.youtube.com/watch?v=H4BstqvgBow)
 01/16 | __No class: Martin Luther King, Jr. Day__ <!-- Week 2; vars, IO, conditional -->
 01/18 | Loops <br /> Read: 3.3, 3.4 | [Homework01](Homework/Homework01.html)
-01/20 | Problem solving with C++ <br /> Read: 4.1
+01/20 | Problem solving with C++ <br /> Read: 4.1 | [Homework02](Homework/Homework02.html)
 01/23 | Functions <br /> Read: 4.2, 4.3 <!-- Week 3; loops -->
 01/25 | More functions <br /> Read: 4.4
 01/27 | Review
