@@ -1,0 +1,41 @@
+---
+layout: default
+title: Michael J. Bannister
+css: homepage
+mathjax: false
+description: Course history
+current_terms: [
+  ["Winter", 2017],
+  ["Fall", 2016],
+  ["Spring", 2016],
+  ["Fall", 2015],
+  ["Summer", 2014]
+  ]
+---
+
+<section id="teaching">
+  <h2>Teaching</h2>
+  {% assign courses = site.teaching | where: 'syllabus', true %}
+  {% for term in page.current_terms %}
+    <article>
+      <h3>{{ term[0] }} {{ term[1] }}</h3>
+      {% assign cs = courses | where: 'year', term[1] | where: 'term', term[0] %}
+      <ul>
+      {% for c in cs %}
+        <li>
+          {% if c.draft %}
+          {{ c.title }}
+          {% else %}
+          {% if c.link %}
+          <a href="{{ c.link }}">{{ c.title }}</a>
+          {% else %}
+          <a href="{{ c.url | remove: 'index.html' }}">{{ c.title }}</a>
+          {% endif %}
+          {% endif %}
+        </li>
+      {% endfor %}
+      </ul>
+    </article>
+  {% endfor%}
+</section>
+
