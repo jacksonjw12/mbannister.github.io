@@ -137,29 +137,31 @@ The conversion to letter grades will be determined at the end of the course.
 
 ## Example code
 
-- [Example0](examples/example0.tar.gz): Fundamental types and control structures
-- [Example1](examples/example1.tar.gz): Functions in C++
-- [Example2](examples/example2.tar.gz): Separate compilation
-- [Example3](examples/example3.tar.gz): Structs
-- [Example4](examples/example4.tar.gz): Abusing the project 1 starter code.
-- [Example5](examples/example5.tar.gz): Basic example for using pointers and references
-- [Example6](examples/example6.tar.gz): Pass-by-reference quiz
-- [Example7](examples/example7.tar.gz): Working with stack allocated arrays
-- [Example8](examples/example8.tar.gz): Parsing a CSV file
-- [Example9](examples/example9.tar.gz): Working with dynamically allocated arrays
-- [Example10](examples/example10.tar.gz): Basic inheritance example
-- [Example11](examples/example11.tar.gz): ArrayList class
-- [Example12](examples/example12.tar.gz): STL style array passing
-- [Example13](examples/example13.tar.gz): Using __dynamic\_cast__ to safe convert between objects
-- [Example14](examples/example14.tar.gz): Using __array__, __vector__ and __unordered_map_ with for-each loops
-- [Example15](examples/example15.tar.gz): Generating random numbers
-- [Example16](examples/example16.tar.gz): Using pairs and ties for multiple returns
-- [Example17](examples/example17.tar.gz): Template functions
-- [Example18](examples/example18.tar.gz): Bit operations
-- [Example19](examples/example19.tar.gz): Adding exception to the ArrayList of example 11
-- [Example20](examples/example20.tar.gz): Using __shared\_ptr__ and __unique\_ptr__
-- [Example21](examples/example21.tar.gz): Using STL's find function
-- [Example22](examples/example22.tar.gz): ArrayList from Example 11 with an iterator
+Example code can be found on [GitHub](//github.com/mbannister/UCI-CS-45c-Examples).
+
+Example0: Fundamental types and control structures  
+Example1: Functions in C++  
+Example2: Separate compilation  
+Example3: Structs  
+Example4: Abusing the project 1 starter code.  
+Example5: Basic example for using pointers and references  
+Example6: Pass-by-reference quiz  
+Example7: Working with stack allocated arrays  
+Example8: Parsing a CSV file  
+Example9: Working with dynamically allocated arrays  
+Example10: Basic inheritance example  
+Example11: ArrayList class  
+Example12: STL style array passing  
+Example13: Using __dynamic\_cast__ to safe convert between objects  
+Example14: Using __array__, __vector__ and __unordered\_map__ with for-each loops  
+Example15: Generating random numbers  
+Example16: Using pairs and ties for multiple returns  
+Example17: Template functions  
+Example18: Bit operations  
+Example19: Adding exception to the ArrayList of example 11  
+Example20: Using __shared\_ptr__ and __unique\_ptr__  
+Example21: Using STL's find function  
+Example22: ArrayList from Example 11 with an iterator  
 
 ### Additional examples
 These some code examples from another offering of this course:  
