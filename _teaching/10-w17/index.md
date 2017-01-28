@@ -104,7 +104,7 @@ All exams will be closed-note, closed-book, closed-computer, closed-calculator a
 01/20 | Problem solving with C++ <br /> Read: 4.1 | [Homework02](Homework/Homework02.html)
 01/23 | Functions <br /> Read: 4.2, 4.3 <!-- Week 3; loops -->
 01/25 | More functions <br /> Read: 4.4
-01/27 | Review
+01/27 | Review ([notes](Slides/mt1.pdf))
 01/30 | __Exam: Midterm 1__ <!-- Week 4; functions -->
 02/01 | Scoping and shadowing <br /> Read: 4.5
 02/03 | _Social networks_ <!-- drop without a W -->
