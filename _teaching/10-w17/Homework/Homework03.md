@@ -6,7 +6,7 @@ mathjax: true
 
 # Homework 3
 
-## Due: Friday 2/3 11:59pm
+## Due: Sunday 2/5 11:59pm
 
 ---
 
