@@ -4,7 +4,7 @@ title: "CSCI 60: Homework 3"
 mathjax: true
 ---
 
-# Homework 2
+# Homework 3
 
 ## Due: Monday 2/6 @ 11:59pm
 
