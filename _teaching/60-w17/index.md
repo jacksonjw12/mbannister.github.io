@@ -99,7 +99,7 @@ All exams will be closed-note, closed-book, closed-computer, closed-calculator a
 01/27 | Review ([notes](Slides/mt1.pdf))
 01/30 | __Exam: Midterm 1__ <!-- Week 4; functions -->
 02/01 | Inheritance <br /> Read: 14.1 | [Homework03](Homework/Homework03.html)
-02/03 | BAG interface <br /> Read: 3.1<!-- drop without a W -->
+02/03 | BAG interface <br /> Read: 3.1 | [Homework04](Homework/Homework04.html) <!-- drop without a W -->
 02/06 | BAG with static arrays <br /> Read: 3.2<!-- Week 5; functions, scope, reference -->
 02/08 | Pointers and dynamic memory <br /> Read: 4.1,4.2,4.3
 02/10 | BAG with dynamic arrays <br /> Read: 4.3,4.4
