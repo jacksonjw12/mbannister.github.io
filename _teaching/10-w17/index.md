@@ -107,7 +107,7 @@ All exams will be closed-note, closed-book, closed-computer, closed-calculator a
 01/27 | Review ([notes](Slides/mt1.pdf)) | [Homework03](Homework/Homework03.html)
 01/30 | __Exam: Midterm 1__ <!-- Week 4; functions -->
 02/01 | Scoping and shadowing <br /> Read: 4.5
-02/03 | [_Social networks_](Slides/Networks.pdf) <!-- drop without a W -->
+02/03 | [_Social networks_](Slides/Networks.pdf) | [Homework04](Homework/Homework04.html) <!-- drop without a W -->
 02/06 | Call-by-reference <br /> Read: 4.6, 5.1, 5.2 <!-- Week 5; functions, scope, reference -->
 02/08 | Arrays <br /> Read: 7.1, 7.2
 02/10 | More Arrays
