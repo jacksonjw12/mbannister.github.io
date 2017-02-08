@@ -29,7 +29,7 @@ large amounts of time and effort working on files on your computer. It is
 important that you have your files backed up somewhere other than your personal
 computer. If you do not currently back up your files, now is a good time to
 start. If you would like to discuss back up options, please come to office hours
-or post a question on Piazza. Briefly describe how you will be backing up your
+. Briefly describe how you will be backing up your
 files for this course?
 
 __Problem 5:__ What is something you would like to learn about computer science

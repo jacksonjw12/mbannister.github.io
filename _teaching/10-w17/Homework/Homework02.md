@@ -17,7 +17,7 @@ __Submission instructions:__ You will be submitting your solutions through Camin
 __Problem 1:__ Determine the output of the program given below. _Remark: It
 would be easy for you to simply run the program to get the answer, but first
 try to solve the problem based on your knowledge of C++. If you are
-unsure of how operations works: look them up in the book, ask on Piazza, or
+unsure of how operations works: look them up in the book or
 ask in office hours._
 
 ```cpp
