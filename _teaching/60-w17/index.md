@@ -103,7 +103,7 @@ All exams will be closed-note, closed-book, closed-computer, closed-calculator a
 02/06 | BAG with static arrays <br /> Read: 3.2<!-- Week 5; functions, scope, reference -->
 02/08 | Pointers and dynamic memory <br /> Read: 4.1,4.2,4.3
 02/10 | BAG with dynamic arrays <br /> Read: 4.3,4.4
-02/13 | BAG with dynamic arrays <br /> Read: 4.3,4.4<!-- Week 6; arrays -->
+02/13 | BAG with dynamic arrays and Start Recursion <br /> Read: 4.3,4.4 | [Homework05](Homework/Homework05.html)<!-- Week 6; arrays -->
 02/15 | Recursion
 02/17 | Review
 02/20 | __No class: Presidents' Day__ <!-- Week 7; strings -->
