@@ -111,8 +111,8 @@ All exams will be closed-note, closed-book, closed-computer, closed-calculator a
 02/06 | Call-by-reference <br /> Read: 4.6, 5.1, 5.2 <!-- Week 5; functions, scope, reference -->
 02/08 | Arrays <br /> Read: 7.1, 7.2
 02/10 | More Arrays | [Homework05](Homework/Homework05.html)
-02/13 | _Grace Hopper_ and Strings <br /> Read: 8.1, 8.2 <!-- Week 6; arrays -->
-02/15 | _Cryptography_
+02/13 | [_Grace Hopper_ and Strings](Slides/Strings.pdf) <br /> Read: 8.1, 8.2 <!-- Week 6; arrays -->
+02/15 | [_Cryptography_](Slides/Strings.pdf) | [PGP Extra Credit](Homework/PGP.html)
 02/17 | Review
 02/20 | __No class: Presidents' Day__ <!-- Week 7; strings -->
 02/22 | __Exam: Midterm 2__
@@ -153,4 +153,3 @@ While I am happy to assist you, I am unable to provide accommodations until I ha
 ## Discrimination and Sexual Misconduct (Title IX)
 
 Santa Clara University upholds a zero-tolerance policy for discrimination, harassment and sexual misconduct. If you (or someone you know) have experienced discrimination or harassment, including sexual assault, domestic/dating violence, or stalking, I encourage you to tell someone promptly. For more information, please consult the University’s Gender-Based Discrimination and Sexual Misconduct Policy at [http://bit.ly/2ce1hBb](http://bit.ly/2ce1hBb) or contact the University's EEO and Title IX Coordinator, Belinda Guthrie, at 408-554-3043, bguthrie@scu.edu.  Reports may be submitted online through [https://www.scu.edu/osl/report/](https://www.scu.edu/osl/report/) or anonymously through Ethicspoint [https://www.scu.edu/hr/quick-links/ethicspoint/](https://www.scu.edu/hr/quick-links/ethicspoint/).
-
