@@ -105,7 +105,7 @@ All exams will be closed-note, closed-book, closed-computer, closed-calculator a
 02/10 | BAG with dynamic arrays <br /> Read: 4.3,4.4
 02/13 | BAG with dynamic arrays and Start Recursion <br /> Read: 4.3,4.4 | [Homework05](Homework/Homework05.html)<!-- Week 6; arrays -->
 02/15 | Recursion
-02/17 | Review ([notes](Slide/mt2.pdf))
+02/17 | Review ([notes](Slides/mt2.pdf))
 02/20 | __No class: Presidents' Day__ <!-- Week 7; strings -->
 02/22 | __Exam: Midterm 2__
 02/24 | NODE class <br /> Read: 5.1<!-- drop without grade -->
