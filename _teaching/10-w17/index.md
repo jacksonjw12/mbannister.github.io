@@ -113,7 +113,7 @@ All exams will be closed-note, closed-book, closed-computer, closed-calculator a
 02/10 | More Arrays | [Homework05](Homework/Homework05.html)
 02/13 | [_Grace Hopper_ and Strings](Slides/Strings.pdf) <br /> Read: 8.1, 8.2 <!-- Week 6; arrays -->
 02/15 | [_Cryptography_](Slides/Strings.pdf) | [PGP Extra Credit](Homework/PGP.html)
-02/17 | Review ([notes](Slides/mt2.pdf))
+02/17 | Review ([notes](Slides/mt2.pdf)) | [Homework06](Homework/Homework06.html)
 02/20 | __No class: Presidents' Day__ <!-- Week 7; strings -->
 02/22 | __Exam: Midterm 2__
 02/24 | Structures <br /> Read: 10.1 <!-- drop without grade -->
