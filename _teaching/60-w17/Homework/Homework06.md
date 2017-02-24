@@ -65,4 +65,4 @@ deallocate memory.
 
 You will only need to modify the function definitions and type signature
 of the existing functions. Additionally, you will write a `main` function to test your
-`UniqueBag` class. The existing `main` function can serve as a starting point.
+`Bag` class. The existing `main` function can serve as a starting point.
