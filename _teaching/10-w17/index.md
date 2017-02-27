@@ -117,7 +117,7 @@ All exams will be closed-note, closed-book, closed-computer, closed-calculator a
 02/20 | __No class: Presidents' Day__ <!-- Week 7; strings -->
 02/22 | __Exam: Midterm 2__
 02/24 | Structures <br /> Read: 10.1 <!-- drop without grade -->
-02/27 | Structures <br /> Read: 10.1 <!-- Week 8; structures -->
+02/27 | Structures <br /> Read: 10.1 | [STS Presentation](Homework/STS.html) <br /> [Homework07](Homework/Homework07.html) <!-- Week 8; structures -->
 03/01 | File IO <br /> Read: 6.1
 03/03 | _Piracy and digital rights management (DRM)_
 03/06 | File IO <br /> Read 6.2, 6.3 <!-- Week 9; file IO -->
