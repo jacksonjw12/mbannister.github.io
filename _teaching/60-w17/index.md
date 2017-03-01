@@ -110,7 +110,7 @@ All exams will be closed-note, closed-book, closed-computer, closed-calculator a
 02/22 | __Exam: Midterm 2__
 02/24 | NODE class <br /> Read: 5.1<!-- drop without grade -->
 02/27 | NODE class <br /> Read: 5.1<!-- Week 8; structures -->
-03/01 | Linked lists <br /> Read: 5.3
+03/01 | Linked lists <br /> Read: 5.3 | [Homework07](Homework/Homework07.html)
 03/03 | Linked lists <br /> Read: 5.3
 03/06 | BAG with linked lists <br /> Read: 5.3<!-- Week 9; file IO -->
 03/08 | Iterators <br /> Read: 6.4,6.5,6.6
