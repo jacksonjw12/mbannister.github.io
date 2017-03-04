@@ -17,13 +17,13 @@ After following these steps, when you run a program it should create a new windo
 
 We will be changing the settings for the project. So first click on projects button, the wrench icon (which I have placed a red box around).
 
-![step1](step1.png)
+![fix1](fix1.png)
 
 ## Step 2
 
 Within the project setting we need to change a "run" setting. So click on the item labeled Run with a green arrow next to it (which I have placed a red box around).
 
-![step2](step2.png)
+![fix2](fix2.png)
 
 ## Step 3
 
@@ -31,5 +31,5 @@ Finally, we can change the setting we need to change. We need to check the box n
 
 This project is now fixed! To go back editing your code click on the "Edit" button (which I have placed a red box around).
 
-![step3](step3.png)
+![fix3](fix3.png)
 
