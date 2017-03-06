@@ -112,11 +112,11 @@ All exams will be closed-note, closed-book, closed-computer, closed-calculator a
 02/27 | NODE class <br /> Read: 5.1<!-- Week 8; structures -->
 03/01 | Linked lists <br /> Read: 5.3 | [Homework07](Homework/Homework07.html)
 03/03 | Linked lists <br /> Read: 5.3
-03/06 | BAG with linked lists <br /> Read: 5.3<!-- Week 9; file IO -->
-03/08 | Iterators <br /> Read: 6.4,6.5,6.6
-03/10 | _TBA_ <!-- ??? -->
-03/13 | Graphical user interfaces<!-- Week 10; wrap-up  -->
-03/15 | Graphical user interfaces
+03/06 | BAG with linked lists and interators <br /> Read: 5.3, 6.4, 6.5, 6.6<!-- Week 9; file IO -->
+03/08 | Event driven programing </br> Read: [Game Loop](//gameprogrammingpatterns.com/game-loop.html)
+03/10 | Tetris: Part 1
+03/13 | Tetris: Part 2<!-- Week 10; wrap-up  -->
+03/15 | Tetris: Part 3
 03/17 | Review
 03/24 | __Exam: Final__ from 1:30pm to 4:30pm
 {:.schedule-mwf}
