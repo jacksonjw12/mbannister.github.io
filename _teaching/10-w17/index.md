@@ -122,7 +122,7 @@ All exams will be closed-note, closed-book, closed-computer, closed-calculator a
 03/03 | _Piracy and digital rights management (DRM)_
 03/06 | File IO <br /> Read 6.2, 6.3 <!-- Week 9; file IO -->
 03/08 | _Computing and the arts_
-03/10 | _TBA_ <!-- _Theoretical computer science_ -->
+03/10 | _Game development_
 03/13 | _Student STS presentations: Day 1_ and review <!-- Week 10; wrap-up  -->
 03/15 | _Student STS presentations: Day 2_ and review
 03/17 | _Student STS presentations: Day 3_ and review
